@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Trascrizione diplomatica (da PAGE XML / Transkribus)</title>
+    </titleStmt>
+    <publicationStmt>
+      <p>Generato automaticamente da page2tei.py — da rivedere editorialmente.</p>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Fonte: export PAGE XML Transkribus.</p>
+    </sourceDesc>
+  </fileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="page" xml:id="0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145" facs="0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145.jpg">
+  <div xml:id="r" n="0" type="text">
+    <l xml:id="l" n="0"><seg type="nota">EXTULIT</seg><note>Eneide, 2, 668-700</note> ET CAELO PALMAS CUM VO<unclear reason="illegible">CE</unclear> TEDENDIT</l>
+    <l xml:id="l_1" n="1" type="text">IUPPITER OMNIPOTENS PRECIBUS SI FLECTERIS ULLIS  </l>
+    <l xml:id="l_2" n="2">ASPICE NOS HOC TANTUM ET SI PIETATE MERUMUR </l>
+    <l xml:id="l_3" n="3">DA DEINDE AUXILIUM PATER ATQUE  OMINA FIRMA  </l>
+    <l xml:id="l_4" n="4">VIX EA FATUS ERAT SENIOR SUBITOQUE FRAGORE   </l>
+    <l xml:id="l_5" n="5">INTONUIT LAEVOM ET DE CAELO LAPSA PER UMBRAS</l>
+    <l xml:id="l_6" n="6">STELLA FACEM DUCENS MULTA CUM LUCE CUCURRIT</l>
+    <l xml:id="l_7" n="7">ILLAM SUMMA SUPER LABENTEM<gap unit="chars" quantity="1" resp="cutting" reason="lost" supplied="ine" atleast="fw" atmost="efw" nota="fwer"/>  TECTI      </l>
+    <l xml:id="l_8" n="8">CERNIMUS <unclear>IDA</unclear><gap/>A CLARAM SE CONDER<unclear reason="illegible" resp="faded">A</unclear><gap/></l>
+    <l xml:id="l_9" n="9">SIGNANTEMQUE VIAS TUM LONGO <unclear reason="illegible" resp="OVERWRITING" next="#cont">                </unclear></l>
+    <l xml:id="l_10" n="10">DAT LUCEM ET LATE CIRCU <gap unit="8" resp="OVERWRITING" reason="illegible"/>           </l>
+    <l xml:id="l_11" n="11">HIC VERO VICTUS GENITOR SE TOLLERE AD AURAS</l>
+    <l xml:id="l_12" n="12">ADFATURQUE DEOS ET SANCTUM<gap unit="2" resp="OVERWRITING" reason="illegible"/>               </l>
+  </div>
+  <div xml:id="r_1" n="1" type="text" source="Eneide" book="2" verses="649-661">
+    <l xml:id="l_13" n="0">FULMINIS ADFLAVIT VENTIS ET CONTIGIT IGNI </l>
+    <l xml:id="l_14" n="1">TALIA PERSTABAT MEMORANS FIXUSQUE <gap unit="CHARS" quantity="7" resp="CUTTING" reason="lost" supplied="INE"/>.</l>
+    <l xml:id="l_15" n="2">NOS CONTRA EFFUSI LACRIMIS CONIUNXQUE CREUSA</l>
+    <l xml:id="l_16" n="3">ASCANIUS<choice><abbr>Q </abbr><expan>QUE</expan></choice>OMINS  DOMUS NE VERTERE SECUM </l>
+    <l xml:id="l_17" n="4">CUNCTA PATER FATOQUE<gap unit="CHARS" quantity="23" resp="FADING" reason="illegible"/> . </l>
+    <l xml:id="l_18" n="5">A<unclear reason="illegible" resp="fading">BNEGAT</unclear> INCEPT<choice><abbr>Q</abbr><expan>QUE</expan></choice> ET SEDIBUS HAERET IN ISDEM </l>
+    <l xml:id="l_19" n="6">RURSUS IN ARMA FEROR MORTEM<choice><abbr>Q</abbr><expan>QUE</expan></choice> MISERRIM<seg type="nota">US</seg><note>SEMBRA CHE LE DUE LETTERE SIANO ACCOSTATE IN NESSO</note> OPTO</l>
+    <l xml:id="l_20" n="7">NAM QUOD CONSILIUM AUT QUAE IAM FORTUNA DABAT<seg type="nota">UR </seg><note>SEMBRA CHE LE DUE LETTERE SIANO ACCOSTATE IN NESSO</note></l>
+    <l xml:id="l_21" n="8">MENE EFFERRE PEDEM GENITOR TE POSSE RELICTO</l>
+    <l xml:id="l_22" n="9">SPERASTI TANTUM<choice><abbr>Q</abbr><expan>QUE</expan></choice> NEFAS PATRIO EXCIDIT ORE </l>
+    <l xml:id="l_23" n="10">SI NIHIL EX TANTA SUPERIS PLACET URBE RELINQUI </l>
+    <l xml:id="l_24" n="11">ET SEDET HOC ANIMO PERITUAE<choice><abbr>Q</abbr><expan>QUE</expan></choice> ADDERE TROIAE </l>
+    <l xml:id="l_25" n="12">TE<choice><abbr>Q</abbr><expan>QUE</expan></choice> TUOS<choice><abbr>Q</abbr><expan>QUE</expan></choice> IUVAT PATET ISTI IANUA LETO </l>
+  </div>
+</div>
+<div type="page" xml:id="0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145" facs="0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145.jpg">
+  <div xml:id="r" n="0" type="text" source="Eneide" book="IV" verses="157-169">
+    <l xml:id="l" n="0">GAUDET EQUO IAM<choice><abbr>Q</abbr><expan>IAMQUE</expan></choice> HOS CURSU IAM PRAETERIT ILLOS</l>
+    <l xml:id="l_1" n="1">MUMANTEM<choice><abbr>Q</abbr><expan>SPUMANTEMQUE</expan></choice> DARI PECO INTER INERTIA VOTI </l>
+    <l xml:id="l_2" n="2">OPTAT APRUM AUT FULVUM DESCEND<unclear reason="illegible" resp="fading">ERE</unclear> MONTE LON<gap unit="chars" quantity="2" resp="cutting" reason="lost" supplied="EM"/> </l>
+    <l xml:id="l_3" n="3">INTEA MAGNO MISCERI MURM<unclear reason="illegible" resp="fading">URE</unclear> <unclear reason="illegible" resp="fading">CAELUM</unclear></l>
+    <l xml:id="l_4" n="4">INCIPIT INSEQUITUR COMMIXTA GRANDINE NIMB<gap unit="chars" quantity="2" resp="cutting" reason="lost" supplied="US"/> </l>
+    <l xml:id="l_5" n="5">ET <unclear reason="illegible" resp="fading">T</unclear>YRII COMITES <unclear reason="illegible" resp="overwriting">P</unclear>ASSIM E<unclear reason="illegible" resp="overwriting">T</unclear> <unclear reason="illegible" resp="overwriting">T</unclear>ROIANA <unclear reason="illegible" resp="overwriting">I</unclear>UV<unclear reason="illegible" resp="overwriting">E</unclear>NTUS</l>
+    <l xml:id="l_6" n="6">DARDANIUS<choice><abbr>Q</abbr><expan>DARDANISQUE</expan></choice> NE<unclear reason="illegible" resp="overwriting">PO</unclear>S VENE<unclear reason="illegible" resp="overwriting">RI</unclear>S DIV<unclear reason="illegible" resp="overwriting">E</unclear>R<unclear reason="illegible" resp="overwriting">SA</unclear> PER AGROS</l>
+    <l xml:id="l_7" n="7">TECTA METU PET<unclear reason="illegible" resp="overwriting">IE</unclear>RE RUUNT DE MON<unclear reason="illegible" resp="overwriting">T</unclear>IBUS AMNES</l>
+    <l xml:id="l_8" n="8">SPELUNCAM DIDO DUX ET <unclear reason="illegible" resp="overwriting">TR</unclear>OIANUS EANDEM</l>
+    <l xml:id="l_9" n="9">DEVENIUNT.  PRIMA ET TELLUS ET PRO<unclear reason="illegible" resp="overwriting">N</unclear>UBA IU<unclear reason="illegible" resp="overwriting">NO</unclear></l>
+    <l xml:id="l_10" n="10">DANT SIGNUM FULSERE IGNES ET CONSCIUS AE<unclear reason="illegible" resp="overwriting">T</unclear>HER</l>
+    <l xml:id="l_11" n="11">CONUBII SUMMO<choice><abbr>Q</abbr><expan>SUMMOQUE</expan></choice> ULU<unclear reason="illegible" resp="overwriting">L</unclear>ARUNT VERTICE NYM<unclear reason="illegible" resp="overwriting">PH</unclear>AE</l>
+    <l xml:id="l_12" n="12">ILLE DIES PRIMUS LETI PRIMUSQUE MALORUM UT</l>
+  </div>
+  <div xml:id="r_1" n="1" type="text" source="Eneide" book="IV" verses="170-182">
+    <l xml:id="l_13" n="0">CAUSA FUIT NE<choice><abbr>Q</abbr><expan>NEQUE</expan></choice> ENIM SPECIE FAMAVE MOVETUR</l>
+    <l xml:id="l_14" n="1">NEC IAM FURTIVUM DIDO MEDITATUR AMOREM</l>
+    <l xml:id="l_15" n="2">CONI<unclear reason="illegible" resp="fading">UGI</unclear>UM VOCAT HOC PRAETEXIT NOMINE CULPAM</l>
+    <l xml:id="l_16" n="3">EXTEMPLO LIBYAE MAGNAS IT FAMA PER UR<unclear reason="illegible" resp="overwriting">BES</unclear></l>
+    <l xml:id="l_17" n="4">FAMA MALUM QUO NON ALIUT VELOCIUS U<unclear reason="illegible" resp="overwriting">LL</unclear>UM</l>
+    <l xml:id="l_18" n="5">M<unclear reason="illegible" resp="overwriting">OBILITATE</unclear> VIGET VIRES<choice><abbr>Q</abbr><expan>VIRISQUE</expan></choice> ACQUIRIT EU<unclear reason="illegible" resp="overwriting">ND</unclear>O</l>
+    <l xml:id="l_19" n="6">PARVA METU PRIMO MO<unclear reason="illegible" resp="overwriting">X</unclear> <unclear reason="illegible" resp="overwriting">SESE</unclear> <unclear reason="illegible" resp="overwriting">A</unclear>TTOLI<unclear reason="illegible" resp="overwriting">T</unclear> I<unclear reason="illegible" resp="overwriting">N</unclear> <unclear reason="illegible" resp="overwriting">AUR</unclear>AS</l>
+    <l xml:id="l_20" n="7">INGREDITUR<choice><abbr>Q</abbr><expan>INGREDITURQUE</expan></choice> <unclear reason="illegible" resp="overwriting">S</unclear>O<unclear reason="illegible" resp="overwriting">L</unclear>O ET CAPUT <unclear reason="illegible" resp="reagent">IN</unclear>TER<gap unit="chars" quantity="16" resp="reagent" reason="illegible" supplied="NUBILA CONDIT"/> </l>
+    <l xml:id="l_21" n="8">ILLAM TERRA PA<unclear reason="illegible">R</unclear>ENS IRA INRITATA DEORU<unclear reason="illegible" resp="reagent">M </unclear></l>
+    <l xml:id="l_22" n="9">EX<unclear reason="illegible" resp="fading">TRE</unclear>MAM UT PERHIBENT <unclear reason="illegible" resp="overwriting">C</unclear>OEO ENCELADO<choice><abbr>Q </abbr><expan>ENCELADOQUE</expan></choice>SOROREM</l>
+    <l xml:id="l_23" n="10">PROG<unclear reason="illegible" resp="fading">ENUI</unclear>T PEDIBUS CELEREM ET PERNICIBUS ALIS </l>
+    <l xml:id="l_24" n="11">MONSTRUM HOR<unclear reason="illegible" resp="overwriting">RE</unclear>NDUM INGENS CUI QUOD SUNT CORPORE P<gap unit="chars" quantity="5" resp="cutting" reason="lost" supplied="LUMAE"/> </l>
+    <l xml:id="l_25" n="12">TOT VIGILES OCU<unclear reason="illegible" resp="overwriting">L</unclear>I SUPTER MIRABILE DICTU </l>
+  </div>
+</div>
+</body>
+</text>
+</TEI>

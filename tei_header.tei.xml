@@ -1,0 +1,70 @@
+  <teiHeader>
+    <fileDesc>
+
+      <!-- Original title -->
+      <titleStmt>
+        <title>Rime</title>
+        <author>Pietro Bembo</author>
+        <editor resp="encoder">Joe Foe</editor>
+        <respStmt>
+          <resp>Digital transcription and encoding</resp>
+          <name>Joe Foe</name>
+        </respStmt>
+      </titleStmt>
+
+      <!-- Publication of the TEI file (your own digital object) -->
+      <publicationStmt>
+        <publisher>Gruppo Padovano di Stilistica</publisher>
+        <pubPlace>Padova</pubPlace>
+        <date when="2025">2025</date>
+        <availability>
+          <p>Licenza GNU</p>
+        </availability>
+      </publicationStmt>
+
+      <!-- Source manuscript and printed edition used -->
+      <sourceDesc>
+        <!-- Manuscript description -->
+        <msDesc>
+          <msIdentifier>
+            <repository>Unknown Repository</repository>
+            <idno>—</idno>
+          </msIdentifier>
+
+          <msContents>
+            <msItem>
+              <title>Rime</title>
+              <author>Pietro Bembo</author>
+            </msItem>
+          </msContents>
+
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>Paper manuscript</support>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+
+          <history>
+            <origin>
+              <!-- date -->
+              <origDate notBefore="1469-11-12" notAfter="1500-10-30">
+                Between 12 November 1469 and 30 October 1500
+              </origDate>
+              <origPlace>Italy</origPlace>
+            </origin>
+          </history>
+        </msDesc>
+
+        <!-- Qui si mantengono i dati relativi all'edizione di riferimento -->
+        <bibl>
+          <title>Rime</title>
+          <author>Pietro Bembo</author>
+          <date when="1999">1999</date>
+          <note>Edition used as base text for encoding.</note>
+        </bibl>
+
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
