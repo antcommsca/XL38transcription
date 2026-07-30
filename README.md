@@ -4,7 +4,7 @@ Code and datasets for producing a TEI XML edition of the transcription of manusc
 
 This repository was developed within the AntCom project (From Antiquity to Community: Rethinking Classical Heritage through Citizen Humanities), funded by the Horizon Europe Marie Skłodowska-Curie Actions Doctoral Network (Grant Agreement No. 101073543).
 
-## Project background
+## Project background
 
 Manuscript XL (38) from the Biblioteca Capitolare di Verona is a palimpsest preserving fragments of Virgil's Bucolics, Georgics, and Aeneid as an erased undertext.
 
@@ -18,7 +18,7 @@ TEI-oriented transcription practices.
 
 Student transcriptions were subsequently reviewed and harmonized by project researchers before export.
 
-## Repository contents
+## Repository contents
 .
 ├── XL38trasncription.tei.xml  # TEI file with the transcription
 ├── page2tei.py                # PAGE XML → TEI converter
@@ -33,7 +33,7 @@ manual transcription and annotation in Transkribus;
 export of PAGE XML files;
 conversion of PAGE XML into a single TEI document using page2tei.py.
 
-## Example usage:
+## Example usage:
 
 python3 page2tei.py \
   --glob "transkribus_export/export_job_*/*/*/page/*.xml" \
