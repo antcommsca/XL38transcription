@@ -1,90 +1,91 @@
 # XL38transcription
 
-Code and datasets for producing a TEI XML edition of the transcription of manuscript XL (38) (Virgilius Veronensis) from Transkribus PAGE XML exports.
+> **Transkribus PAGE XML → TEI P5 conversion pipeline for the diplomatic transcription of manuscript XL (38) (*Virgilius Veronensis*) from the Biblioteca Capitolare di Verona.**
 
-This repository was developed within the AntCom project (From Antiquity to Community: Rethinking Classical Heritage through Citizen Humanities), funded by the Horizon Europe Marie Skłodowska-Curie Actions Doctoral Network (Grant Agreement No. 101073543).
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
+[![TEI P5](https://img.shields.io/badge/TEI-P5-green.svg)]()
+[![Horizon Europe](https://img.shields.io/badge/Horizon-Europe-blue.svg)]()
+
+## Overview
+
+This repository contains the code and datasets used to convert **Transkribus PAGE XML** exports into a single **TEI P5 XML** document for manuscript **XL (38)** (*Virgilius Veronensis*), a palimpsest preserved at the **Biblioteca Capitolare di Verona**.
+
+The repository was developed within the **AntCom** project (*From Antiquity to Community: Rethinking Classical Heritage through Citizen Humanities*), funded by the **Horizon Europe Marie Skłodowska-Curie Actions Doctoral Network** (Grant Agreement **101073543**).
 
 ## Project background
 
-Manuscript XL (38) from the Biblioteca Capitolare di Verona is a palimpsest preserving fragments of Virgil's Bucolics, Georgics, and Aeneid as an erased undertext.
+The undertext of manuscript XL (38) preserves fragments of Virgil's **Eclogae**, **Georgics**, and **Aeneid**. Because of the manuscript's complex preservation state, Handwritten Text Recognition (HTR) was evaluated but found unsuitable. Instead, the manuscript was transcribed manually using **Transkribus** through a citizen humanities initiative involving trained Italian high-school students.
 
-Because of the manuscript's complex preservation state, Handwritten Text Recognition (HTR) was evaluated but ultimately deemed unsuitable. Instead, the transcription was produced manually through a citizen humanities initiative involving Italian high school students, who were trained in:
+The workflow combined:
 
-textual criticism and Virgilian philology;
-Latin paleography;
-multispectral imaging (MSI);
-collaborative transcription using Transkribus;
-TEI-oriented transcription practices.
+- textual criticism and Virgilian philology;
+- Latin paleography;
+- multispectral imaging (MSI);
+- collaborative manual transcription in Transkribus;
+- expert review by project researchers;
+- automatic conversion from PAGE XML to TEI.
 
-Student transcriptions were subsequently reviewed and harmonized by project researchers before export.
+## Repository structure
 
-## Repository contents
+```text
 .
-├── XL38trasncription.tei.xml  # TEI file with the transcription
-├── page2tei.py                # PAGE XML → TEI converter
-├── tei_header.tei.xml         # TEI header (user supplied)
-├── transkribus_export/        # Original PAGE XML exports
+├── page2tei.py
+├── tei_header.tei.xml
+├── transkribus_export/
+├── XL38transcription.tei.xml
 └── README.md
-Conversion workflow
+```
 
-The workflow consists of:
+## Requirements
 
-manual transcription and annotation in Transkribus;
-export of PAGE XML files;
-conversion of PAGE XML into a single TEI document using page2tei.py.
+- Python 3.9+
+- Standard library only
+- No external dependencies
 
-## Example usage:
+## Usage
 
-python3 page2tei.py \
-  --glob "transkribus_export/export_job_*/*/*/page/*.xml" \
-  --header tei_header.tei.xml \
-  -o XL38transcription.tei.xml
+```bash
+python3 page2tei.py   --glob "transkribus_export/export_job_*/*/*/page/*.xml"   --header tei_header.tei.xml   -o XL38transcription.tei.xml
+```
 
-## PAGE XML → TEI mapping
+## Conversion model
 
-The converter resolves Transkribus annotations into TEI P5 inline markup.
+Each PAGE XML file becomes:
 
-Transkribus annotation	TEI output
-abbrev	<choice><abbr/><expan/></choice>
-add	<add>
-corr	<subst><add/><del/></subst>
-del	<del>
-gap	<gap/> or <supplied>
-unclear	<unclear> or <choice>
-nota	<seg type="nota"> + <note>
+- `<div type="page">`
+- each `TextRegion` → `<div>`
+- each `TextLine` → `<l>`
 
-The converter preserves:
+Supported Transkribus annotations:
 
-reading order;
-region and line identifiers;
-structural metadata assigned in Transkribus;
-editorial annotations encoded through the custom attribute.
+| Transkribus | TEI |
+|-------------|-----|
+| abbrev | `<choice><abbr/><expan/></choice>` |
+| add | `<add>` |
+| corr | `<subst>` |
+| del | `<del>` |
+| gap | `<gap/>` / `<supplied>` |
+| unclear | `<unclear>` / `<choice>` |
+| nota | `<seg>` + `<note>` |
 
-Image coordinates (baselines and polygons) are intentionally omitted from the TEI output.
+The converter preserves reading order, identifiers, structural metadata and editorial annotations while intentionally omitting image coordinates.
 
 ## Output
 
-The generated TEI document contains:
-
-one <div type="page"> per PAGE XML file;
-one nested <div> per text region;
-one <l> element for each transcribed line;
-inline TEI markup for editorial interventions and uncertainty.
-
-The resulting TEI is intended as a scholarly, machine-readable transcription suitable for further editorial work and publication.
-
-## Requirements
-Python 3
-Standard Python library only (no external dependencies)
+The generated TEI is intended as a **scholarly diplomatic transcription**, preserving editorial markup while remaining suitable for further philological work and publication.
 
 ## Citation
 
-If you use this software or the accompanying transcription data, please cite the AntCom project:
+If you use this software or the accompanying transcription data, please cite:
 
-AntCom – From Antiquity to Community: Rethinking Classical Heritage through Citizen Humanities. Horizon Europe Marie Skłodowska-Curie Actions Doctoral Network. Grant Agreement No. 101073543.
+> AntCom – *From Antiquity to Community: Rethinking Classical Heritage through Citizen Humanities*. Horizon Europe Marie Skłodowska-Curie Actions Doctoral Network. Grant Agreement No. 101073543.
 
 ## Funding
 
-This work was funded by the European Union Horizon Europe Programme through the Marie Skłodowska-Curie Actions Doctoral Network, Grant Agreement No. 101073543.
+Funded by the **European Union Horizon Europe Programme** under the **Marie Skłodowska-Curie Actions Doctoral Network** (Grant Agreement No. **101073543**).
 
 Project website: https://antcom.eu/
+
+## License
+
+Please add the license applicable to this repository (e.g. GNU GPL, MIT, or another license adopted by the project).
