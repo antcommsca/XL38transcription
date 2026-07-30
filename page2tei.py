@@ -7,9 +7,26 @@ Ogni TextRegion diventa un <div> figlio (con eventuali metadati da
 'structure' come attributi). Ogni TextLine diventa un <l>.
 
 Le annotazioni codificate nell'attributo @custom di TextLine (nota,
-unclear, gap, abbrev) vengono risolte come markup inline sul testo,
-usando gli offset/length per individuare la porzione di stringa
-interessata. Nessuna coordinata (Coords/Baseline) viene riportata.
+unclear, gap/supplied, abbrev, add, corr, del) vengono risolte come
+markup inline sul testo, usando gli offset/length per individuare la
+porzione di stringa interessata. Nessuna coordinata (Coords/Baseline)
+viene riportata.
+
+Mapping tag Transkribus -> TEI (concordato con biblioteca/collega,
+vedi TAG-TEI.pdf):
+  abbrev  (expansion)          -> <choice><abbr/><expan/></choice>
+  add     (place)               -> <add place="...">
+  corr    (original)            -> <subst><add/><del/></subst>
+  del     ()                    -> <del>
+  gap     (reason, supplied)    -> <supplied reason="..." source="#geymonat_2008">
+                                    (il contenuto e' il valore della chiave
+                                    'supplied', NON una porzione del testo
+                                    trascritto: length e' sempre 0)
+  unclear (reason, agent[, alternative]) -> <unclear reason="...">
+                                    reason = agent se presente, altrimenti
+                                    reason (scelta del collega); se e'
+                                    presente 'alternative', le due letture
+                                    vengono avvolte in <choice>.
 
 Uso:
     python3 page2tei.py file1.xml file2.xml ... > out.tei.xml
@@ -68,12 +85,27 @@ def first(custom: dict, tag: str) -> dict:
 # Markup inline della riga di testo
 # ---------------------------------------------------------------------------
 
-SPAN_TAGS = ("nota", "unclear", "gap", "abbrev")
+# Fonte fissa per il testo supplito, concordata via TAG-TEI.pdf.
+SUPPLIED_SOURCE = "#geymonat_2008"
+
+# Tag che avvolgono una porzione (offset/length) del testo trascritto.
+SPAN_TAGS = ("nota", "unclear", "abbrev", "add", "corr", "del")
+# Tag il cui contenuto NON viene dalla trascrizione ma da una proprietà
+# (length e' sempre 0: non c'e' nulla da "consumare" nel testo trascritto).
+PROPERTY_TAGS = ("gap",)
+
+
+def _unclear_reason(params: dict) -> str:
+    """Il collega ha chiesto di collassare agent+reason in un solo
+    attributo @reason, preferendo il valore di 'agent' quando presente."""
+    if "agent" in params:
+        return params["agent"].lower()
+    return params.get("reason", "").lower()
 
 
 def build_line_content(text: str, custom: dict) -> str:
     spans = []
-    for kind in SPAN_TAGS:
+    for kind in SPAN_TAGS + PROPERTY_TAGS:
         for params in custom.get(kind, []):
             if "offset" not in params:
                 continue
@@ -82,9 +114,9 @@ def build_line_content(text: str, custom: dict) -> str:
             spans.append((offset, length, kind, params))
 
     # Ordine: per offset crescente; a parità di offset, prima gli span con
-    # lunghezza > 0 (occupano testo), poi i marcatori puntuali (length 0).
-    # Decisione arbitraria per gestire annotazioni sovrapposte sullo stesso
-    # offset (vedi nota nella risposta) — verificare caso per caso.
+    # lunghezza > 0 (occupano testo), poi i marcatori puntuali (length 0,
+    # es. 'gap'/'supplied'). Decisione arbitraria per gestire annotazioni
+    # sovrapposte sullo stesso offset — verificare caso per caso.
     spans.sort(key=lambda s: (s[0], 0 if s[1] > 0 else 1))
 
     pieces = []
@@ -100,52 +132,75 @@ def build_line_content(text: str, custom: dict) -> str:
             pieces.append(escape(text[cursor:offset]))
             cursor = offset
 
+        if kind in PROPERTY_TAGS:
+            # 'gap': se e' presente una lettura congetturale (chiave
+            # 'supplied' non vuota) -> TEI <supplied> con quel testo come
+            # contenuto (non e' una fetta del testo trascritto: la lettera
+            # non c'e' piu'). Se non c'e' alcuna lettura proposta -> TEI
+            # <gap> "puro" (quantity/unit/reason sono attributi TEI
+            # standard per lacune non risolte).
+            if kind == "gap":
+                supplied_val = params.get("supplied", "")
+                reason = params.get("reason", "").lower()
+                if supplied_val:
+                    r = f' reason="{escape(reason)}"' if reason else ""
+                    pieces.append(
+                        f'<supplied{r} source="{SUPPLIED_SOURCE}">{escape(supplied_val)}</supplied>'
+                    )
+                else:
+                    attrs = []
+                    if reason:
+                        attrs.append(f'reason="{escape(reason)}"')
+                    if "quantity" in params:
+                        attrs.append(f'quantity="{escape(params["quantity"])}"')
+                    if "unit" in params:
+                        attrs.append(f'unit="{escape(params["unit"].lower())}"')
+                    if "atLeast" in params:
+                        attrs.append(f'atLeast="{escape(params["atLeast"])}"')
+                    if "atMost" in params:
+                        attrs.append(f'atMost="{escape(params["atMost"])}"')
+                    a = (" " + " ".join(attrs)) if attrs else ""
+                    pieces.append(f"<gap{a}/>")
+            continue  # non avanza cursor: length e' 0 per definizione
+
         if length > 0:
             span_text = escape(text[offset:offset + length])
             if kind == "unclear":
-                attrs = []
-                if "reason" in params:
-                    attrs.append('reason="%s"' % escape(params["reason"].lower()))
-                if "agent" in params:
-                    attrs.append('resp="%s"' % escape(params["agent"]))
-                if params.get("continued") == "true":
-                    attrs.append('next="#cont"')
-                a = (" " + " ".join(attrs)) if attrs else ""
-                pieces.append(f"<unclear{a}>{span_text}</unclear>")
+                reason = _unclear_reason(params)
+                r = f' reason="{escape(reason)}"' if reason else ""
+                if "alternative" in params:
+                    alt = escape(params["alternative"])
+                    pieces.append(
+                        f'<choice><unclear{r}>{span_text}</unclear>'
+                        f'<unclear{r}>{alt}</unclear></choice>'
+                    )
+                else:
+                    pieces.append(f"<unclear{r}>{span_text}</unclear>")
             elif kind == "nota":
                 note_text = escape(params.get("nota", ""))
                 pieces.append(f'<seg type="nota">{span_text}</seg><note>{note_text}</note>')
             elif kind == "abbrev":
                 expan = escape(params.get("expansion", ""))
                 pieces.append(f"<choice><abbr>{span_text}</abbr><expan>{expan}</expan></choice>")
-            elif kind == "gap":
-                # non atteso nei dati osservati (length sempre 0), gestito
-                # per robustezza: il contenuto trascritto diventa <supplied>
-                reason = params.get("reason", "").lower()
-                pieces.append(f'<supplied reason="{escape(reason)}">{span_text}</supplied>')
+            elif kind == "add":
+                place = escape(params.get("place", ""))
+                p = f' place="{place}"' if place else ""
+                pieces.append(f"<add{p}>{span_text}</add>")
+            elif kind == "corr":
+                original = escape(params.get("original", ""))
+                pieces.append(f"<subst><add>{span_text}</add><del>{original}</del></subst>")
+            elif kind == "del":
+                pieces.append(f"<del>{span_text}</del>")
             cursor = offset + length
         else:
-            if kind == "gap":
-                attrs = []
-                mapping = [("unit", "unit"), ("quantity", "quantity"),
-                           ("agent", "resp"), ("reason", "reason")]
-                for src, tei in mapping:
-                    if src in params:
-                        v = params[src].lower() if tei == "reason" else params[src]
-                        attrs.append(f'{tei}="{escape(v)}"')
-                # attributi non-standard TEI, mantenuti per non perdere info
-                for extra in ("supplied", "atleast", "atmost", "nota"):
-                    for k in params:
-                        if k.lower() == extra:
-                            attrs.append(f'{extra}="{escape(params[k])}"')
-                a = (" " + " ".join(attrs)) if attrs else ""
-                pieces.append(f"<gap{a}/>")
-            elif kind == "nota":
+            # marcatore puntuale (length 0) per un tag che normalmente
+            # avvolge testo: non dovrebbe capitare nei dati osservati,
+            # gestito per robustezza senza perdere l'informazione.
+            if kind == "nota":
                 pieces.append(f'<note>{escape(params.get("nota", ""))}</note>')
             elif kind == "unclear":
-                pieces.append("<unclear/>")
-            elif kind == "abbrev":
-                pass  # length 0 non ha senso per un'abbreviazione, ignorato
+                pieces.append(f'<unclear reason="{escape(_unclear_reason(params))}"/>')
+            # abbrev/add/corr/del a lunghezza 0 non hanno senso: ignorati
 
     if cursor < len(text):
         pieces.append(escape(text[cursor:]))
@@ -219,6 +274,9 @@ TEI_HEADER = """<teiHeader>
     </publicationStmt>
     <sourceDesc>
       <p>Fonte: export PAGE XML Transkribus.</p>
+      <!-- TODO: inserire qui la biblStruct per 'geymonat_2008'
+           (xml:id="geymonat_2008"), referenziata da @source su
+           tutti gli elementi <supplied>. File non ancora ricevuto. -->
     </sourceDesc>
   </fileDesc>
 </teiHeader>"""
@@ -228,14 +286,33 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("files", nargs="*", help="File PAGE XML da convertire")
     ap.add_argument("--glob", dest="pattern", help="Pattern glob (ricorsivo con **)")
-    ap.add_argument("-o", "--output", help="File di output (default: stdout)")
+    ap.add_argument("--header", help="File contenente il <teiHeader> da usare "
+                                      "(default: header minimo generato automaticamente)")
+    ap.add_argument("-o", "--output", default="XL38transcription.tei.xml",
+                     help="File di output (default: XL38transcription.tei.xml)")
     args = ap.parse_args()
 
     paths = list(args.files)
     if args.pattern:
-        paths.extend(sorted(glob.glob(args.pattern, recursive=True)))
+        matched = sorted(glob.glob(args.pattern, recursive=True))
+        if not matched:
+            ap.error(f"--glob '{args.pattern}' non ha trovato alcun file "
+                      f"(verifica la profondità delle directory)")
+        paths.extend(matched)
     if not paths:
         ap.error("nessun file specificato (usa argomenti posizionali o --glob)")
+
+    if args.header:
+        with open(args.header, "r", encoding="utf-8") as f:
+            header = f.read().strip()
+        try:
+            ET.fromstring(header)
+        except ET.ParseError as exc:
+            ap.error(f"--header '{args.header}' non è XML ben formato: {exc}")
+    else:
+        header = TEI_HEADER
+        print("[WARN] nessun --header specificato, uso header minimo di fallback",
+              file=sys.stderr)
 
     page_divs = []
     for p in paths:
@@ -248,17 +325,15 @@ def main():
     tei = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<TEI xmlns="http://www.tei-c.org/ns/1.0">\n'
-        f"{TEI_HEADER}\n"
+        f"{header}\n"
         "<text>\n<body>\n"
         f"{body}\n"
         "</body>\n</text>\n</TEI>\n"
     )
 
-    if args.output:
-        with open(args.output, "w", encoding="utf-8") as f:
-            f.write(tei)
-    else:
-        sys.stdout.write(tei)
+    with open(args.output, "w", encoding="utf-8") as f:
+        f.write(tei)
+    print(f"Scritto: {args.output}", file=sys.stderr)
 
 
 if __name__ == "__main__":
