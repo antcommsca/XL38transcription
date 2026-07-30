@@ -1,70 +1,154 @@
-  <teiHeader>
-    <fileDesc>
 
-      <!-- Original title -->
-      <titleStmt>
-        <title>Rime</title>
-        <author>Pietro Bembo</author>
-        <editor resp="encoder">Joe Foe</editor>
-        <respStmt>
-          <resp>Digital transcription and encoding</resp>
-          <name>Joe Foe</name>
-        </respStmt>
-      </titleStmt>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>P. Vergili Maronis Opera</title>
+        <author>
+          <forename>Publius</forename>
+          <surname>Vergilius Maro</surname>
+        </author>		
+			<respStmt>
+    <resp>transcribed from original ms</resp>
+    <persName>Paolo Scattolin</persName>
+    <persName>Panagiotis Leontaridis</persName>
+    <persName>Konstantina Tsakona</persName>
+    <persName>Giacomo Marchioro</persName>
+    <persName>Giacomo Carrara</persName>
+    <persName>Sofia Spido</persName>
+    <persName>Alessia Terracciano</persName>
+    <persName>Simona Nale</persName>
+    <persName>Miriam Todorov</persName>
+    <persName>Azzurra Ciman</persName>
+    <persName>Chiara Danese</persName>
+    <persName>Veronica Rebonato</persName>
+    <persName>Mama Dior Salla Gningue</persName>
+    <persName>Irene Salamon</persName>
+    <persName>Matilde Trezzolani</persName>
+    <persName>Giosuè Baldo</persName>
+    <persName>Giovanni Cortese</persName>
+    <persName>Gianluca Muratori</persName>
+    <persName>Francesca Vescovi</persName>
+    <persName>Alessandro Faettini</persName>
+    <persName>Silvia Recchia</persName>
+    <persName>Pietro Franceschetti</persName>
+    <persName>Alberto Maghini</persName>
+    <persName>Aurelio Lleshi</persName>
+    <persName>Linda Vescovi</persName>
+    <persName>Alessandro Adami</persName>
+    <persName>Luca Paolangelo</persName>
+    <persName>Leonardo Verona</persName>
+    <persName>Federico Bottura</persName>
+    <persName>Tobia Brigo</persName>
+    <persName>Sebastiano Mancassola</persName>
+    <persName>Margherita Ronchi</persName>
+    <persName>Ginevra Ceolini</persName>
+    <persName>Viola D'Agata</persName>
+    <persName>Martina Noè</persName>
+    <persName>Melissa Anna Mandolfi</persName>
+    <persName>Xia Wu</persName>
+    <persName>Gregorio Fasoli</persName>
+    <persName>Beatrice Gabriella Ferraro</persName>
+    <persName>Etien Baku</persName>
+    <persName>Maristella Campello</persName>
+    <persName>Carlotta Climaco</persName>
+    <persName>Chiara Faccioli</persName>
+    <persName>Alessandro Rinaldi</persName>
+    <persName>Anna Maria Bottiglieri</persName>
+    <persName>Giulio Genovese</persName>
+    <persName>Chiara Castagna</persName>
+    <persName>Sofia Castagnetti</persName>
+    <persName>Giovanni Sartori</persName>
+    <persName>Niccolò Oliboni</persName>
+    <persName>Eva Alma Rebonato</persName>
+    <persName>Michaela Poggiani</persName>
+    <persName>Claudia Urbano Piccoli</persName>
+    <persName>Isacco Bellamoli</persName>
+    <persName>Sofia Bertoli</persName>
+    <persName>Lavinia Pecora</persName>
+    <persName>Costanza Adami</persName>
+    <persName>Noemi Falezza</persName>
+    <persName>Edoardo Favalli</persName>
+    <persName>Matilde Marai</persName>
+</respStmt>
+			<respStmt>
+				<resp>converted to TEI XML encoding</resp>
+				<persName>Giacomo Marchioro</persName>
+			</respStmt>
+		</titleStmt>
+		<publicationStmt>
+			<publisher>Univesrità degli studi di Verona</publisher>
+			<pubPlace>Verona</pubPlace>
+			<date when="2026">2026</date>
+			<availability> <p>Licenza GNU</p> </availability>
+		</publicationStmt>
+		<sourceDesc>
+    <msDesc>
+    <msIdentifier>
+        <country>Italia</country>
+        <settlement>Verona</settlement>
+        <repository>Biblioteca Capitolare</repository>
+        <idno>MS XL (38)</idno>
+    </msIdentifier>
 
-      <!-- Publication of the TEI file (your own digital object) -->
-      <publicationStmt>
-        <publisher>Gruppo Padovano di Stilistica</publisher>
-        <pubPlace>Padova</pubPlace>
-        <date when="2025">2025</date>
-        <availability>
-          <p>Licenza GNU</p>
-        </availability>
-      </publicationStmt>
+    <msContents>
+        <msItem>
+          <author>
+              <forename>Publius</forename>
+              <surname>Vergilius Maro</surname>
+          </author>
+          <title>P. Vergili Maronis Opera</title>
+          <note>Palinsesto contenente frammenti delle opere di Virgilio con scolî.</note>
+        </msItem>
+    </msContents>
 
-      <!-- Source manuscript and printed edition used -->
-      <sourceDesc>
-        <!-- Manuscript description -->
-        <msDesc>
-          <msIdentifier>
-            <repository>Unknown Repository</repository>
-            <idno>—</idno>
-          </msIdentifier>
+    <physDesc>
+        <objectDesc form="codex">
+          <supportDesc>
+              <support>Pergamena (palinsesto).</support>
+          </supportDesc>
+        </objectDesc>
+    </physDesc>
 
-          <msContents>
-            <msItem>
-              <title>Rime</title>
-              <author>Pietro Bembo</author>
-            </msItem>
-          </msContents>
+    <history>
+        <origin>
+          <origDate notBefore="0401" notAfter="0500">
+              V secolo
+          </origDate>
+          <origPlace>Probabilmente Gallia</origPlace>
+        </origin>
+        <provenance>
+          <p>Il manoscritto è attestato presso la Biblioteca Capitolare di Verona almeno dal IX secolo.</p>
+        </provenance>
+    </history>
+  </msDesc>
+      <listBibl xmlns="http://www.tei-c.org/ns/1.0">
+            <biblStruct type="book" xml:id="geymonat_2008">
+              <monogr>
+                <title level="m">P. Vergili Maronis Opera</title>
+                <idno type="ISBN">9788884983756</idno>
+                <author>
+                  <forename>Publius</forename>
+                  <surname>Vergilius Maro</surname>
+                </author>
 
-          <physDesc>
-            <objectDesc>
-              <supportDesc>
-                <support>Paper manuscript</support>
-              </supportDesc>
-            </objectDesc>
-          </physDesc>
 
-          <history>
-            <origin>
-              <!-- date -->
-              <origDate notBefore="1469-11-12" notAfter="1500-10-30">
-                Between 12 November 1469 and 30 October 1500
-              </origDate>
-              <origPlace>Italy</origPlace>
-            </origin>
-          </history>
-        </msDesc>
-
-        <!-- Qui si mantengono i dati relativi all'edizione di riferimento -->
-        <bibl>
-          <title>Rime</title>
-          <author>Pietro Bembo</author>
-          <date when="1999">1999</date>
-          <note>Edition used as base text for encoding.</note>
-        </bibl>
-
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
+              <editor>
+                <forename>Mario</forename>
+                <surname>Geymonat</surname>
+              </editor>
+                <edition>Nuova ed. con aggiunte e correzioni</edition>
+                <imprint>
+                  <pubPlace>Roma</pubPlace>
+                  <publisher>Edizioni di Storia e Letteratura</publisher>
+                  <date>2008</date>
+                </imprint>
+              </monogr>
+              <series>
+                <title level="s">Temi e testi</title>
+                <biblScope unit="volume">4</biblScope>
+              </series>
+            </biblStruct>
+          </listBibl>
+		</sourceDesc>
+	</fileDesc>
+</teiHeader>
