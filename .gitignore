@@ -217,3 +217,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .DS_Store
+
+
+# Ignora tutti i file con queste estensioni
+*.jpg
+*.pdf
+*.docx
