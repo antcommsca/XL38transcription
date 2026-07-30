@@ -86,6 +86,3 @@ Funded by the **European Union Horizon Europe Programme** under the **Marie Skł
 
 Project website: https://antcom.eu/
 
-## License
-
-Please add the license applicable to this repository (e.g. GNU GPL, MIT, or another license adopted by the project).
