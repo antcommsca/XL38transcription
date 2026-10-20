@@ -211,57 +211,152 @@ def build_line_content(text: str, custom: dict) -> str:
 # Conversione di un file PAGE XML in un <div type="page">
 # ---------------------------------------------------------------------------
 
-def convert_file(path: str) -> str:
-    tree = ET.parse(path)
-    root = tree.getroot()
+WARNINGS = []
+
+
+def warn(msg: str):
+    WARNINGS.append(msg)
+    print(f"[WARN] {msg}", file=sys.stderr)
+
+
+def _safe(s: str) -> str:
+    """Rende una stringa utilizzabile dentro un xml:id."""
+    return re.sub(r"[^A-Za-z0-9._-]", "_", s)
+
+
+def _order_key(el):
+    """Ordina per readingOrder.index (PAGE e' autorevole); a parita' o in
+    assenza, l'ordine del documento (sorted e' stabile)."""
+    ro = first(parse_custom(el.get("custom", "")), "readingOrder")
+    try:
+        return int(ro.get("index", 10**9))
+    except ValueError:
+        return 10**9
+
+
+_VERSES_RE = re.compile(r"^\s*(\d+)(?:\s*-\s*(\d+))?\s*$")
+_NOTA_REF_RE = re.compile(r"^\s*([^,]+?)\s*,\s*(\d+)\s*,\s*(\d+)(?:\s*-\s*(\d+))?\s*$")
+
+
+def region_location(rcustom: dict, first_line_custom: dict):
+    """(opera, libro, v_inizio, v_fine, origine) oppure None.
+    1) tag 'structure' della regione (title/book/verses);
+    2) in mancanza, tag 'nota' sulla PRIMA riga nella forma
+       'Opera, libro, a-b' (es. 'Eneide, 2, 688-700')."""
+    st = first(rcustom, "structure")
+    if st.get("book") and st.get("verses"):
+        m = _VERSES_RE.match(st["verses"])
+        if m:
+            a = int(m.group(1))
+            b = int(m.group(2) or a)
+            return (st.get("title", ""), st["book"], a, b, "structure")
+    for params in first_line_custom.get("nota", []):
+        m = _NOTA_REF_RE.match(params.get("nota", ""))
+        if m:
+            a = int(m.group(3))
+            b = int(m.group(4) or a)
+            return (m.group(1), m.group(2), a, b, "nota")
+    return None
+
+
+def peek_page(path: str) -> dict:
+    """Lettura leggera: serve a rilevare le trascrizioni duplicate."""
+    root = ET.parse(path).getroot()
+    page = root.find("p:Page", NS)
+    if page is None:
+        raise ValueError("elemento <Page> non trovato")
+    lc = root.findtext("p:Metadata/p:LastChange", default="", namespaces=NS)
+    sig = []
+    for line in page.iter("{%s}TextLine" % NS["p"]):
+        sig.append((line.get("custom", ""),
+                    line.findtext("p:TextEquiv/p:Unicode", default="", namespaces=NS)))
+    return {"path": path, "image": page.get("imageFilename", ""),
+            "lastchange": lc, "sig": sig}
+
+
+def convert_file(path: str):
+    """Ritorna (div_pagina_xml, surface_xml)."""
+    root = ET.parse(path).getroot()
     page = root.find("p:Page", NS)
     if page is None:
         raise ValueError(f"{path}: elemento <Page> non trovato")
 
     image_filename = page.get("imageFilename", "")
-    page_id = re.sub(r"\.[A-Za-z0-9]+$", "", image_filename) or "page"
+    stem = _safe(re.sub(r"\.[A-Za-z0-9]+$", "", image_filename) or "page")
+    pid = f"p_{stem}"        # prefisso: xml:id non puo' iniziare con una cifra
+    img_id = f"img_{stem}"
 
-    out = [f'<div type="page" xml:id="{escape(page_id)}" facs="{escape(image_filename)}">']
+    w, h = page.get("imageWidth"), page.get("imageHeight")
+    dims = (f' width="{w}px" height="{h}px"' if w and h else "")
+    surface = (f'  <surface xml:id="{img_id}">'
+               f'<graphic url="{escape(image_filename)}"{dims}/></surface>')
 
-    for region in page.findall("p:TextRegion", NS):
+    out = [f'<div type="page" xml:id="{pid}" facs="#{img_id}">']
+
+    regions = sorted(page.findall("p:TextRegion", NS), key=_order_key)
+    for region in regions:
+        rid = region.get("id", "")
         rcustom = parse_custom(region.get("custom", ""))
         ro = first(rcustom, "readingOrder")
-        struct = first(rcustom, "structure")
 
-        rattrs = [f'xml:id="{escape(region.get("id", ""))}"']
+        lines = sorted(region.findall("p:TextLine", NS), key=_order_key)
+        lcustoms = [parse_custom(l.get("custom", "")) for l in lines]
+
+        # righe che consumano un numero di verso: tipo assente o 'text'
+        def is_verse(i):
+            t = first(lcustoms[i], "structure").get("type")
+            return t in (None, "text")
+        verse_idx = [i for i in range(len(lines)) if is_verse(i)]
+
+        loc = region_location(rcustom, lcustoms[0] if lcustoms else {})
+
+        rattrs = [f'xml:id="{pid}_{_safe(rid)}"', 'type="region"']
         if "index" in ro:
             rattrs.append(f'n="{escape(ro["index"])}"')
-        rattrs.append(f'type="{escape(struct.get("type", "text"))}"')
-        if "title" in struct:
-            rattrs.append(f'source="{escape(struct["title"])}"')
-        if "book" in struct:
-            rattrs.append(f'book="{escape(struct["book"])}"')
-        if "verses" in struct:
-            rattrs.append(f'verses="{escape(struct["verses"])}"')
-
         out.append(f'  <div {" ".join(rattrs)}>')
 
-        for line in region.findall("p:TextLine", NS):
-            lcustom = parse_custom(line.get("custom", ""))
-            ro_l = first(lcustom, "readingOrder")
-            struct_l = first(lcustom, "structure")
+        numbers = {}
+        if loc:
+            work, book, a, b, origin = loc
+            expected = b - a + 1
+            if len(verse_idx) != expected:
+                msg = (f"{image_filename} regione '{rid}': {len(verse_idx)} righe "
+                       f"ma versi {a}-{b} ({expected}) [fonte: {origin}] - "
+                       f"numerazione da verificare a mano")
+                warn(msg)
+                out.append(f"  <!-- CHECK: {len(verse_idx)} righe vs versi {a}-{b} "
+                           f"({expected}), fonte {origin} -->")
+            for k, i in enumerate(verse_idx):
+                numbers[i] = a + k
+            out.append(f'    <div type="textpart" subtype="work" n="{escape(work)}">')
+            out.append(f'    <div type="textpart" subtype="book" n="{escape(book)}">')
+        else:
+            warn(f"{image_filename} regione '{rid}': nessuna indicazione "
+                 f"opera/libro/versi (ne 'structure' ne 'nota' sulla prima riga): "
+                 f"righe senza numero di verso")
 
+        for i, line in enumerate(lines):
+            lcustom = lcustoms[i]
+            struct_l = first(lcustom, "structure")
             unicode_el = line.find("p:TextEquiv/p:Unicode", NS)
             text = unicode_el.text if unicode_el is not None and unicode_el.text else ""
 
-            lattrs = [f'xml:id="{escape(line.get("id", ""))}"']
-            if "index" in ro_l:
-                lattrs.append(f'n="{escape(ro_l["index"])}"')
+            lattrs = [f'xml:id="{pid}_{_safe(line.get("id", ""))}"']
+            if i in numbers:
+                lattrs.append(f'n="{numbers[i]}"')
             if "type" in struct_l:
                 lattrs.append(f'type="{escape(struct_l["type"])}"')
 
             content = build_line_content(text, lcustom)
-            out.append(f'    <l {" ".join(lattrs)}>{content}</l>')
+            out.append(f'      <l {" ".join(lattrs)}>{content}</l>')
 
+        if loc:
+            out.append("    </div>")
+            out.append("    </div>")
         out.append("  </div>")
 
     out.append("</div>")
-    return "\n".join(out)
+    return "\n".join(out), surface
 
 
 TEI_HEADER = """<teiHeader>
@@ -314,18 +409,48 @@ def main():
         print("[WARN] nessun --header specificato, uso header minimo di fallback",
               file=sys.stderr)
 
-    page_divs = []
+    # --- duplicati: stessa immagine (imageFilename) in piu' file PAGE ---
+    peeked = []
     for p in paths:
         try:
-            page_divs.append(convert_file(p))
+            peeked.append(peek_page(p))
         except Exception as exc:
-            print(f"[WARN] {p}: {exc}", file=sys.stderr)
+            warn(f"{p}: {exc}")
+    by_image = {}
+    for d in peeked:
+        by_image.setdefault(d["image"], []).append(d)
+    keep = []
+    for image, group in by_image.items():
+        if len(group) > 1:
+            group.sort(key=lambda d: d["lastchange"])   # ISO: ordine lessicografico ok
+            chosen = group[-1]
+            same = all(g["sig"] == chosen["sig"] for g in group)
+            desc = "; ".join(f"{g['path']} (LastChange {g['lastchange']})" for g in group)
+            warn(f"immagine duplicata {image}: {len(group)} file, trascrizioni "
+                 f"{'IDENTICHE' if same else 'DIVERSE'}; tengo il piu' recente "
+                 f"-> {chosen['path']}. Candidati: {desc}")
+            keep.append(chosen["path"])
+        else:
+            keep.append(group[0]["path"])
+    keep_set = set(keep)
+    paths = [p for p in paths if p in keep_set]
+
+    page_divs, surfaces = [], []
+    for p in paths:
+        try:
+            div, surface = convert_file(p)
+            page_divs.append(div)
+            surfaces.append(surface)
+        except Exception as exc:
+            warn(f"{p}: {exc}")
 
     body = "\n".join(page_divs)
+    facsimile = "<facsimile>\n" + "\n".join(surfaces) + "\n</facsimile>"
     tei = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<TEI xmlns="http://www.tei-c.org/ns/1.0">\n'
         f"{header}\n"
+        f"{facsimile}\n"
         "<text>\n<body>\n"
         f"{body}\n"
         "</body>\n</text>\n</TEI>\n"
@@ -333,7 +458,12 @@ def main():
 
     with open(args.output, "w", encoding="utf-8") as f:
         f.write(tei)
-    print(f"Scritto: {args.output}", file=sys.stderr)
+    print(f"Scritto: {args.output} ({len(page_divs)} pagine)", file=sys.stderr)
+    if WARNINGS:
+        report = args.output + ".report.txt"
+        with open(report, "w", encoding="utf-8") as f:
+            f.write("\n".join(WARNINGS) + "\n")
+        print(f"Report controlli ({len(WARNINGS)}): {report}", file=sys.stderr)
 
 
 if __name__ == "__main__":

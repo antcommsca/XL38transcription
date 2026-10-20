@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trpDocMetadata>
+    <docId>17343518</docId>
+    <title>16. Furie - Copy</title>
+    <uploadTimestamp>1783513163733</uploadTimestamp>
+    <uploader>panagiotis.leontaridis@univr.it</uploader>
+    <uploaderId>86369</uploaderId>
+    <nrOfPages>1</nrOfPages>
+    <pageId>123815028</pageId>
+    <url>https://files.transkribus.eu/Get?fileType=view&amp;id=DSNBPRLBLDFVMPGKOUBJCFGJ</url>
+    <thumbUrl>https://files.transkribus.eu/Get?fileType=thumb&amp;id=DSNBPRLBLDFVMPGKOUBJCFGJ</thumbUrl>
+    <iiifBaseUrl>https://files.transkribus.eu/iiif/2/DSNBPRLBLDFVMPGKOUBJCFGJ</iiifBaseUrl>
+    <status>0</status>
+    <fimgStoreColl>TrpDoc_DEA_17343518</fimgStoreColl>
+    <storeType>0</storeType>
+    <origDocId>0</origDocId>
+    <collectionList>
+        <colList>
+            <colId>2443575</colId>
+            <colName>Folios to review</colName>
+            <description>created by panagiotis.leontaridis@univr.it</description>
+            <crowdsourcing>false</crowdsourcing>
+            <elearning>false</elearning>
+            <nrOfDocuments>0</nrOfDocuments>
+            <isFavorite>false</isFavorite>
+        </colList>
+    </collectionList>
+    <mainColId>2443575</mainColId>
+</trpDocMetadata>

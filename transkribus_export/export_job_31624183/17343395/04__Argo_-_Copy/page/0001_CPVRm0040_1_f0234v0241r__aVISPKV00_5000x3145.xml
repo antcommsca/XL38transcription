@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2026-04-21T18:34:10.487+02:00</Created>
+        <LastChange>2026-07-29T12:16:01.757+02:00</LastChange>
+        <TranskribusMetadata docId="17343395" pageId="123814196" pageNr="1" tsid="298308627" status="IN_PROGRESS" userId="86369" imgUrl="https://files.transkribus.eu/Get?fileType=view&amp;id=HDZTSGFFPATDXMVVECWYRBOA" xmlUrl="https://files.transkribus.eu/Get?id=IVSOXALXZOMFUEHPHXPYKKAB" imageId="99856154"/>
+    </Metadata>
+    <Page imageFilename="0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145.jpg" imageWidth="5000" imageHeight="3145">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1792418380315" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r"/>
+                <RegionRefIndexed index="1" regionRef="r_1"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="r" custom="readingOrder {index:0;} structure {title:Aeneis; book:10; verses:196-208; type:text;}">
+            <Coords points="281,751 1695,761 1800,760 2353,762 2451,2304 311,2350"/>
+            <TextLine id="l" custom="readingOrder {index:0;} unclear {offset:1; length:1;agent:overwriting; reason:illegible; alternative:-;} supplied {offset:10; length:1;reason:illegible;} abbrev {offset:13; length:6;expansion:SAXUMQUE;} unclear {offset:20; length:1;agent:overwriting; reason:illegible;} unclear {offset:34; length:1;agent:overwriting; reason:illegible;}">
+                <Coords points="321,876 2316,884 2316,854 321,846"/>
+                <Baseline points="289,863 2319,843"/>
+                <TextEquiv>
+                    <Unicode>INSTAT AQUAE SAXUMQ UNDIS IMMANE MINATUR</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_1" custom="readingOrder {index:1;} supplied {offset:9; length:9;reason:illegible;} supplied {offset:21; length:5;reason:illegible;} supplied {offset:28; length:4;reason:illegible;} supplied {offset:38; length:2;reason:illegible;} supplied {offset:41; length:1;reason:illegible;}">
+                <Coords points="317,992 2316,989 2316,959 317,962"/>
+                <Baseline points="323,974 2201,957"/>
+                <TextEquiv>
+                    <Unicode> ARDUUS ET LONGA SULCAT MARIA ALTA CARINNA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_2" custom="readingOrder {index:2;} unclear {offset:31; length:1;agent:overwriting; reason:illegible; alternative:G;}">
+                <Coords points="311,1118 2318,1113 2318,1083 311,1088"/>
+                <Baseline points="306,1094 2192,1083"/>
+                <TextEquiv>
+                    <Unicode>ILLE ETIAM PATRIIS AGMEN CIET OCNUS· AB ORIS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_3" custom="readingOrder {index:3;}">
+                <Coords points="314,1243 2316,1238 2316,1208 314,1213"/>
+                <Baseline points="311,1228 2034,1208"/>
+                <TextEquiv>
+                    <Unicode>FATIDICAE MANTUS ET TUSCI FILIUS AMNIS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_4" custom="readingOrder {index:4;} abbrev {offset:10; length:8;expansion:MATRISQUE;} unclear {offset:11; length:2;agent:fading; reason:illegible;}">
+                <Coords points="312,1381 2321,1353 2321,1323 312,1351"/>
+                <Baseline points="311,1336 2332,1318"/>
+                <TextEquiv>
+                    <Unicode>QUI MUROS MATRISQ· DEDIT TIBI MANTUA NOMEN</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_5" custom="readingOrder {index:5;} unclear {offset:1; length:1;agent:fading; reason:illegible;} supplied {offset:13; length:2;reason:illegible;} abbrev {offset:40; length:3;expansion:UNUM;}">
+                <Coords points="322,1494 2321,1482 2321,1452 322,1464"/>
+                <Baseline points="297,1471 2361,1433"/>
+                <TextEquiv>
+                    <Unicode>MANTUA DIVES AVIS SED NON GENUS OMNIBUS UNU</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_6" custom="readingOrder {index:6;} unclear {offset:0; length:4;agent:fading; reason:illegible;} unclear {offset:19; length:3;agent:fading; reason:illegible;}">
+                <Coords points="303,1623 2323,1605 2323,1575 303,1593"/>
+                <Baseline points="318,1579 2318,1560"/>
+                <TextEquiv>
+                    <Unicode>GENS ILLIS TRIPLEX POPULI SUB GENTE QUATERNI</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_7" custom="readingOrder {index:7;} supplied {offset:0; length:10;reason:illegible;}">
+                <Coords points="308,1763 2324,1733 2324,1703 308,1733"/>
+                <Baseline points="325,1738 2328,1677"/>
+                <TextEquiv>
+                    <Unicode>IPSA CAPUT POPULIS TUSCO DE SANGUINE VIRES</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_8" custom="readingOrder {index:8;} unclear {offset:0; length:2;agent:fading; reason:illegible;} abbrev {offset:5; length:5;expansion:QUOQUE;} unclear {offset:34; length:2;agent:fading; reason:illegible;}">
+                <Coords points="304,1869 2329,1852 2329,1822 304,1839"/>
+                <Baseline points="332,1837 2363,1801"/>
+                <TextEquiv>
+                    <Unicode>HINC QUOQ· QUINGENTOS IN SE MEZENTIUS ARMAT·</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_9" custom="readingOrder {index:9;} unclear {offset:0; length:2;agent:fading; reason:illegible;}">
+                <Coords points="316,2020 2329,1964 2328,1934 315,1990"/>
+                <Baseline points="321,1956 2354,1910"/>
+                <TextEquiv>
+                    <Unicode>QUOS PATRE BENACO VELATUS HARUNDINE GLAUCA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_10" custom="readingOrder {index:10;} unclear {offset:0; length:2;agent:fading; reason:illegible;} unclear {offset:38; length:1;agent:fading; reason:illegible; alternative:U;}">
+                <Coords points="295,2090 2328,2056 2327,2026 294,2060"/>
+                <Baseline points="325,2081 2275,2031"/>
+                <TextEquiv>
+                    <Unicode>MINCIUS INFESTA DUCEBAT IN AEQUORA PINO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_11" custom="readingOrder {index:11;} unclear {offset:0; length:2;reason:illegible;} abbrev {offset:19; length:9;expansion:CENTENAQUE;}">
+                <Coords points="294,2215 2335,2156 2334,2126 293,2185"/>
+                <Baseline points="327,2215 2367,2147"/>
+                <TextEquiv>
+                    <Unicode>IT GRAVIS AULESTES CENTENAQ· ARBORE FLUCTUM</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_12" custom="readingOrder {index:12;} supplied {offset:13; length:13;reason:illegible;}">
+                <Coords points="307,2315 2305,2299 2305,2269 307,2285"/>
+                <Baseline points="329,2327 2460,2261"/>
+                <TextEquiv>
+                    <Unicode>VERBERAT ADSURGENS SPUMANT VADA MARMORE VERSO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r_1" custom="readingOrder {index:1;} structure {title:Aeneis; book:10; verses:53-65; type:text;}">
+            <Coords points="2603,735 4747,735 4747,2265 2603,2265"/>
+            <TextLine id="l_13" custom="readingOrder {index:0;} unclear {offset:0; length:2;agent:fading; reason:illegible;} supplied {offset:20; length:7;reason:illegible;} supplied {offset:31; length:6;reason:illegible;}">
+                <Coords points="2601,835 4740,807 4740,777 2601,805"/>
+                <Baseline points="2601,835 4740,807"/>
+                <TextEquiv>
+                    <Unicode>EXIGET HIC AEVUM MAGNA DICIONE IUBETO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_14" custom="readingOrder {index:1;} unclear {offset:25; length:5;agent:fading; reason:illegible;} unclear {offset:41; length:2;agent:reagent; reason:illegible;}">
+                <Coords points="2605,953 4732,922 4732,892 2605,923"/>
+                <Baseline points="2605,953 4732,922"/>
+                <TextEquiv>
+                    <Unicode>CARTHAGO PREMAT AUSONIAM NIHIL URBIBUS INDE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_15" custom="readingOrder {index:2;} supplied {offset:18; length:1;reason:illegible;} unclear {offset:28; length:3;agent:fading; reason:illegible;}">
+                <Coords points="2608,1080 4745,1053 4745,1023 2608,1050"/>
+                <Baseline points="2608,1080 4745,1053"/>
+                <TextEquiv>
+                    <Unicode>OBSTABIT TYRIIS QUID PESTEM EVADERE BELLI </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_16" custom="readingOrder {index:3;} unclear {offset:24; length:1;agent:FADING; reason:ILLEGIBLE;} supplied {offset:29; length:1;reason:illegible;} unclear {offset:35; length:3;agent:fading; reason:illegible;}">
+                <Coords points="2600,1199 4733,1173 4733,1143 2600,1169"/>
+                <Baseline points="2600,1199 4733,1173"/>
+                <TextEquiv>
+                    <Unicode>IUVIT ET ARGOLICOS MEDIUM  FUGISSE PER IGNEIS·</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_17" custom="readingOrder {index:4;} abbrev {offset:0; length:5;expansion:TOTQUE;} abbrev {offset:12; length:8;expansion:VASTAEQUE;} unclear {offset:23; length:15;agent:fading; reason:illegible;} unclear {offset:44; length:1;agent:fading; reason:illegible;}">
+                <Coords points="2597,1307 4742,1283 4742,1253 2597,1277"/>
+                <Baseline points="2597,1307 4742,1283"/>
+                <TextEquiv>
+                    <Unicode>TOTQ· MARIS VASTAEQ· EXHAUSTA PERICULA TERRAE</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_18" custom="readingOrder {index:5;} supplied {offset:6; length:2;reason:illegible;} abbrev {offset:18; length:9;expansion:RECIDIVAQUE;} supplied {offset:23; length:4;reason:illegible;} supplied {offset:28; length:4;reason:illegible;} unclear {offset:36; length:1;agent:overwriting; reason:illegible;}">
+                <Coords points="2597,1430 4738,1406 4738,1376 2597,1400"/>
+                <Baseline points="2597,1430 4738,1406"/>
+                <TextEquiv>
+                    <Unicode>DUM LATIUM TEUCRI RECIDIVAQ PERGAMA QUAERUNT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_19" custom="readingOrder {index:6;} unclear {offset:26; length:3;agent:fading; reason:illegible;} supplied {offset:29; length:1;reason:illegible;}">
+                <Coords points="2595,1560 4737,1521 4736,1491 2594,1530"/>
+                <Baseline points="2595,1560 4737,1521"/>
+                <TextEquiv>
+                    <Unicode>NON SATIUS CINERES PATRES ISEDISSE SUPREMOS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_20" custom="readingOrder {index:7;} abbrev {offset:0; length:4;expansion:ATQUE;} supplied {offset:15; length:1;reason:illegible;} supplied {offset:21; length:1;reason:illegible;} supplied {offset:28; length:1;reason:illegible;} unclear {offset:29; length:1;agent:overwriting; reason:illegible;}">
+                <Coords points="2603,1675 4747,1621 4746,1591 2602,1645"/>
+                <Baseline points="2603,1675 4747,1621"/>
+                <TextEquiv>
+                    <Unicode>ATQ· SOLUM QUO TROIA FUIT XANTHUM ET SIMOENTA</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_21" custom="readingOrder {index:8;} unclear {offset:0; length:4;agent:fading; reason:illegible;} abbrev {offset:18; length:7;expansion:ITERUMQUE;} unclear {offset:27; length:8;agent:overwriting; reason:illegible;}">
+                <Coords points="2596,1782 4735,1754 4735,1724 2596,1752"/>
+                <Baseline points="2596,1782 4735,1754"/>
+                <TextEquiv>
+                    <Unicode>REDDE ORO MISERIS ITERUMQ REVOLVERE CASUS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_22" custom="readingOrder {index:9;} supplied {offset:30; length:1;reason:illegible;} unclear {offset:32; length:2;agent:fading; reason:illegible;}">
+                <Coords points="2603,1903 4730,1880 4730,1850 2603,1873"/>
+                <Baseline points="2603,1903 4730,1880"/>
+                <TextEquiv>
+                    <Unicode>DA PATER ILIACOS TEUCRIS TUM REGIA IUNO</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_23" custom="readingOrder {index:10;} unclear {offset:2; length:2;agent:overwriting; reason:illegible;} supplied {offset:8; length:3;reason:illegible;} unclear {offset:12; length:5;agent:overwriting; reason:illegible;} unclear {offset:32; length:3;agent:fading; reason:illegible;}">
+                <Coords points="2602,2042 4747,1989 4746,1959 2601,2012"/>
+                <Baseline points="2602,2042 4747,1989"/>
+                <TextEquiv>
+                    <Unicode>ACTA FURORE GRAVI QUID ME ALTA SILENTIA COGIS</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_24" custom="readingOrder {index:11;} unclear {offset:15; length:1;reason:eccentric_ductus;}">
+                <Coords points="2608,2162 4746,2114 4745,2084 2607,2132"/>
+                <Baseline points="2608,2162 4746,2114"/>
+                <TextEquiv>
+                    <Unicode>RUMPERE ET OBDUCTUM VERBIS VULGARE DOLOREM</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="l_25" custom="readingOrder {index:12;} abbrev {offset:24; length:7;expansion:DIVUMQUE;}">
+                <Coords points="2621,2266 4736,2250 4736,2220 2621,2236"/>
+                <Baseline points="2621,2266 4736,2250"/>
+                <TextEquiv>
+                    <Unicode>AENEAN HOMINUM QUESQUAM DIVUMQ· SUBEGIT</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode></Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>
