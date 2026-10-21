@@ -89,7 +89,7 @@ def first(custom: dict, tag: str) -> dict:
 SUPPLIED_SOURCE = "#geymonat_2008"
 
 # Tag che avvolgono una porzione (offset/length) del testo trascritto.
-SPAN_TAGS = ("nota", "unclear", "abbrev", "add", "corr", "del")
+SPAN_TAGS = ("nota", "unclear", "abbrev", "add", "corr", "del", "supplied")
 # Tag il cui contenuto NON viene dalla trascrizione ma da una proprietà
 # (length e' sempre 0: non c'e' nulla da "consumare" nel testo trascritto).
 PROPERTY_TAGS = ("gap",)
@@ -103,7 +103,13 @@ def _unclear_reason(params: dict) -> str:
     return params.get("reason", "").lower()
 
 
+KNOWN_TAGS = {"readingOrder", "structure", "gap"} | set(SPAN_TAGS)
+
+
 def build_line_content(text: str, custom: dict) -> str:
+    for tag in custom:
+        if tag not in KNOWN_TAGS:
+            warn(f"tag custom non gestito '{tag}' (ignorato): riga '{text[:30]}'")
     spans = []
     for kind in SPAN_TAGS + PROPERTY_TAGS:
         for params in custom.get(kind, []):
@@ -191,6 +197,11 @@ def build_line_content(text: str, custom: dict) -> str:
                 pieces.append(f"<subst><add>{span_text}</add><del>{original}</del></subst>")
             elif kind == "del":
                 pieces.append(f"<del>{span_text}</del>")
+            elif kind == "supplied":
+                reason = params.get("reason", "").lower()
+                r = f' reason="{escape(reason)}"' if reason else ""
+                pieces.append(
+                    f'<supplied{r} source="{SUPPLIED_SOURCE}">{span_text}</supplied>')
             cursor = offset + length
         else:
             # marcatore puntuale (length 0) per un tag che normalmente

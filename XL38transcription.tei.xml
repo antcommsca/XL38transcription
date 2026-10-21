@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+<teiHeader>
 	<fileDesc>
 		<titleStmt>
 			<title>P. Vergili Maronis Opera</title>
@@ -230,19 +226,19 @@
   <div xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="2">
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l" n="301">CLARESCUNT SONITUS <choice><abbr>ARMORUMQ</abbr><expan>ARMORUMQUE</expan></choice> INGRUIT HORROR</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_1" n="302">EXCUTIOR SOMNO ET SUMMI <subst><add>FASTIGA</add><del>FASTIGIA</del></subst> TECTI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_2" n="303">ASCENSU SUPERO <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice> A<unclear reason="overwriting">RRE</unclear>CTIS A<unclear reason="overwriting">U</unclear>RI<unclear reason="overwriting">BU</unclear>S AD<unclear reason="fading">S</unclear>TO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l" n="301">CLARESCUNT SONITUS <choice><abbr>ARMORUMQ</abbr><expan>ARMORUMQUE</expan></choice> ING<supplied reason="reagent" source="#geymonat_2008">RUIT</supplied> HORROR</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_1" n="302">EXCUTIOR SOMNO ET SUMMI <subst><add>FASTIGA</add><del>FASTIGIA</del></subst><supplied reason="illegible" source="#geymonat_2008"> TE</supplied>CTI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_2" n="303">ASCENSU SUPERO <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice> A<unclear reason="overwriting">RRE</unclear>CTIS A<unclear reason="overwriting">U</unclear>RI<unclear reason="overwriting">BU</unclear>S <supplied reason="illegible" source="#geymonat_2008">A</supplied>D<unclear reason="fading">S</unclear>TO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_3" n="304">IN SEGET<unclear reason="overwriting">E</unclear>M VELUTI CUM FLAMMA FURENTIBUS A<unclear reason="overwriting">US</unclear>TRIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_4" n="305">INCIDIT AUT RA<choice><unclear reason="fading">P</unclear><unclear reason="fading">B</unclear></choice>IDUS M<unclear reason="fading">O</unclear>NTANO FLUMINE TORREN<unclear reason="fading">S</unclear> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_5" n="306">STE<unclear reason="fading">R</unclear>NIT AG<unclear reason="fading">ROS</unclear> STERNIT SATA LAETA <choice><abbr>BOUMQ</abbr><expan>BOUMQUE</expan></choice> LABORES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_6" n="307"><choice><abbr>PRAECIPITISQ</abbr><expan>PRAECIPITISQUE</expan></choice><unclear reason="overwriting"> TRAHIT </unclear>SILVAS STUPET INSCIUS ALTO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_7" n="308">ACC<unclear reason="fading">IPIENS</unclear> SONITUM <unclear reason="fading">S</unclear>AXI DE VERTICE PASTOR.</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_8" n="309">TUM <unclear reason="fading">V</unclear>ERO MANIFESTA FIDES <choice><abbr>DANAUMQ</abbr><expan>DANAUMQUE</expan></choice> PATESCUNT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_9" n="310">INSID<unclear reason="fading">I</unclear>AE IAM DEI PHO<unclear reason="fading">E</unclear>BI DEDIT AMPLA RUINA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_10" n="311">VULCANO SUPERANTE DOMUS IAM PROXIMUS ARDET</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_7" n="308">ACC<unclear reason="fading">IPIENS</unclear> <supplied reason="illegible" source="#geymonat_2008">SONITUM</supplied> <unclear reason="fading">S</unclear>AXI DE VERTICE PASTOR.</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_8" n="309">TUM <unclear reason="fading">V</unclear>ERO <supplied reason="illegible" source="#geymonat_2008">MANI</supplied>FES<supplied reason="illegible" source="#geymonat_2008">TA FIDES</supplied> <choice><abbr>DANAUMQ</abbr><expan>DANAUMQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> PATES</supplied><supplied reason="illegible" source="#geymonat_2008">CUN</supplied><supplied reason="illegible" source="#geymonat_2008">T</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_9" n="310">INSID<unclear reason="fading">I</unclear>AE <supplied reason="illegible" source="#geymonat_2008">IAM</supplied> DEI PHO<unclear reason="fading">E</unclear>BI DEDIT AMPLA RUINA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_10" n="311">VULCANO SUPERANTE DOMUS IAM PRO<supplied reason="lost" source="#geymonat_2008">XI</supplied>MUS ARDET</l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_11" n="312">UCAL<unclear reason="fading">E</unclear>GON S<unclear reason="overwriting">I</unclear>GEA IGN<unclear reason="overwriting">I </unclear>FRET<unclear reason="overwriting">A</unclear> LATA RELU<unclear reason="fading">CE</unclear>NT </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_12" n="313">EXORITUR <choice><abbr>CLAMORQ·</abbr><expan>CLAMORQUE</expan></choice> VIR<unclear reason="illegible">U</unclear>M <choice><abbr>CLANGORQ·</abbr><expan>CLANGORQUE</expan></choice> <unclear reason="overwriting">T</unclear>UBA<unclear reason="fading">R</unclear>UM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_12" n="313">EXOR<supplied reason="lost" source="#geymonat_2008">IT</supplied>UR <choice><abbr>CLAMORQ·</abbr><expan>CLAMORQUE</expan></choice> VIR<unclear reason="illegible">U</unclear>M <choice><abbr>CLANGORQ·</abbr><expan>CLANGORQUE</expan></choice> <unclear reason="overwriting">T</unclear>UBA<unclear reason="fading">R</unclear>UM</l>
     </div>
     </div>
   </div>
@@ -250,18 +246,18 @@
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="2">
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_13" n="470">EX<unclear reason="illegible">S</unclear>ULTAT TELIS ET LUCE CORU<unclear reason="fading">S</unclear>CUS <unclear reason="fading">AE</unclear>NA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_14" n="471">QU<unclear reason="illegible">A</unclear>LIS UBI IN LUCEM <unclear reason="overwriting">COLUBER</unclear> M<unclear reason="fading">ALA GR</unclear>AMINA PASTUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_15" n="472">FRIGIDA SUB TERRA TUMIDUM QUEM BRU<unclear reason="fading">MA</unclear> TEGEBAT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_16" n="473">NUNC POSITIS NOV<unclear reason="overwriting">US</unclear> EXUVIIS <unclear reason="overwriting">NIT</unclear><choice><abbr>IDUSQ IU</abbr><expan>NITIDUSQUE</expan></choice>VENTA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_17" n="474">LUBRIC<unclear reason="fading">A</unclear> <unclear reason="overwriting">CO</unclear>NVOLV<unclear reason="overwriting">IT</unclear> SUBLATO <unclear reason="fading">P</unclear>ECTORE TER<unclear reason="overwriting">G</unclear>A</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_18" n="475">ARDUUS AD SOL<unclear reason="fading">EM</unclear>· ET LING<unclear reason="overwriting">UIS</unclear> MICAT O<unclear reason="illegible faded">RE</unclear> TRISULCIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_19" n="476"><unclear reason="faded">U</unclear>NA <unclear reason="overwriting">I</unclear>NGENS PERIPHA<unclear reason="fading">S</unclear> ET <unclear reason="fading">EQ</unclear>UORU<unclear reason="overwriting">M</unclear> ΑGITATOR ACHILLΙ</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_20" n="477">ARMIGER AUTOME<unclear reason="fading">DON</unclear> UNA OMINIS SCY<unclear reason="fading">RIA</unclear> PUBES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_14" n="471">QU<unclear reason="illegible">A</unclear>LIS U<supplied reason="illegible" source="#geymonat_2008">BI I</supplied>N LUCEM <unclear reason="overwriting">COLUBER</unclear> <supplied reason="illegible" source="#geymonat_2008">M</supplied><unclear reason="fading">ALA GR</unclear>AMINA PASTUS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_15" n="472">FR<supplied reason="illegible" source="#geymonat_2008">IGIDA SUB TE</supplied>RRA <supplied reason="illegible" source="#geymonat_2008">TUM</supplied>IDUM QUEM BRU<unclear reason="fading">MA</unclear> <supplied reason="illegible" source="#geymonat_2008">TEG</supplied>EBAT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_16" n="473">NUNC POSITIS NOV<unclear reason="overwriting">US</unclear> <supplied reason="lost" source="#geymonat_2008">EXUVII</supplied>S <unclear reason="overwriting">NIT</unclear><choice><abbr>IDUSQ IU</abbr><expan>NITIDUSQUE</expan></choice>VENTA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_17" n="474">LUBRIC<unclear reason="fading">A</unclear> <unclear reason="overwriting">CO</unclear>NVOLV<unclear reason="overwriting">IT</unclear> SUBLATO <unclear reason="fading">P</unclear>EC<supplied reason="lost" source="#geymonat_2008">TORE</supplied> TER<unclear reason="overwriting">G</unclear>A</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_18" n="475">ARDUUS AD SOL<unclear reason="fading">EM</unclear>· ET LING<unclear reason="overwriting">UIS</unclear> MICAT O<unclear reason="illegible faded">RE</unclear> TR<supplied reason="illegible" source="#geymonat_2008">ISULCI</supplied>S</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_19" n="476"><unclear reason="faded">U</unclear>NA <unclear reason="overwriting">I</unclear>NGENS PERIPHA<unclear reason="fading">S</unclear> ET <unclear reason="fading">EQ</unclear><supplied reason="illegible" source="#geymonat_2008">UORU</supplied><unclear reason="overwriting">M</unclear> <supplied reason="illegible" source="#geymonat_2008">ΑGITATOR</supplied> ACHILLΙ</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_20" n="477">ARMIGER AUTOME<unclear reason="fading">DON</unclear> UNA OMINIS <supplied reason="illegible" source="#geymonat_2008">SCY</supplied><unclear reason="fading">RIA</unclear> PUBES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_21" n="478">SUCCENDUNT TECTO ET FLAMMAS AD CULMINA IA<unclear reason="fading">C</unclear>TANT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_22" n="479">IPSE INTER PRIMOS CORREPTA DURA BIPENNI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_23" n="480">LIMINA PERRUMPIT <unclear reason="fading">POS</unclear><choice><abbr>TISQ A </abbr><expan>POSTIQUE</expan></choice>CA<unclear reason="overwriting">R</unclear>DINE VELLIT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_24" n="481">AERATOS <choice><abbr>IAMQ·</abbr><expan>IAMQUE</expan></choice> EXC<unclear reason="overwriting">ISA</unclear> T<unclear reason="overwriting">RA</unclear>BE FIRMA CAVAVIT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_25" n="482">ROBORA ET INGENTEM LATO DEDIT ORE FENESTRAM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_23" n="480">LIMINA PER<supplied reason="illegible" source="#geymonat_2008">RUMPIT</supplied> <unclear reason="fading">POS</unclear><choice><abbr>TISQ A </abbr><expan>POSTIQUE</expan></choice>CA<unclear reason="overwriting">R</unclear>DINE VELLIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_24" n="481">AERATOS <choice><abbr>IAMQ·</abbr><expan>IAMQUE</expan></choice> EXC<unclear reason="overwriting">ISA</unclear> T<unclear reason="overwriting">RA</unclear>BE <supplied reason="illegible" source="#geymonat_2008">FIRMA</supplied> CAVAVIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0231v0228r__aVISPKV00_5000x3145_l_25" n="482">ROBORA ET INGEN<supplied reason="lost" source="#geymonat_2008">TEM LATO</supplied> <supplied reason="illegible" source="#geymonat_2008">DEDIT ORE</supplied> <supplied reason="lost" source="#geymonat_2008">FENESTRAM</supplied></l>
     </div>
     </div>
   </div>
@@ -275,12 +271,12 @@
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_15" n="185">STRIDENS NEC DULCI DECLINAT LUMINA SOMNO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_16" n="186">LUCE SEDET CUSTOS AUT SUMI CULMINE TECTI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_17" n="187">TURRIBUS AUT ALTIS ET MA<unclear reason="fading">G</unclear>NAS T<unclear reason="fading">E</unclear>RRITAT URBES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_18" n="188">TAM <unclear reason="stain">F</unclear>ICTI <choice><abbr>PRAVIQ</abbr><expan>PRAVIQUE</expan></choice> TENAX QUAM NUNTIA VERI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_18" n="188">TAM <unclear reason="stain">F</unclear>ICTI <choice><abbr>PRAVIQ</abbr><expan>PRAVIQUE</expan></choice> TENA<supplied reason="illegible" source="#geymonat_2008">X Q</supplied>UAM NUNTIA VERI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_19" n="189">HA<unclear reason="overwriting">EC TU</unclear>M MULTIPLICI <unclear reason="overwriting">POPULOS S</unclear>ERMONE REPLEBAT·</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_20" n="190">GAU<unclear reason="overwriting">DENS ET</unclear> PARITER FACTA <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice> INFECTA CANEBAT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_20" n="190">GAU<unclear reason="overwriting">DENS ET</unclear> PARITER FACTA <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> IN</supplied>FECTA CANEBAT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_21" n="191">VENISS<unclear reason="overwriting">E AE</unclear>NEAN TROIANO SANGUINE CRETUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_22" n="192">CUI SE PULCHRA VIRO D<unclear reason="faded">IGNETUR</unclear> IUNGERE DIDO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_23" n="193">NUNC HIEMEM INTER SE LUXU QUAM LONGA FOVERE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_23" n="193">NUNC HIEMEM INTER SE LUXU QU<supplied reason="illegible" source="#geymonat_2008">AM LO</supplied>NGA FOVERE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_24" n="194">REGNORUM IMMEMORES <choice><abbr>TURPIQ</abbr><expan>TURPIQUE</expan></choice> CUPIDINE CAPTOS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_25" n="195">HAEC PASSIM DEA FOEDA VIRUM DIFFUNDIT IN ORA</l>
     </div>
@@ -297,10 +293,10 @@
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_5" n="149">TELA SON<unclear reason="overwriting">A</unclear>NT UMERIS HAUD  ILLO SEGNIOR IBAT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_6" n="150">AE<choice><unclear reason="fading">AN</unclear><unclear reason="fading">NA</unclear></choice>EAS TANTUM EGREGIO DECUS ENITET ORE </l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_7" n="151">POSTQ<unclear reason="fading">U</unclear>AM ALTOS VE<unclear reason="fading">N</unclear>TUM IN MONT<unclear reason="fading">E</unclear>S <choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> INVIA LUSTRA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_8" n="152">ECCE FERA<unclear reason="fading">E</unclear> SAXI DEIECTAE VERTICE CAPRAE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_8" n="152">ECCE FERA<unclear reason="fading">E</unclear> <supplied reason="illegible" source="#geymonat_2008">SAXI</supplied> DEIECT<supplied reason="illegible" source="#geymonat_2008">AE</supplied> VERTICE CAPRAE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_9" n="153">DECURRE IU<unclear reason="overwriting">GI</unclear>S ALIA D<add place="above">E</add> PARTE PATENTIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_10" n="154">TRA<add place="above">NS</add>MITTUNT CURSU CAMPOS <choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> AGMINA CERVI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_11" n="155">PULVERULENTA FUGA GLOMERANT <choice><abbr>MONTESQ·</abbr><expan>MONTESQUE</expan></choice> RELINQUNT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_11" n="155">PULVERULENTA FUGA G<supplied reason="lost" source="#geymonat_2008">L</supplied>OMERANT <choice><abbr>MONTESQ·</abbr><expan>MONTESQUE</expan></choice> RELINQUNT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0211v0216r__aVISPKV00_5000x3145_l_12" n="156">AT PUER ASCANIUS MEDIIS IN VALLIBUS ACRI</l>
     </div>
     </div>
@@ -310,7 +306,7 @@
   <div xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="1">
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l" n="248">TEUCRORUM ET GENTI NOMEN DEDIT <choice><abbr>ARMAQ·</abbr><expan>ARMAQUE</expan></choice> FIXI<unclear reason="fading">T</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l" n="248">TEUCRO<supplied reason="illegible" source="#geymonat_2008">RU</supplied>M ET GENTI NOMEN DEDIT <choice><abbr>ARMAQ·</abbr><expan>ARMAQUE</expan></choice> FIXI<unclear reason="fading">T</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_1" n="249">TROIA NUNC PLACIDA COMPOS<unclear reason="fading">I</unclear>TUS PACE QUIESCIT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_2" n="250">N<unclear reason="fading">OS TU</unclear>A PROGEN<unclear reason="fading">IE</unclear>S CAELI QUIBUS ADN<unclear reason="fading">U</unclear>IS ARCEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_3" n="251">NAV<unclear reason="fading">IB</unclear>US I<unclear reason="fading">NF</unclear>ANDUM AMI<subst><add>S</add><del>SS</del></subst>IS UNUIUS OB IRAM</l>
@@ -321,7 +317,7 @@
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_8" n="256">OSCULA LIBAVIT NATAE DE<unclear reason="fading">H</unclear>INE TALIA FATUR</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_9" n="257">PARCE METU CYTHEREA M<unclear reason="fading">A</unclear>NENT I<unclear reason="reagent">M</unclear>MOTA TUORUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_10" n="258">FATA <unclear reason="overwriting">TI</unclear>B<unclear reason="overwriting">I</unclear> CER<unclear reason="reagent">NE</unclear>S URBEM PROMISSA LA<unclear reason="fading">VINI</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_11" n="259">MOENIA <choice><abbr>SUBLIMEMQ</abbr><expan>SUBLIMEMQUE</expan></choice><unclear reason="fading"> FE</unclear>RES AD SIDERA CAELI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_11" n="259">MOENIA <choice><abbr>SUBLIMEMQ</abbr><expan>SUBLIMEMQUE</expan></choice><unclear reason="fading"> FE</unclear><supplied reason="illegible" source="#geymonat_2008">RES AD SIDERA CAELI</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_12" n="260">MAGNANIMUM AENEAN <choice><abbr>NEQ·</abbr><expan>NEQUE</expan></choice> ME SENTENTIA VERTIT</l>
     </div>
     </div>
@@ -329,19 +325,19 @@
   <div xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="1">
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_13" n="1">ARMA <choice><abbr>VIRUMQ</abbr><expan>VIRUMQUE</expan></choice> CANO TROIAE QUI PRIMUS AB ORIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_13" n="1">ARMA <choice><abbr>VIRUMQ</abbr><expan>VIRUMQUE</expan></choice><supplied reason="lost" source="#geymonat_2008"> CA</supplied><supplied reason="lost" source="#geymonat_2008">NO TROIAE QUI PRIMUS AB ORIS</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_14" n="2">ITALIA<unclear reason="reagent">M</unclear> FATO <unclear reason="reagent">PRO</unclear>FUGUS LAVINIAQUE VENIT LITORA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_15" n="3"><add place="margin">LITORA</add> MULTUM ILLE ET TERIS IACTATUS ET ALTO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_16" n="4">VI SUPERUM SAEVAE MEMOREM IUNONIS OB IRAM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_17" n="5">MULTA <choice><abbr>QUOQ·</abbr><expan>QUOQUE</expan></choice> ET BELLO PASSUS· DUM CONDERET URBEM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_18" n="6"><choice><abbr>INFERRETQ·</abbr><expan>INFERRETQUE</expan></choice> DEOS LATIO GENUS UNDE LATINUM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_18" n="6"><choice><abbr>INFERRETQ·</abbr><expan>INFERRETQUE</expan></choice> DEOS LATIO GENUS U<supplied reason="lost" source="#geymonat_2008">N</supplied>DE LATINUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_19" n="7"><choice><abbr>ALBANIQ·</abbr><expan>ALBANIQUE</expan></choice> PATRES <choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> A<unclear reason="fading">LTA</unclear>E MOENIA ROMAE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_20" n="8">MUSA MIHI CAUSAS ME<unclear reason="fading">MORA</unclear> <unclear reason="fading">Q</unclear>U<unclear reason="fading">O </unclear>NUMINE <unclear reason="illegible">LA</unclear>ESO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_21" n="9">QUI<unclear reason="fading">D</unclear>VE DOLENS REGINA <unclear reason="fading">DEUM</unclear> TOT VOLVERE CASUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_22" n="10">INSIGNEM PIETATE VIRUM <unclear reason="fading">TOT</unclear> ADIRE LABORES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_23" n="11">IMPULERIT TANT<unclear reason="fading">AENE ANIMIS</unclear> CAELESTIBUS IRAE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_24" n="12">UR<unclear reason="fading">BS</unclear> ANTIQUA FUIT TYR<unclear reason="reagent">I TENUERE CO</unclear>LONI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_25" n="13">CARTHAGO ITALIAM CONTRA <choice><abbr>TIBERINAQ</abbr><expan>TIBERINAQUE</expan></choice><unclear reason="reagent"> LON</unclear>GE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_20" n="8">MUSA MI<supplied reason="lost" source="#geymonat_2008">HI</supplied> CAUSAS M<supplied reason="lost" source="#geymonat_2008">E</supplied><unclear reason="fading">MORA</unclear> <unclear reason="fading">Q</unclear><supplied reason="lost" source="#geymonat_2008">U</supplied><unclear reason="fading">O </unclear>NUMINE <unclear reason="illegible">LA</unclear>ESO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_21" n="9">QUI<unclear reason="fading">D</unclear>VE DOLENS REGINA <unclear reason="fading">DEUM</unclear> <supplied reason="illegible" source="#geymonat_2008">TOT VOLVERE CASUS</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_22" n="10">INSIGNEM PIETATE VIRUM <unclear reason="fading">TOT</unclear> <supplied reason="lost" source="#geymonat_2008">ADIRE LABORES</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_23" n="11">IMPULERIT TANT<unclear reason="fading">AENE ANIMIS</unclear> <supplied reason="lost" source="#geymonat_2008">CAELESTIBUS IRAE</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_24" n="12">UR<unclear reason="fading">BS</unclear> ANTIQUA FUIT TYR<unclear reason="reagent">I TENUERE CO</unclear><supplied reason="lost" source="#geymonat_2008">LONI</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0256v0253r__aVISPKV00_5000x3145_l_25" n="13">CARTHAGO ITALIAM CONTRA <choice><abbr>TIBERINAQ</abbr><expan>TIBERINAQUE</expan></choice><unclear reason="reagent"> LON</unclear><supplied reason="lost" source="#geymonat_2008">GE</supplied></l>
     </div>
     </div>
   </div>
@@ -350,16 +346,16 @@
   <div xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="Georgica">
     <div type="textpart" subtype="book" n="2">
-      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l" n="105">QUEM QUI SCIRE VELIT· LIB<unclear reason="fading">Y</unclear>CI VELIT <unclear reason="fading">A</unclear>EQUORIS <unclear reason="fading">I</unclear>DEM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l" n="105">QUEM QUI SCIRE VELIT· LIB<unclear reason="fading">Y</unclear>CI VELIT <unclear reason="fading">A</unclear>E<supplied reason="illegible" source="#geymonat_2008">Q</supplied>UORIS <unclear reason="fading">I</unclear>DEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_1" n="106">DICERE QUAM MULTAE ZE<unclear reason="fading">PH</unclear>YRO <unclear reason="fading">T</unclear>URB<unclear reason="fading">E</unclear>NT<unclear reason="fading">U</unclear>R HARENAE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_2" n="107">AUT UBI NAVIGIIS VIOLENTIOR INCIDIT <unclear reason="fading">EURUS</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_3" n="108">NOSSE QUOD IONI VENIANT AD <unclear reason="fading">LITORA FLUCTUS</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_4" n="109">NEC VERO TERRAE FERRE OMNES OMNIA POSSUNT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_4" n="109">NEC VERO <supplied reason="illegible" source="#geymonat_2008">TERRAE FERRE OMNES OMNIA POSSUNT</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_5" n="110">FLUMINIBUS SALICES <choice><abbr>CRASSISQ</abbr><expan>CRASSISQUE</expan></choice> P<unclear reason="fading">ALUDIBU</unclear>S ALNI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_6" n="111">NASCUNTUR STERI<unclear reason="fading">LE</unclear>S SAXOSIS <unclear reason="fading">MONT</unclear>IBUS ORNI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_6" n="111">NASCUNTUR STERI<unclear reason="fading">LE</unclear>S SAX<supplied reason="illegible" source="#geymonat_2008">OSIS</supplied> <unclear reason="fading">MONT</unclear>IBUS ORNI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_7" n="112">LITORA MYRTETIS LAETISSIMA <unclear reason="fading">D</unclear><choice><abbr>ENIQ </abbr><expan>DENIQUE</expan></choice>APERTOS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_8" n="113"><unclear reason="fading">BA</unclear>CCHUS AMAT COLLES AQUILONEM A FRIGORA <unclear reason="fading">TAXI</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_9" n="114">ASPICE ET EXTREMIS DOMITUM CULTORIBUS ORDEM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_9" n="114">ASPICE ET EXTREMIS DOMITUM CULTORIBUS OR<supplied reason="illegible" source="#geymonat_2008">DEM</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_10" n="115"><choice><abbr>EOASQ·</abbr><expan>EOASQUE</expan></choice> DOMOS ARABUM· <choice><abbr>PICTOSQ</abbr><expan>PICTOSQUE</expan></choice>· GELONOS·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_11" n="116">DIVISAE ARBORIBUS PATRIAE SOLA INDIA NIGRUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_12" n="117">FERT HEBENUM SOLIS EST TUREA VIRGA SABEIS</l>
@@ -369,7 +365,7 @@
   <div xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Georgica">
     <div type="textpart" subtype="book" n="2">
-      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_13" n="274">QUAERE PRIUS SI PINGUIS AGROS METABERE CAM<unclear reason="reagent">PI</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_13" n="274">QUAERE <supplied reason="lost" source="#geymonat_2008">PRI</supplied>US SI PINGUIS AGROS METABERE CAM<unclear reason="reagent">PI</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_14" n="275">DENSA SERE· IN DENSO NON SEGNIOR UBERE BACCHUS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_15" n="276">SINΤ TUMULIS ADCLIVE SOLUM <unclear reason="fading">COLLESQ·</unclear><choice><abbr> SUPINOS</abbr><expan>COLLESQUE</expan></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_16" n="277">INDULGE ORDINIBUS NEC S<unclear reason="overwriting">ΕΤΙ</unclear>US OMNIS IN UNGUEM</l>
@@ -379,7 +375,7 @@
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_20" n="281"><choice><abbr>DERECTAEQ</abbr><expan>DERECTAEQUE</expan></choice> ACIES AC LATE <unclear reason="fading">F</unclear>LUCTUAT OMNIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_21" n="282">AERE RENIDENTI TELLUS NEDUM HORRIDA MISCENT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_22" n="283">PROELIA SED DUBIUS MEDIIS MARS ERRAT IN ARMIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_23" n="284">OMNIA SINT PARIBUS NUMERIS DIMENSA VIARUM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_23" n="284">OMNIA SINT PA<supplied reason="lost" source="#geymonat_2008">RI</supplied>BUS NUMERIS DIMENSA VIARUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_24" n="285">NON ANIMUM MODO UTI PASCAT PR<unclear reason="overwriting">OSP</unclear>ECTUS INANEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0236v0239r__aVISPKV00_5000x3145_l_25" n="286">SED QUIA NON ALITER VIRES DABIT OMNIBUS AEQUAS</l>
     </div>
@@ -391,37 +387,37 @@
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="8">
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l" n="27">ALITUUM <choice><abbr>PECUDUMQ·</abbr><expan>PECUDUMQUE</expan></choice> GEN<unclear reason="overwriting">U</unclear>S SOPO<unclear reason="overwriting">R</unclear> A<unclear reason="overwriting">LT</unclear>US <unclear reason="fading">HA</unclear>BEBAT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_1" n="28">CU<unclear reason="overwriting">M</unclear> PATE<unclear reason="overwriting">R</unclear> IN RIPA <choice><abbr>GELIDIQ·</abbr><expan>GELIDIQUE</expan></choice> SUB AE<unclear reason="overwriting">TH</unclear>ERIS AXE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_2" n="29">AE<unclear reason="fading">N</unclear>EAS TRISTI TURBATUS PE<unclear reason="fading">CT</unclear>ORA B<unclear reason="fading">EL</unclear>LO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_3" n="30">POCUBUIT <choice><abbr>SERAMQ·</abbr><expan>SERAMQUE</expan></choice> DEDIT PER MEMBRA QUIETEM </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_1" n="28">CU<unclear reason="overwriting">M</unclear> PATE<unclear reason="overwriting">R</unclear> <supplied reason="illegible" source="#geymonat_2008">IN RIPA GELIDIQ·</supplied><choice><abbr> SUB AET</abbr><expan>GELIDIQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008">HE</supplied><unclear reason="overwriting">RI</unclear>S AXE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_2" n="29">AE<unclear reason="fading">N</unclear>E<supplied reason="illegible" source="#geymonat_2008">AS TRI</supplied>S<supplied reason="illegible" source="#geymonat_2008">TI</supplied> <supplied reason="illegible" source="#geymonat_2008">TURBATUS</supplied> <supplied reason="illegible" source="#geymonat_2008">PE</supplied><unclear reason="fading">CT</unclear>ORA B<unclear reason="fading">EL</unclear><supplied reason="illegible" source="#geymonat_2008">LO</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_3" n="30">POC<supplied reason="illegible" source="#geymonat_2008">UBUIT</supplied> <choice><abbr>SERAMQ·</abbr><expan>SERAMQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> DEDIT </supplied>P<supplied reason="illegible" source="#geymonat_2008">ER ME</supplied>MBRA <supplied reason="illegible" source="#geymonat_2008">QUI</supplied>ET<supplied reason="illegible" source="#geymonat_2008">EM</supplied> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_4" n="31">HUIC DEUS IPS<choice><unclear reason="fading">E</unclear><unclear reason="fading">E</unclear></choice> <choice><unclear reason="overwriting">LO</unclear><unclear reason="overwriting">LO</unclear></choice>CI F<unclear>L</unclear>UVIO<unclear reason="fading"> TI</unclear>BERINUS AMOENO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_5" n="32">POPUL<unclear reason="fading">E</unclear>AS INTER SENIOR SE ATTO<unclear reason="fading">LL</unclear>ERE RO<unclear reason="fading">NDE</unclear>S</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_5" n="32">POPUL<unclear reason="fading">E</unclear>AS INTER SENIOR SE <supplied reason="illegible" source="#geymonat_2008">A</supplied>TTO<unclear reason="fading">LL</unclear>ERE RO<unclear reason="fading">NDE</unclear>S</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_6" n="33">VIS<unclear reason="fading">US</unclear> EUM TENUIS G<unclear reason="fading">LA</unclear>UCO VE<unclear reason="fading">L</unclear>ABAT <unclear reason="fading">A</unclear>MICTU</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_7" n="34">CAR<unclear reason="fading">BA</unclear>SUS ET CRIN<subst><add>E</add><del>CRINIS</del></subst>S <unclear reason="fading">U</unclear>MBRO<unclear reason="fading">SA</unclear> TEGEBAT HARUNDO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_7" n="34">CAR<unclear reason="fading">BA</unclear>SUS ET CRIN<subst><add>E</add><del>CRINIS</del></subst>S <unclear reason="fading">U</unclear>MBRO<unclear reason="fading">SA</unclear> T<supplied reason="illegible" source="#geymonat_2008">E</supplied>GEBAT HARUNDO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_8" n="35">TUM SIC ADFARI ET CURAS <unclear reason="fading">H</unclear>IS <unclear reason="fading">DEM</unclear>ERE D<unclear reason="fading">I</unclear>CTIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_9" n="36">O SATE GENTE DEUM TROIANAM EX HOSTIBUS URBEM </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_10" n="37">QUI REVEHIS NOBIS <choice><abbr>AETERNQ</abbr><expan>AETERNAQUE</expan></choice> RERGAMA SERVAS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_9" n="36">O SATE GENTE DEUM TROIANAM EX HOS<supplied reason="illegible" source="#geymonat_2008">TI</supplied>BUS URBE<supplied reason="lost" source="#geymonat_2008">M</supplied> </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_10" n="37">QUI REVE<supplied reason="illegible" source="#geymonat_2008">HI</supplied>S NOBIS <choice><abbr>AETERNQ</abbr><expan>AETERNAQUE</expan></choice> RERGAMA <supplied reason="illegible" source="#geymonat_2008">SE</supplied>RVAS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_11" n="38">EXPERCTATE SOLO LAURENTI <unclear reason="fading">AR</unclear><choice><abbr>VISQ L</abbr><expan>ARVISQUE</expan></choice>ATINI<unclear reason="fading">S</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_12" n="39">HIC TIBI CERTA DOMUS CERTI NE ADSISTE PE<unclear reason="reagent">NATES</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_12" n="39">HIC TIBI CERTA DOMUS <supplied reason="illegible" source="#geymonat_2008">CERTI</supplied> <supplied reason="illegible" source="#geymonat_2008">NE</supplied> <supplied reason="illegible" source="#geymonat_2008">ADSISTE</supplied> <supplied reason="illegible" source="#geymonat_2008">PE</supplied><unclear reason="reagent">NATES</unclear></l>
     </div>
     </div>
   </div>
   <div xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="8">
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_13" n="93">SCUTA VIRUM FUVIO <choice><abbr>PICTASQ</abbr><expan>PICTASQUE</expan></choice> INNARE CARINAS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_13" n="93">SCUTA V<supplied reason="illegible" source="#geymonat_2008">IRUM</supplied> FUVIO <choice><abbr>PICTASQ</abbr><expan>PICTASQUE</expan></choice> INNARE CARINAS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_14" n="94">OLLI REMIGIO <choice><abbr>NOCTEMQ·</abbr><expan>NOCTEMQUE</expan></choice> <choice><abbr>DIEMQ·</abbr><expan>DIEMQUE</expan></choice> FATIGANT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_15" n="95">ET LONGOS SUPE<unclear reason="reagent">RANT</unclear> FLUXUS <choice><abbr>VARISQ</abbr><expan>VARISQUE</expan></choice> <unclear reason="fading">TEGUNTUR</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_16" n="96">ARBORIBUS <choice><abbr>VIRIDISQ·</abbr><expan>VIRIDISQUE</expan></choice><unclear reason="fading"> SE</unclear>CANT PLACIDO AEQUO<unclear reason="fading">RE</unclear> SILV<unclear reason="reagent">AS</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_17" n="97">SOL MEDIUM CAELI CONSCENDERAT IGNEUS OR<unclear reason="reagent">DEM</unclear> </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_17" n="97">SOL MEDIUM <supplied reason="illegible" source="#geymonat_2008">CAELI</supplied> CONSCENDERAT IGNEUS OR<unclear reason="reagent">DEM</unclear> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_18" n="98">CUM MU<unclear reason="fading">R</unclear>OS <unclear reason="reagent">ARCEMQ</unclear><choice><abbr> PROCU</abbr><expan>ARCEMQUE</expan></choice>L AC RA<unclear reason="overwriting">R</unclear>A DOMOR<unclear reason="reagent">UM</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_19" n="99">TECTA VIDENT QUAE NUNC ROMANA POTENTI<unclear reason="reagent">A C</unclear>AELO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_19" n="99">TECTA VIDENT Q<supplied reason="illegible" source="#geymonat_2008">UAE NUN</supplied>C ROMANA POTENTI<unclear reason="reagent">A C</unclear>AELO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_20" n="100">AEQUAVIT TUM RES INOPES EUAN<unclear reason="overwriting">DRUS</unclear> HABET</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_21" n="101">OCIUS ADVERTUNT PRORAS <unclear reason="overwriting">URB</unclear><choice><abbr>IQ· PR</abbr><expan>URBIQUE</expan></choice><unclear reason="overwriting">OPINQU</unclear>ANT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_22" n="102">FORTE DIE SOLLEMNEM ILLO REX AREAS HONOREM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_21" n="101">OCIUS ADVERTUNT P<supplied reason="lost" source="#geymonat_2008">R</supplied>ORAS <unclear reason="overwriting">URB</unclear><choice><abbr>IQ· PR</abbr><expan>URBIQUE</expan></choice><unclear reason="overwriting">OPINQU</unclear>ANT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_22" n="102">FORTE DIE SOLLEMNEM ILLO REX <supplied reason="illegible" source="#geymonat_2008">AREAS HON</supplied>OREM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_23" n="103">AMPHITRONIADE MAGNO DIVISQUE FEREBAT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_24" n="104">ANTE URB<unclear reason="overwriting">E</unclear>M IN <unclear reason="overwriting">LU</unclear>CO PALLADIS HUIC FIL<unclear reason="overwriting">IUS</unclear> UNA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_25" n="105"> UNA <unclear reason="reagent">OMNES</unclear> IUVENUM PRIMI <choice><abbr>PAUPERQ·</abbr><expan>PAUPERQUE</expan></choice> SENATUS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_24" n="104">ANTE <supplied reason="illegible" source="#geymonat_2008">U</supplied>RB<unclear reason="overwriting">E</unclear>M IN <unclear reason="overwriting">LU</unclear>CO <supplied reason="lost" source="#geymonat_2008">P</supplied>ALLADIS HUIC FIL<unclear reason="overwriting">IUS</unclear> UNA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0238v0237r__aVISPKV00_5000x3145_l_25" n="105"> <supplied reason="illegible" source="#geymonat_2008">UNA</supplied> <unclear reason="reagent">OMNES</unclear> IUVENUM PRIMI <choice><abbr>PAUPERQ·</abbr><expan>PAUPERQUE</expan></choice> SENATUS</l>
     </div>
     </div>
   </div>
@@ -430,36 +426,36 @@
   <div xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="10">
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l" n="196">I<choice><unclear reason="overwriting">N</unclear><unclear reason="overwriting">-</unclear></choice>STAT AQUAE <choice><abbr>SAXUMQ</abbr><expan>SAXUMQUE</expan></choice> <unclear reason="overwriting">U</unclear>NDIS IMMANE M<unclear reason="overwriting">I</unclear>NATUR</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_1" n="197"> ARDUUS ET LONGA SULCAT MARIA ALTA CARINNA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l" n="196">I<choice><unclear reason="overwriting">N</unclear><unclear reason="overwriting">-</unclear></choice>STAT AQU<supplied reason="illegible" source="#geymonat_2008">A</supplied>E <choice><abbr>SAXUMQ</abbr><expan>SAXUMQUE</expan></choice> <unclear reason="overwriting">U</unclear>NDIS IMMANE M<unclear reason="overwriting">I</unclear>NATUR</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_1" n="197"> ARDUUS E<supplied reason="illegible" source="#geymonat_2008">T LONGA S</supplied>ULC<supplied reason="illegible" source="#geymonat_2008">AT MA</supplied>RI<supplied reason="illegible" source="#geymonat_2008">A AL</supplied>TA CAR<supplied reason="illegible" source="#geymonat_2008">IN</supplied>N<supplied reason="illegible" source="#geymonat_2008">A</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_2" n="198">ILLE ETIAM PATRIIS AGMEN CIET O<choice><unclear reason="overwriting">C</unclear><unclear reason="overwriting">G</unclear></choice>NUS· AB ORIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_3" n="199">FATIDICAE MANTUS ET TUSCI FILIUS AMNIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_4" n="200">QUI MUROS <choice><abbr>MATRISQ·</abbr><expan>MATRISQUE</expan></choice><unclear reason="fading"> D</unclear>EDIT TIBI MANTUA NOMEN</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_5" n="201">M<unclear reason="fading">A</unclear>NTUA DIVES AVIS SED NON GENUS OMNIBUS <choice><abbr>UNU</abbr><expan>UNUM</expan></choice></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_5" n="201">M<unclear reason="fading">A</unclear>NTUA DIVES <supplied reason="illegible" source="#geymonat_2008">AV</supplied>IS SED NON GENUS OMNIBUS <choice><abbr>UNU</abbr><expan>UNUM</expan></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_6" n="202"><unclear reason="fading">GENS</unclear> ILLIS TRIPLEX <unclear reason="fading">POP</unclear>ULI SUB GENTE QUATERNI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_7" n="203">IPSA CAPUT POPULIS TUSCO DE SANGUINE VIRES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_7" n="203"><supplied reason="illegible" source="#geymonat_2008">IPSA CAPUT</supplied> POPULIS TUSCO DE SANGUINE VIRES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_8" n="204"><unclear reason="fading">HI</unclear>NC <choice><abbr>QUOQ·</abbr><expan>QUOQUE</expan></choice> QUINGENTOS IN SE MEZENT<unclear reason="fading">IU</unclear>S ARMAT·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_9" n="205"><unclear reason="fading">QU</unclear>OS PATRE BENACO VELATUS HARUNDINE GLAUCA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_10" n="206"><unclear reason="fading">MI</unclear>NCIUS INFESTA DUCEBAT IN AEQUORA PIN<choice><unclear reason="fading">O</unclear><unclear reason="fading">U</unclear></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_11" n="207"><unclear reason="illegible">IT</unclear> GRAVIS AULESTES <choice><abbr>CENTENAQ·</abbr><expan>CENTENAQUE</expan></choice> ARBORE FLUCTUM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_12" n="208">VERBERAT ADSURGENS SPUMANT VADA MARMORE VERSO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_12" n="208">VERBERAT ADSU<supplied reason="illegible" source="#geymonat_2008">RGENS SPUMANT</supplied> VADA MARMORE VERSO</l>
     </div>
     </div>
   </div>
   <div xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="10">
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_13" n="53"><unclear reason="fading">EX</unclear>IGET HIC AEVUM MAGNA DICIONE IUBETO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_13" n="53"><unclear reason="fading">EX</unclear>IGET HIC AEVUM MAG<supplied reason="illegible" source="#geymonat_2008">NA DICI</supplied>ONE <supplied reason="illegible" source="#geymonat_2008">IUBETO</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_14" n="54">CARTHAGO PREMAT AUSONIAM <unclear reason="fading">NIHIL</unclear> URBIBUS IN<unclear reason="reagent">DE</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_15" n="55">OBSTABIT TYRIIS QUID PESTEM <unclear reason="fading">EVA</unclear>DERE BELLI </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_16" n="56">IUVIT ET ARGOLICOS MEDIU<unclear reason="fading">M</unclear>  FUGISSE <unclear reason="fading">PER</unclear> IGNEIS·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_15" n="55">OBSTABIT TYRIIS QU<supplied reason="illegible" source="#geymonat_2008">I</supplied>D PESTEM <unclear reason="fading">EVA</unclear>DERE BELLI </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_16" n="56">IUVIT ET ARGOLICOS MEDIU<unclear reason="fading">M</unclear>  FU<supplied reason="illegible" source="#geymonat_2008">G</supplied>ISSE <unclear reason="fading">PER</unclear> IGNEIS·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_17" n="57"><choice><abbr>TOTQ·</abbr><expan>TOTQUE</expan></choice> MARIS <choice><abbr>VASTAEQ·</abbr><expan>VASTAEQUE</expan></choice> EX<unclear reason="fading">HAUSTA PERICULA</unclear> TERRA<unclear reason="fading">E</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_18" n="58">DUM LATIUM TEUCRI <choice><abbr>RECIDIVAQ</abbr><expan>RECIDIVAQUE</expan></choice> PERGAMA <unclear reason="overwriting">Q</unclear>UAERUNT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_19" n="59">NON SATIUS CINERES PATRES <unclear reason="fading">ISE</unclear>DISSE SUPREMOS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_20" n="60"><choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> SOLUM QUO TROIA FUIT XAN<unclear reason="overwriting">T</unclear>HUM ET SIMOENTA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_18" n="58">DUM LA<supplied reason="illegible" source="#geymonat_2008">TI</supplied>UM TEUCRI <choice><abbr>RECIDIVAQ</abbr><expan>RECIDIVAQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> PER</supplied><supplied reason="illegible" source="#geymonat_2008">GAMA</supplied> <unclear reason="overwriting">Q</unclear>UAERUNT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_19" n="59">NON SATIUS CINERES PATRES <unclear reason="fading">ISE</unclear><supplied reason="illegible" source="#geymonat_2008">D</supplied>ISSE SUPREMOS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_20" n="60"><choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> SOLUM QUO <supplied reason="illegible" source="#geymonat_2008">T</supplied>ROIA <supplied reason="illegible" source="#geymonat_2008">F</supplied>UIT XA<supplied reason="illegible" source="#geymonat_2008">N</supplied><unclear reason="overwriting">T</unclear>HUM ET SIMOENTA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_21" n="61"><unclear reason="fading">REDD</unclear>E ORO MISERIS <choice><abbr>ITERUMQ</abbr><expan>ITERUMQUE</expan></choice> R<unclear reason="overwriting">EVOLVERE</unclear> CASUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_22" n="62">DA PATER ILIACOS TEUCRIS TUM REG<unclear reason="fading">IA</unclear> IUNO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_23" n="63">AC<unclear reason="overwriting">TA</unclear> FURORE <unclear reason="overwriting">GRAVI</unclear> QUID ME ALTA S<unclear reason="fading">ILE</unclear>NTIA COGIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_22" n="62">DA PATER ILIACOS TEUCRIS TUM R<supplied reason="illegible" source="#geymonat_2008">E</supplied>G<unclear reason="fading">IA</unclear> IUNO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_23" n="63">AC<unclear reason="overwriting">TA</unclear> FUR<supplied reason="illegible" source="#geymonat_2008">ORE</supplied> <unclear reason="overwriting">GRAVI</unclear> QUID ME ALTA S<unclear reason="fading">ILE</unclear>NTIA COGIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_24" n="64">RUMPERE ET OBDU<unclear reason="eccentric_ductus">C</unclear>TUM VERBIS VULGARE DOLOREM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0234v0241r__aVISPKV00_5000x3145_l_25" n="65">AENEAN HOMINUM QUESQUAM <choice><abbr>DIVUMQ·</abbr><expan>DIVUMQUE</expan></choice> SUBEGIT</l>
     </div>
@@ -474,12 +470,12 @@
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_1" n="705"><choice><abbr>TEQ</abbr><expan>TEQUE</expan></choice> DATIS L<unclear reason="reagent">IN</unclear>QUO VENTI<unclear reason="fading">S</unclear> PALMOSA SELINUS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_2" n="706">ET VADA DURA LEGO SAXIS <unclear reason="fading">LI</unclear>LYBEIA CAECIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_3" n="707">HINC D<unclear reason="fading">R</unclear>E<unclear reason="fading">PA</unclear>NI ME PORTUS <unclear reason="fading">ET</unclear> INLAE<unclear reason="fading">TABILIS</unclear> HORA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_4" n="708">ACCIPIT HIC PELAGI TOT <unclear reason="reagent">TAT</unclear>IBUS ACTIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_5" n="709">HEU GENITOREM OMNIS CURAE <unclear reason="fading">CASUSQ</unclear><choice><abbr> LEVAM</abbr><expan>CASUSQUE</expan></choice>EN</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_6" n="710">AMITTO ANCHISEN HI<unclear reason="reagent">C</unclear> ME <unclear reason="fading">PAT</unclear>ER OPTIME FES<add place="inline">S</add>UM </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_7" n="711">DESERIS HEU TANTIS NEQUIQUAM <unclear reason="fading">ERE</unclear>PTE PERICLIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_8" n="712">NEC VATES HELEN<unclear reason="overwriting">US</unclear> CUM MULTA HORRENDA MONERE<unclear reason="fading">T</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_9" n="713">HOS MIHI PRAEDIXIT LUCTUS <unclear reason="fading">NON</unclear> DIRA CELAENO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_4" n="708">ACCIPIT HIC PELAGI <supplied reason="illegible" source="#geymonat_2008">TOT</supplied> <unclear reason="reagent">TAT</unclear>IBUS ACTIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_5" n="709">HEU GENITOREM <supplied reason="illegible" source="#geymonat_2008">OM</supplied>NIS <supplied reason="illegible" source="#geymonat_2008">CURAE</supplied> <unclear reason="fading">CASUSQ</unclear><choice><abbr> LEVAM</abbr><expan>CASUSQUE</expan></choice>EN</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_6" n="710">AMITTO ANCHISEN HI<unclear reason="reagent">C</unclear> <supplied reason="illegible" source="#geymonat_2008">ME</supplied> <unclear reason="fading">PAT</unclear>ER OPTIME FES<add place="inline">S</add>UM </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_7" n="711">DESERIS <supplied reason="illegible" source="#geymonat_2008">HEU</supplied> <supplied reason="illegible" source="#geymonat_2008">TANTIS</supplied> <supplied reason="illegible" source="#geymonat_2008">NEQUIQUAM</supplied> <unclear reason="fading">ERE</unclear>PTE PERICLIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_8" n="712">NEC VATES HELEN<unclear reason="overwriting">US</unclear> <supplied reason="illegible" source="#geymonat_2008">CUM</supplied> <supplied reason="illegible" source="#geymonat_2008">MULTA</supplied> <supplied reason="illegible" source="#geymonat_2008">HO</supplied>RRENDA MONERE<unclear reason="fading">T</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_9" n="713"><supplied reason="illegible" source="#geymonat_2008">HOS</supplied> <supplied reason="illegible" source="#geymonat_2008">MIHI</supplied> <supplied reason="illegible" source="#geymonat_2008">PRAEDIXIT</supplied> <supplied reason="illegible" source="#geymonat_2008">LUCTUS</supplied> <unclear reason="fading">NON</unclear> DIRA CELAENO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_10" n="714">HIC LABOR E<unclear reason="reagent">XTREMUS</unclear> <unclear reason="fading">L</unclear>ONGARUM HAEC META VIARUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_11" n="715">HINC ME DIGRESSUM <unclear reason="fading">V</unclear>ESTR<unclear reason="fading">IS</unclear> DEUS APPU<unclear reason="fading">LIT</unclear> ORIS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_12" n="716">SIC PATER AENEAS INTENTIS OMNIBUS UNUS</l>
@@ -491,7 +487,7 @@
     <div type="textpart" subtype="book" n="3">
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_13" n="561">HAUD MINUS AC IUSSI FACIUNT <choice><abbr>PRIMUSQ</abbr><expan>PRIMUSQUE</expan></choice> RUDENTEM </l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_14" n="562">CONTORSIT LAEVAS PRORAM PALINU<unclear reason="fading">R</unclear>US <unclear reason="fading">AD</unclear> UNDAS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_15" n="563">LAEVAM CUNCT<unclear reason="reagent">A</unclear> <unclear reason="reagent">C</unclear>OHORS REMIS <choice><abbr>VENTISQ</abbr><expan>VENTISQUE</expan></choice> PETIVIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_15" n="563">LAEVAM CUNCT<unclear reason="reagent">A</unclear> <unclear reason="reagent">C</unclear>OHORS REMIS <choice><abbr>VENTISQ</abbr><expan>VENTISQUE</expan></choice> PETIV<supplied reason="illegible" source="#geymonat_2008">IT</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_16" n="564">TOLLIMUR IN CAELUM CURVATO GURGITE ET IDEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_17" n="565">SUBD<unclear reason="overwriting">UC</unclear><unclear reason="reagent">T</unclear>A AD MANIS IMOS DESIMUS UNDA </l>
       <l xml:id="p_0001_CPVRm0040_1_f0246v0247r__aVISPKV00_5000x3145_l_18" n="566">TER SCOPULI CLAMOREM INTER CAVA SAXA DEDERE</l>
@@ -510,16 +506,16 @@
   <div xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="5">
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l" n="85">SEPTEM INGENS GYROS SEPTENA VOLUMINA TRAXIT</l>
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_1" n="86">AM<unclear reason="fading">PLEXUS</unclear> <unclear reason="reagent">PLACIDE</unclear> TUMULUM LAPSUSQ PER ARAS</l>
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_2" n="87">CAERULEAE CUI TERGA NOTAE MACULOSUS ET AURO</l>
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_3" n="88">SQ<unclear reason="overwriting">UAMAM</unclear> INCENDEBAT FULGOR CEU NUBIBUS ARCU<unclear reason="fading">S</unclear></l>
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_4" n="89">MILLE IACIT VARIOS ADVERSO SOLE <unclear reason="reagent, overwriting">COLOR</unclear>ES</l>
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_5" n="90">OB<unclear reason="overwriting">STIPUIT</unclear> VISU AENEAS ILLE AGMINE LONGO</l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l" n="85">SEPTEM IN<supplied reason="illegible" source="#geymonat_2008">GENS GYROS SEPTENA VOLUMI</supplied>NA TRAXIT</l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_1" n="86">AM<unclear reason="fading">PLEXUS</unclear> <unclear reason="reagent">PLACIDE</unclear> <supplied reason="illegible" source="#geymonat_2008">TUMULUM LAPSUSQ PER A</supplied>RAS</l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_2" n="87">CAERULEAE <supplied reason="illegible" source="#geymonat_2008">CUI TERGA NOTAE MACULOSUS</supplied> ET AURO</l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_3" n="88">SQ<unclear reason="overwriting">UAMAM</unclear> <supplied reason="illegible" source="#geymonat_2008">INCENDEBAT FULGOR CEU NUBIBUS</supplied> ARCU<unclear reason="fading">S</unclear></l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_4" n="89">MILLE <supplied reason="illegible" source="#geymonat_2008">IACIT VARIOS ADVERSO SOLE</supplied> <unclear reason="reagent, overwriting">COLOR</unclear>ES</l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_5" n="90">OB<unclear reason="overwriting">STIPUIT</unclear> <supplied reason="illegible" source="#geymonat_2008">VISU AENEAS ILLE AGMINE LONG</supplied>O</l>
       <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_6" n="91">TANDEM INTER PATERAS ET LEVIA POCULA SERPENS </l>
       <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_7" n="92"><choice><abbr>LIBAVITQ</abbr><expan>LIBAVITQUE</expan></choice> DAPES <choice><abbr>RUSUSQ·</abbr><expan>RUSUSQUE</expan></choice> INNOXIUS IMO</l>
       <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_8" n="93">SUCCESSIT TUMULO ET DEPASTA ALTARIA LIQUIT</l>
-      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_9" n="94">HOC MAGIS INCEPTOS GENITORI INSTAURAT HONORES</l>
+      <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_9" n="94">HOC MAGIS I<supplied reason="illegible" source="#geymonat_2008">NCEPTOS</supplied> GENITORI INSTAURAT HONORES</l>
       <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_10" n="95">INCERTUS GENI<unclear reason="reagent">U</unclear>MNE LOCI FAMULUMNE PARENTIS </l>
       <l xml:id="p_0002_CPVRm0040_1_f0227v0227v__aVISPKV00_5000x3145_l_11" n="96">ESSE PUTET CAEDIT QUINAS DE MORE BIDENTIS </l>
     </div>
@@ -537,10 +533,10 @@
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_4" n="692">VIX EA FATUS ERAT SENIOR <unclear reason="subitoque">SUBITOQ·</unclear> FRAGORE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_5" n="693">INTONUIT LAEVUM ET DE CAELO <unclear reason="fading">L</unclear>ABSA PER UMBRAS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_6" n="694">STELLA FACEM DUCENS MULTA CUM LUCE CUCURRIT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_7" n="695">ILLAM SU<unclear reason="fading">MM</unclear>A SUPER LABENTEM CULMINA TECTI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_8" n="696">CERNIMUS <unclear reason="fading">IDAE CLARAM SE CONDER</unclear>E <unclear reason="fading">SIL</unclear>VA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_9" n="697"><choice><abbr>SIGNANTEMQ·</abbr><expan>SIGNATEMQUE</expan></choice> <unclear reason="overwriting">VIAS</unclear> TUM<unclear reason="fading"> LU</unclear>NGO <unclear reason="overwriting">LIMITE SULCUS</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_10" n="698">DAT LUCE<unclear reason="fading">M</unclear> ET LAT<unclear reason="fading">E</unclear> CIRCUM <unclear reason="overwriting">L</unclear>OCA SULP<unclear reason="fading">U</unclear>RE FUMANT </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_7" n="695">ILLAM SU<unclear reason="fading">MM</unclear>A SUPER LABENTEM <supplied reason="illegible" source="#geymonat_2008">CULMI</supplied>NA TECTI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_8" n="696">CERNIMUS <unclear reason="fading">IDAE CLARAM SE CONDER</unclear><supplied reason="illegible" source="#geymonat_2008">E</supplied> <unclear reason="fading">SIL</unclear>VA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_9" n="697"><choice><abbr>SIGNANTEMQ·</abbr><expan>SIGNATEMQUE</expan></choice> <unclear reason="overwriting">VIAS</unclear> <supplied reason="illegible" source="#geymonat_2008">TUM</supplied><unclear reason="fading"> LU</unclear>NGO <unclear reason="overwriting">LIMITE SULCUS</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_10" n="698"><supplied reason="illegible" source="#geymonat_2008">DA</supplied>T LUCE<unclear reason="fading">M</unclear> ET LAT<unclear reason="fading">E</unclear> CIRCUM <unclear reason="overwriting">L</unclear>OCA SULP<unclear reason="fading">U</unclear>RE FUMANT </l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_11" n="699"><unclear reason="reagent">HIC V</unclear>ERO VICTUS GENITOR TOLLIT AURAS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_12" n="700"><choice><abbr>ADFATURQ·</abbr><expan>ADFARUTQUE</expan></choice> DEOS ET SANCTUM SIDUS ADORAT </l>
     </div>
@@ -550,10 +546,10 @@
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="2">
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_13" n="649">FULMINIS ADFLAVIT VENTIS ET CONTIGIT IG<unclear reason="overwriting">NI</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_14" n="650">TALIA PERSTABAT MEMORANS <choice><abbr>FIXUSQ</abbr><expan>FIXUSQUE</expan></choice> MANEBAT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_14" n="650">TALIA PERSTABAT MEMORANS <choice><abbr>FIXUSQ</abbr><expan>FIXUSQUE</expan></choice> MA<supplied reason="illegible" source="#geymonat_2008">NEBAT</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_15" n="651">NOS CONTRA EFFUSI LACR<unclear reason="overwriting">I</unclear>MIS <unclear reason="overwriting">C</unclear><choice><abbr>ONIUNXQ· </abbr><expan>CONIUNXQUE</expan></choice>CREU<unclear reason="overwriting">S</unclear>A</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_16" n="652"><choice><abbr>ASCANIUSQ</abbr><expan>ASCANIUSQUE</expan></choice> <choice><abbr>OMNISQ</abbr><expan>OMNISQUE</expan></choice> DOMUS <unclear reason="overwriting">N</unclear>E VERTERE S<unclear reason="overwriting">E</unclear>CUM </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_17" n="653">CUNCTA PATER <choice><abbr>FATOQ</abbr><expan>FATOQUE</expan></choice> UR<unclear reason="fading">G</unclear>UENTI I<unclear reason="fading">N</unclear>CUMBERE <unclear reason="fading">V</unclear>ELLET</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_16" n="652"><choice><abbr>ASCANIUSQ</abbr><expan>ASCANIUSQUE</expan></choice> <choice><abbr>OMNISQ</abbr><expan>OMNISQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> </supplied>DOMUS <unclear reason="overwriting">N</unclear>E VERTERE S<unclear reason="overwriting">E</unclear>CUM </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_17" n="653">CUNCTA PATER <choice><abbr>FATOQ</abbr><expan>FATOQUE</expan></choice> <supplied reason="illegible" source="#geymonat_2008">UR</supplied><unclear reason="fading">G</unclear>UENTI I<unclear reason="fading">N</unclear>CUMBERE <unclear reason="fading">V</unclear>ELLET</l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_18" n="654">A<unclear reason="fading">BNEGAT</unclear> <choice><abbr>INCEPTOQ</abbr><expan>INCEPTOQUE</expan></choice><unclear reason="fading"> </unclear>ET SEDI-EBUS <unclear reason="fading">HA</unclear>ERET IN ISDEM </l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_19" n="655">R<unclear reason="overwriting">UR</unclear>SUS IN ARMA FEROR <choice><abbr>MORTEMQ·</abbr><expan>MORTEMQUE</expan></choice> MISERRIMUS OPTO·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0248v0245r__aVISPKV00_5000x3145_l_20" n="656">NAM QUOD CONSILIUM AUT QUAE IAM FORTUNA DABATUR </l>
@@ -578,8 +574,8 @@
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_5" n="344">QUAM SUPER ADVENTU <unclear reason="overwriting">TEUCRUM TURNIQUE HYMEN</unclear>AEIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_6" n="345"><unclear reason="fading">FEM</unclear>INAE ARDENTEM <unclear reason="fading">C</unclear><choice><abbr>URAEQ· </abbr><expan>CURAEQ·</expan></choice><choice><abbr>IRAEQ</abbr><expan>IRAEQUE</expan></choice><unclear reason="fading"> </unclear>C<unclear reason="overwriting">ONQU</unclear>EBANT </l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_7" n="346"><unclear reason="fading">HUI</unclear>C DEA CAERULEIS UNUM DE CRINIBUS ANGUEM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_8" n="347">COIECIT <choice><abbr>INQ</abbr><expan>INQUE</expan></choice> SINUM PRAECORDIA AD INTIMA <unclear reason="fading">SU</unclear>BDIT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_9" n="348"><unclear reason="fading">QUO</unclear> FURIBUNDA DOMUM MONSTRO PERMISCEAT OMNEM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_8" n="347"><supplied reason="illegible" source="#geymonat_2008">COIE</supplied>CIT <choice><abbr>INQ</abbr><expan>INQUE</expan></choice> SINUM PRAECORDIA AD INTIMA <unclear reason="fading">SU</unclear>BDIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_9" n="348"><unclear reason="fading">QUO</unclear> FURIBUNDA DOMUM MONSTRO PERMISCEAT OMNE<supplied reason="illegible, cutting" source="#geymonat_2008">M</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_10" n="349"><unclear reason="fading">ILLE INTER</unclear> VESTES ET LEVIA PECTORA <unclear reason="fading">LA</unclear>BSUS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_11" n="350"><unclear reason="fading">VOLVITUR ATT</unclear>A<unclear reason="fading overwriting">C</unclear>TU <unclear reason="fading">N</unclear>U<unclear reason="illegible">L</unclear>LO <unclear reason="fading">F</unclear><choice><abbr>ALLITQ· </abbr><expan>FALLITQUE</expan></choice>FURENT<unclear reason="fading">E</unclear>M</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_12" n="351"><unclear reason="overwriting">VIPEREAM</unclear> INSPIRANS ANIMAM FIT TORTILE COLLO</l>
@@ -596,11 +592,11 @@
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_17" n="408">PROTINUS HINC FUSCIS TRISTIS DEA TOLLITUR ALIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_18" n="409">AUDACIS RUTULI AD MUROS QUAM DICITUR URBEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_19" n="410">ACRISION<unclear reason="fading">ES</unclear> DAN<unclear reason="fading">A</unclear>E FUN<unclear reason="fading">DA</unclear>SSE COLONIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_20" n="411">PR<unclear reason="fading">AE</unclear>CIPI<unclear reason="fading">T</unclear>I DELATA NO<unclear reason="fading">TO</unclear>. LOCU<unclear reason="fading">S</unclear> ARDEA <unclear reason="fading">QUO</unclear>NDAM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_20" n="411">PR<unclear reason="fading">AE</unclear>CIPI<unclear reason="fading">T</unclear>I DELATA NO<unclear reason="fading">TO</unclear>. LOCU<unclear reason="fading">S</unclear> <supplied reason="illegible" source="#geymonat_2008">ARDEA</supplied> <unclear reason="fading">QUO</unclear>NDAM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_21" n="412">DICTUS AVIS ET NUNC MAGNUM M<unclear reason="fading">ANE</unclear>T <unclear reason="fading">A</unclear>RDEA NOMEN</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_22" n="413">SED FOR<unclear reason="fading">TUNA FUIT TECTIS HIC TU</unclear>RN<unclear reason="fading">US</unclear> <unclear reason="fading">I</unclear>N ALTIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_23" n="414">IA<unclear reason="overwriting">M MEDIA</unclear>M NIG<unclear reason="fading">RA CAR</unclear>PEBAT NOCTE QUIETEM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_24" n="415">ALLECTO TORVAM FACIEM ET FURIALIA MEMBRA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_24" n="415">ALLECTO TORV<supplied reason="illegible" source="#geymonat_2008">AM FACIEM ET</supplied> FURIALIA MEMBRA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0215v0212r__aVISPKV00_5000x3145_l_25" n="416">EXUIT IN VULTUS SESE TRANFORMAT ANILIS</l>
     </div>
     </div>
@@ -621,7 +617,7 @@
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_8" n="425">I N<unclear reason="overwriting">U</unclear>NC INGRATES OFFER TE INRISE PERECLIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_9" n="426">TYRRHENAS· I· STERNE ACIES, TE<unclear reason="fading">GE</unclear> PACE LA<unclear reason="fading">TI</unclear>NOS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_10" n="427">HA<unclear reason="overwriting">E</unclear>C ADEO TIBI ME PLACIDA CUM <unclear reason="overwriting">NO</unclear>CTE <unclear reason="overwriting">IACERES</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_11" n="428">IPSA <unclear reason="overwriting">P</unclear>ALAM FARI OMNIPOTENS SATURNIA IUSSIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_11" n="428">IPSA <unclear reason="overwriting">P</unclear>ALAM FARI <supplied reason="illegible" source="#geymonat_2008">OMNI</supplied>POTENS SAT<supplied reason="illegible" source="#geymonat_2008">URNI</supplied>A IUSSIT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_12" n="429">QUARE A<unclear reason="overwriting">GE ET ARMARI PUBEM</unclear> <unclear reason="overwriting">PORTIS</unclear><choice><abbr>Q· MOVER</abbr><expan>PORTISQUE</expan></choice>I</l>
     </div>
     </div>
@@ -630,11 +626,11 @@
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="7">
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_13" n="326"><choice><abbr>IRAEQ·</abbr><expan>IRAEQUE</expan></choice> <choice><abbr>INSIDIAEQ·</abbr><expan>INSIDIAEQUE</expan></choice> <unclear reason="overwriting">ET CRIMINA NOXIA</unclear> CORDI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_14" n="327">ODIT ET IPSE PATER PLUTON ODERE SORORES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_14" n="327">OD<supplied reason="illegible" source="#geymonat_2008">IT ET</supplied> IPSE PATER PLUTON ODERE SORORES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_15" n="328">TARTARAE MONSTRUM TOT SESE VERTIT IN ORA </l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_17" n="329">TAM SAEVAE FACIES <unclear reason="overwriting">TOT PULLULAT</unclear><add place="above"> </add>ATRA COLOBRIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_18" n="330">QUAM <unclear reason="overwriting">IUNO HIS</unclear> ACUIT VERBIS AC TALIA FATUR</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_19" n="331">H<unclear reason="damage">UNC</unclear> MIHI DA PROPRIUM UIRGO SATA NOCTE· LABOREM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_19" n="331">H<unclear reason="damage">UNC</unclear> <supplied reason="illegible" source="#geymonat_2008">MIHI DA PROPRIUM UIRGO SATA</supplied> NOCTE· LABOREM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_20" n="332">HANC OPERAM NE NOSTER HONOS INFRACTAVE CEDAT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_21" n="333">FAMA LOCUS NEU CONUBIIS AMBIRE LATINUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0212v0215r__aVISPKV00_5000x3145_l_22" n="334">AENEADA<unclear reason="fading">E</unclear> POSSINT ITALOSVE OBSIDERE FINIS</l>
@@ -652,16 +648,16 @@
     <div type="textpart" subtype="book" n="4">
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l" n="157">GAUDET EQUO <choice><abbr>IAMQ·</abbr><expan>IAMQUE</expan></choice> HOS CURSU IAM PRAETERIT ILLOS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_1" n="158"><choice><abbr>SPUMANTEMQ·</abbr><expan>SPUMANTEMQUE</expan></choice><unclear reason="fading"> D</unclear>ARI PECO INTER INERTIA VOTI </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_2" n="159">OPTAT APRUM AUT FULVUM DESCEND<unclear reason="fading">ERE</unclear> MONTE LEONEM </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_2" n="159">OPTAT APRUM AUT FULVUM DESCEND<unclear reason="fading">ERE</unclear> MONTE LEON<supplied reason="lost" source="#geymonat_2008">EM</supplied> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_3" n="160">INTEA MAGNO MISCERI MURMURE <unclear reason="fading">CAELUM</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_4" n="161">INCIPIT INSEQUITUR COMMIXTA GRANDINE NIMBUS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_4" n="161">INCIPIT INSEQUITUR COMMIXTA GRANDINE NIMB<supplied reason="lost" source="#geymonat_2008">US</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_5" n="162">ET TYRII COMITES PASSIM ET TROIANA IUVENTUS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_6" n="163"><choice><abbr>DARDANIUSQ· </abbr><expan>DARDANIUSQUE</expan></choice>NE<unclear reason="overwriting">PO</unclear>S VENE<unclear reason="overwriting">RI</unclear>S DIV<unclear reason="overwriting">E</unclear>R<unclear reason="overwriting">SA</unclear> PER AGROS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_7" n="164">T<unclear reason="fading">EC</unclear>TA METU PET<unclear reason="overwriting">IE</unclear>RE RUUNT DE M<unclear reason="overwriting">ONTIBUS</unclear> AMNES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_8" n="165">SPELUNCAM DIDO DUX ET <unclear reason="overwriting">TROIANUS EAN</unclear>DEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_9" n="166">DEVENIUNT· PRIMA ET TELLUS <unclear reason="fading">ET</unclear> PRO<unclear reason="overwriting">N</unclear>UBA IU<unclear reason="overwriting">NO</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_10" n="167">DANT SIGNUM FULSERE IGNES ET CONSCIUS AE<unclear reason="overwriting">T</unclear>HER</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_11" n="168">CONUBII <choice><abbr>SUMMOQ·</abbr><expan>SUMMOQUE</expan></choice> ULUL<unclear reason="fading">A</unclear>RUNT VERTICE NY<unclear reason="reagent">MPH</unclear>AE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_11" n="168">CONUBII <choice><abbr>SUMMOQ·</abbr><expan>SUMMOQUE</expan></choice> U<supplied reason="lost" source="#geymonat_2008">LUL</supplied><unclear reason="fading">A</unclear>RUNT VERTICE NY<unclear reason="reagent">MPH</unclear>AE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_12" n="169">ILLE DIES PRIMUS LETI PRIMUSQUE MALORUM <add place="inline">UT</add></l>
     </div>
     </div>
@@ -672,15 +668,15 @@
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_13" n="170">CAUSA FUIT <choice><abbr>NEQ·</abbr><expan>NEQUE</expan></choice> ENIM SPECIE FAMAVE M<unclear reason="fading">OVE</unclear>TUR</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_14" n="171">NEC IAM FURTIVUM DIDO MEDITATUR AMOREM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_15" n="172">CONI<unclear reason="fading">UGIUM VOCAT HOC</unclear> PRAETEXIT NOMINE <choice><abbr>CULPA·</abbr><expan>CULPAM</expan></choice></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_16" n="173">EXTEMPLO LIBYAE MAGNAS IT FAMA PER URBES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_16" n="173">EXTEMPLO LIBYAE MAGNAS IT FAMA PER <supplied reason="illegible" source="#geymonat_2008">URBES</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_17" n="174">F<unclear reason="fading">AMA MA</unclear>LUM QUO NON ALIUT VELOCIU<unclear reason="fading">S</unclear> U<unclear reason="overwriting">LL</unclear>UM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_18" n="175">M<unclear reason="overwriting">OBILITATE</unclear> VIGET <unclear reason="fading">VIRESQ</unclear><choice><abbr> ACQUI</abbr><expan>VIRESQUE</expan></choice>RIT E<unclear reason="overwriting">UNDO</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_19" n="176">PARVA METU PRIMO MO<unclear reason="overwriting">X SESE A</unclear>TTOLL<unclear reason="overwriting">IT IN AUR</unclear>AS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_20" n="177"><choice><abbr>INGREDITURQ</abbr><expan>INGREDITURQUE</expan></choice> <unclear reason="overwriting">S</unclear>O<unclear reason="overwriting">L</unclear>O ET CAPUT <unclear reason="reagent">IN</unclear>TER NUBILA CONDIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_20" n="177"><choice><abbr>INGREDITURQ</abbr><expan>INGREDITURQUE</expan></choice> <unclear reason="overwriting">S</unclear>O<unclear reason="overwriting">L</unclear>O ET CAPUT <unclear reason="reagent">IN</unclear>TER <supplied reason="illegible" source="#geymonat_2008">NUBIL</supplied>A CO<supplied reason="illegible" source="#geymonat_2008">NDIT</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_21" n="178">ILLAM TERRA PARENS IRA INRITATA DEORU<unclear reason="reagent">M </unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_22" n="179">EX<unclear reason="fading">TRE</unclear>MAM UT PERHIBENT <unclear reason="overwriting">C</unclear>OEO <choice><abbr>ENCELADOQ·</abbr><expan>ENCELADOQUE</expan></choice> SOROREM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_23" n="180">PR<unclear reason="fading">OGENUI</unclear>T <unclear reason="fading">PEDIBUS</unclear> CELEREM ET PERNICIBUS ALIS </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_24" n="181">MONSTRUM H<unclear reason="fading">ORRE</unclear>NDUM INGENS CUI QUOD SUNT CORPORE PLUMAE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_24" n="181">MONSTRUM H<unclear reason="fading">ORRE</unclear>NDUM INGENS CUI QUOD SUNT CORPORE <supplied reason="lost" source="#geymonat_2008">PLUMAE</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0216v0211r__aVISPKV00_5000x3145_l_25" n="182">TOT VIGILES OC<unclear reason="fading">ULI</unclear> SUP<add place="above">T</add>ER MIRABILE DICTU </l>
     </div>
     </div>
@@ -700,8 +696,8 @@
       <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_7" n="721">HAEC FA<choice><unclear reason="overwriting">T</unclear><unclear reason="overwriting">I, L</unclear></choice>US LATOS UMEROS <choice><abbr>SUBIECTAQ·</abbr><expan>SUBIECTAQUE</expan></choice> COLLA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_8" n="722">VES<unclear reason="overwriting">T</unclear>E SUPER <choice><abbr>FLUIQ·</abbr><expan>FLUIQUE</expan></choice> INSTERNOR <choice><unclear reason="overwriting">PELLE</unclear><unclear reason="overwriting">LLLLL</unclear></choice> LEONIS·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_9" n="723"><choice><abbr>SUCCEDOQ</abbr><expan>SUCCEDOQUE</expan></choice><unclear reason="overwriting"> ON</unclear>ERI DEXTRAE SE PARVUS IULUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_10" n="724">INPLI<unclear reason="fading">C</unclear>UIT <choice><abbr>SEQUITURQ</abbr><expan>SEQUITURQUE</expan></choice> PATREM NON PASSIBUS AEQUIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_11" n="725">PONE SUBIT CONIUNX FERIMUR PER OPACA LOCORUM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_10" n="724">INPLI<unclear reason="fading">C</unclear>UIT <choice><abbr>SEQUITURQ</abbr><expan>SEQUITURQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> P</supplied>ATREM NON PASSIB<supplied reason="illegible" source="#geymonat_2008">US AEQ</supplied>UIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_11" n="725">PONE SU<supplied reason="illegible" source="#geymonat_2008">B</supplied>IT CONIUNX FERIMUR PER OPACA LOCORUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0220v0223r__aVISPKV00_5000x3145_l_12" n="726">ET ME <unclear reason="fading">QUE</unclear>M DUD<unclear reason="fading">UM</unclear> NON ULLA INIECTA <unclear reason="reagent">MOVEB</unclear>ANT</l>
     </div>
     </div>
@@ -730,7 +726,7 @@
   <div xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="bucoliche">
     <div type="textpart" subtype="book" n="6">
-      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l" n="8">AGRESTEM TEMUI MEDITABOR HARUNDINE <choice><abbr>MUSA</abbr><expan>MUSAM</expan></choice>·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l" n="8">AGRESTEM TEMUI MEDITABOR H<supplied reason="lost" source="#geymonat_2008">A</supplied>RUNDINE <choice><abbr>MUSA</abbr><expan>MUSAM</expan></choice>·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_1" n="9">NON IN<unclear reason="overwriting">I</unclear>USSA CANO SI QUIS TAMEN HAEC <choice><abbr>QUOQ·</abbr><expan>QUOQUE</expan></choice> SI QUIS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_2" n="10">CAPTUS <unclear reason="overwriting">A</unclear>MORE LEGET TE NOSTRAE VARE M<unclear reason="reagent">Y</unclear>RICAE </l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_3" n="11">TE <unclear reason="reaction">NE</unclear>MUS OMNE CANET NEC PHOEBO GRATIOR ULLAST</l>
@@ -749,18 +745,18 @@
   <div xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Bucolica">
     <div type="textpart" subtype="book" n="3">
-      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_13" n="27">STRIDEN<choice><unclear reason="overwriting">TI</unclear><unclear reason="overwriting">FE</unclear></choice> STIPULA M<choice><unclear reason="overwriting">I</unclear><unclear reason="overwriting">E</unclear></choice>SERUM DIS<choice><unclear reason="overwriting">P</unclear><unclear reason="overwriting">D</unclear></choice>ERDERE carmenN</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_13" n="27">STRIDEN<choice><unclear reason="overwriting">TI</unclear><unclear reason="overwriting">FE</unclear></choice> STIPULA M<choice><unclear reason="overwriting">I</unclear><unclear reason="overwriting">E</unclear></choice>S<supplied reason="lost" source="#geymonat_2008">E</supplied>RUM DIS<choice><unclear reason="overwriting">P</unclear><unclear reason="overwriting">D</unclear></choice>ERDERE carmenN</l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_14" n="28">VIS <choice><unclear reason="stain">E</unclear><unclear reason="stain">I</unclear></choice>RGO INTER NOS QU<choice><unclear reason="overwriting">I</unclear><unclear reason="overwriting">P</unclear></choice>D SI<choice><unclear reason="overwriting">T</unclear><unclear reason="overwriting">I</unclear></choice> POSSIT <choice><abbr>UTERQ</abbr><expan>UTERQUE</expan></choice><choice><unclear reason="overwriting"> V</unclear><unclear reason="overwriting">II</unclear></choice><choice><abbr>ICISSI</abbr><expan>VICISSIM</expan></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_15" n="29">EXPE<choice><unclear reason="fading">R</unclear><unclear reason="fading">N</unclear></choice>IAMUR EGO HANC VITULA<unclear reason="overwriting">M NE</unclear> FOR<unclear reason="overwriting">TE</unclear> RECUSES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_16" n="30">BIS VE<unclear reason="fading">N</unclear>IT AD MULC<unclear reason="overwriting">TRA</unclear>M BINOS <unclear reason="fading">A</unclear>LIT UBERE FETUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_17" n="31">DEPO<unclear reason="fading">N</unclear>O TU DI<unclear reason="overwriting">C</unclear> MECUM QUO PIGNORE CERTES </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_17" n="31">DEPO<unclear reason="fading">N</unclear>O TU D<supplied reason="lost" source="#geymonat_2008">I</supplied><unclear reason="overwriting">C</unclear> MECUM QUO PIGNORE CERTES </l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_18" n="32">DE GREGE NON <unclear reason="fading">A</unclear>USIM QUICQUAM DEPONERE <choice><abbr>TECU</abbr><expan>TECUM</expan></choice>·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_19" n="33">EST MIHI <choice><abbr>NAQ</abbr><expan>NAQUE</expan></choice> DOMI PATER· EST INIUSTA NOVERCA·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_20" n="34"><choice><abbr>BISQ</abbr><expan>BISQUE</expan></choice> DIE NUMERAN<choice><unclear reason="fading">T</unclear><unclear reason="fading">I</unclear></choice> AMBO PECUS ALTER ET H<subst><add>AE</add><del>E</del></subst>DOS·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_21" n="35">VERUM ID QUOD MULTO TUTE IPSE FATEBERE MAIUS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_22" n="36">INSANIRE LIBET QUONIAM TIBI· POCULA <choice><abbr>PONA</abbr><expan>PONAM</expan></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_23" n="37">FAGINA CAELATUM DIVINI OPUS ALCIMEDON<choice><unclear reason="reagent">TI</unclear><unclear reason="reagent">PE</unclear></choice>S </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_24" n="38">LENTA QUIBUS TORNO FACILIS SUPERADDI<unclear reason="overwriting">T</unclear>A V<choice><unclear reason="overwriting">I</unclear><unclear reason="overwriting">R</unclear></choice>TIS </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_24" n="38">LENTA QUIBUS <supplied reason="lost" source="#geymonat_2008">T</supplied>ORNO FACILIS SUPERADDI<unclear reason="overwriting">T</unclear>A V<choice><unclear reason="overwriting">I</unclear><unclear reason="overwriting">R</unclear></choice>TIS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0224v0219r__aVISPKV00_5000x3145_l_25" n="39">DIFFUSOS <add place="above">H</add>EDERA VESTIT PALLANTE <unclear reason="overwriting">C</unclear>ORYMBOS </l>
     </div>
     </div>
@@ -770,19 +766,19 @@
   <div xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_r_1" type="region" n="0">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="2">
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l" n="636">OPTABAM PRIMUM MONTIS PRIMUMQUE PETEBAM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_1" n="637">A<unclear reason="reagent">B</unclear>N<unclear reason="fading">EG</unclear>AT EXCISA VITAM PRODUCERE TROIA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_2" n="638"><choice><abbr>EXISILIUMQ</abbr><expan>EXISILIUMQUE</expan></choice><unclear reason="reagent"> VOS </unclear>O QUIBUS INTEGER AEVI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_16" n="639">SANG<unclear reason="fading">UI</unclear>S A<unclear reason="fading">IT</unclear> <choice><abbr>SOLIDAEQ</abbr><expan>SOLIDAEQUE</expan></choice><unclear reason="fading"> </unclear><unclear reason="fading">SU</unclear><unclear reason="fading">O</unclear><unclear reason="fading"> STA</unclear><unclear reason="fading">NT</unclear> ROBORE <unclear reason="fading">V</unclear>IRES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l" n="636">OPT<supplied reason="illegible" source="#geymonat_2008">ABAM PRIMUM MONTIS PRIMUMQUE PETEBAM</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_1" n="637">A<unclear reason="reagent">B</unclear>N<unclear reason="fading">EG</unclear>AT <supplied reason="illegible" source="#geymonat_2008">EXCISA VITAM PRODUCERE TROIA</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_2" n="638"><choice><abbr>EXISILIUMQ</abbr><expan>EXISILIUMQUE</expan></choice><unclear reason="reagent"> VOS </unclear>O <supplied reason="illegible" source="#geymonat_2008">QUIBUS INTEGER AEVI</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_16" n="639">SANG<unclear reason="fading">UI</unclear>S A<unclear reason="fading">IT</unclear> <choice><abbr>SOLIDAEQ</abbr><expan>SOLIDAEQUE</expan></choice><unclear reason="fading"> </unclear><unclear reason="fading">SU</unclear><unclear reason="fading">O</unclear><unclear reason="fading"> STA</unclear><unclear reason="fading">NT</unclear> <supplied reason="illegible" source="#geymonat_2008">ROBORE</supplied> <unclear reason="fading">V</unclear>IRES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_17" n="640">VO<unclear reason="fading">S</unclear> AG<unclear reason="fading">I</unclear>TA<unclear reason="fading">TE FUGA</unclear>M</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_18" n="641">M<unclear reason="fading">E</unclear> <unclear reason="fading">C</unclear>AE<unclear reason="fading">L</unclear>ICOLAE VOLVISSENT DUCERE DUCERE VITAM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_19" n="642">HAS MIHI SERVASSE<unclear reason="fading">N</unclear>T SEDES. SATIS UNA SUPERQUE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_20" n="643">VI<unclear reason="fading">DIMUS</unclear> EXCIDIA ET CAPTAE SUPERAVIMUS URBI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_21" n="644">SI<unclear reason="fading">C</unclear> O <unclear reason="fading">S</unclear>IC POSITUM ADFATI DISCEDITE CORPUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_22" n="645"><unclear reason="fading">I</unclear>P<unclear reason="fading">SE</unclear> MANUM MORTI INVENIAM <unclear reason="overwriting, fading">MISERIBI</unclear>TUR <unclear reason="fading">H</unclear>OSTIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_23" n="646">EXUVIASQUE <unclear reason="overwriting, fading">PETET</unclear>. FACILIS IACTURA SEPULCHRI.</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_24" n="647">IAM <unclear reason="overwriting">PRIDEM</unclear> INVISUS DIVIS ET INUTILIS ANNOS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_25" n="648">DEMORO<unclear reason="fading">R EX</unclear> QUO ME DIVOM PATER ATQUE HOMINUM REX</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_18" n="641">M<unclear reason="fading">E</unclear> <unclear reason="fading">C</unclear>AE<unclear reason="fading">L</unclear>ICOLAE VOLVISSENT <supplied reason="illegible" source="#geymonat_2008">DUCERE DUCERE VIT</supplied>AM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_19" n="642"><supplied reason="illegible" source="#geymonat_2008">HAS</supplied> MI<supplied reason="illegible" source="#geymonat_2008">HI SER</supplied>VASSE<unclear reason="fading">N</unclear><supplied reason="illegible" source="#geymonat_2008">T SEDES</supplied>. <supplied reason="illegible" source="#geymonat_2008">SATIS UNA SUPER</supplied>QUE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_20" n="643">VI<unclear reason="fading">DIMUS</unclear> <supplied reason="illegible" source="#geymonat_2008">E</supplied>X<supplied reason="illegible" source="#geymonat_2008">CIDIA ET CAPTAE SUPERAVIMUS URBI</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_21" n="644">SI<unclear reason="fading">C</unclear> <supplied reason="illegible" source="#geymonat_2008">O</supplied> <unclear reason="fading">S</unclear>IC <supplied reason="illegible" source="#geymonat_2008">PO</supplied>SI<supplied reason="illegible" source="#geymonat_2008">TUM ADFATI DISC</supplied>ED<supplied reason="illegible" source="#geymonat_2008">ITE</supplied> CO<supplied reason="illegible" source="#geymonat_2008">RPUS</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_22" n="645"><unclear reason="fading">I</unclear>P<unclear reason="fading">SE</unclear> M<supplied reason="illegible" source="#geymonat_2008">ANUM</supplied> M<supplied reason="illegible" source="#geymonat_2008">ORTI INVENIAM</supplied> <unclear reason="overwriting, fading">MISERIBI</unclear>TUR <unclear reason="fading">H</unclear>OSTIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_23" n="646">EXUVIASQUE <unclear reason="overwriting, fading">PETET</unclear>. <supplied reason="illegible" source="#geymonat_2008">FACILIS IACTURA SEPULCHRI</supplied>.</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_24" n="647">IAM <unclear reason="overwriting">PRIDEM</unclear> <supplied reason="illegible" source="#geymonat_2008">INVISUS DIVIS ET INUTILIS ANNOS</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_25" n="648">DEMORO<unclear reason="fading">R EX</unclear> Q<supplied reason="illegible" source="#geymonat_2008">UO ME DIVOM PATER ATQUE HOMINUM REX</supplied></l>
     </div>
     </div>
   </div>
@@ -798,8 +794,8 @@
       <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_9" n="707">ER<unclear reason="fading">G</unclear>O A<unclear reason="fading">G</unclear>E CARE PATER CERVIOI IM<unclear reason="fading">P</unclear>ON<unclear reason="fading">ERE</unclear> N<unclear reason="fading">O</unclear>STRAE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_10" n="708">IPSE SUBIBO UMERI<unclear reason="overwriting">S</unclear> NEC ME LA<unclear reason="fading">BOR</unclear> IST<unclear reason="fading">E GRAV</unclear>ABIT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_11" n="709"><unclear reason="fading">QU</unclear>O RES <choice><abbr>CUMQ</abbr><expan>CUMQUE</expan></choice> <unclear reason="overwriting">CA</unclear>DET UNUM ET C<del>Q</del>MMUNE P<unclear reason="overwriting, fading">E</unclear>RICLUM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_12" n="710">UΝΑ SALUS AM<unclear reason="fading">BO</unclear>BU<unclear reason="fading">S</unclear> <unclear reason="fading">E</unclear>RI<unclear reason="fading">T</unclear> MI<unclear reason="fading">H</unclear>I PARVU<unclear reason="fading">S</unclear> IULUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_13" n="711">S<unclear reason="fading">IT</unclear> COMES E<unclear reason="fading">T</unclear> LON<unclear reason="fading">GE</unclear> S<unclear reason="fading">E</unclear>R<unclear reason="fading">VET</unclear> CO<unclear reason="fading">N</unclear>IUNX</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_12" n="710">U<supplied reason="illegible" source="#geymonat_2008">ΝΑ SALUS</supplied> AM<unclear reason="fading">BO</unclear>BU<unclear reason="fading">S</unclear> <unclear reason="fading">E</unclear>RI<unclear reason="fading">T</unclear> MI<unclear reason="fading">H</unclear>I PARVU<unclear reason="fading">S</unclear> IU<supplied reason="illegible" source="#geymonat_2008">LUS</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_13" n="711">S<unclear reason="fading">IT</unclear> COMES E<unclear reason="fading">T</unclear> LON<unclear reason="fading">GE</unclear> S<unclear reason="fading">E</unclear>R<unclear reason="fading">VET</unclear> CO<unclear reason="fading">N</unclear>IUN<supplied reason="illegible" source="#geymonat_2008">X</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_14" n="712">V<unclear reason="fading">OS</unclear> FAMU<unclear reason="fading">L</unclear>I QUAE DI<unclear reason="fading">C</unclear>AM ANI<unclear reason="overwriting">MI</unclear>S ADV<unclear reason="fading">ER</unclear>TITE VESTRIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0223v0220r__aVISPKV00_5000x3145_l_15" n="713"><unclear reason="fading">E</unclear>ST URBE E<unclear reason="fading">GRES</unclear>SI<unclear reason="overwriting">S</unclear> <unclear reason="fading, overwriting">TU</unclear>MU<unclear reason="fading">L</unclear>US TEM<unclear reason="fading">P</unclear>LUM<unclear reason="fading">Q</unclear> VE<unclear reason="fading">TU</unclear>STU<unclear reason="fading">M</unclear></l>
     </div>
@@ -819,24 +815,24 @@
       <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_6" n="371">TEXEN<choice><unclear reason="reagent">D</unclear><unclear reason="reagent">G</unclear></choice>A<unclear reason="fading">E S</unclear>AEPES <unclear reason="fading">ETIAM ET P</unclear>EC<choice><unclear reason="overwriting">US O</unclear><unclear reason="overwriting">TO</unclear></choice>MNE T<unclear reason="fading">E</unclear>NENDU<unclear reason="overwriting">M</unclear> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_7" n="372"><unclear reason="reagent">PRAE</unclear>CIPUE DUM FRO<unclear reason="fading">NS</unclear> TENERA <unclear reason="fading">I</unclear><choice><abbr>MPRUDENSQ </abbr><expan>IMPRUDENSQUE</expan></choice><unclear reason="fading">LA</unclear><choice><abbr>BORU</abbr><expan>LABORUM</expan></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_8" n="373"><unclear reason="acid">CUI SU</unclear>PER INDIGNAS <choice><unclear reason="fading">H</unclear><unclear reason="fading">N</unclear></choice>IEMES <choice><abbr>SOLEMQ</abbr><expan>SOLEMQUE</expan></choice> <unclear reason="fading">POTENTEM </unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_9" n="374">SILVESTR<unclear reason="fading">ES</unclear> URI ADSID<unclear reason="fading">U</unclear>E <choice><abbr>CAPREAEQ</abbr><expan>CAPREAEQUE</expan></choice><unclear reason="fading"> </unclear><unclear reason="fading">SEQUASES</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_10" n="375">INLUDUNT PASCUNTUR <unclear reason="fading">O</unclear>VES <unclear reason="fading">AVIDAEQ</unclear> I<unclear reason="fading">UV</unclear>ENCAE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_9" n="374">SI<supplied reason="lost" source="#geymonat_2008">LV</supplied>ESTR<unclear reason="fading">ES</unclear> URI ADSID<unclear reason="fading">U</unclear>E <choice><abbr>CAPREAEQ</abbr><expan>CAPREAEQUE</expan></choice><unclear reason="fading"> </unclear><unclear reason="fading">SEQUASES</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_10" n="375">INLUDUNT PASCUNTUR <unclear reason="fading">O</unclear>VES <unclear reason="fading">AVIDAEQ</unclear> I<unclear reason="fading">UV</unclear>ENCA<supplied reason="illegible" source="#geymonat_2008">E</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_11" n="376">FRIGORA NEC TANTUM CAN<unclear reason="overwriting">A CONCRETA</unclear> PRUINA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_12" n="377">AUT GRAVIS INCUMBE<unclear reason="fading">NS SCOPULIS</unclear> ARENTIBUS AESTAS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_12" n="377">AUT GRAVIS INCUMBE<unclear reason="fading">NS SCOPULIS</unclear> ARENT<supplied reason="illegible" source="#geymonat_2008">IBUS</supplied> AESTAS</l>
     </div>
     </div>
   </div>
   <div xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Georgiche">
     <div type="textpart" subtype="book" n="2">
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_13" n="535"><choice><abbr>SEPTEMQ</abbr><expan>SEPTEMQUE</expan></choice><unclear reason="fading"> </unclear>UNA SIBI MURO CIRCUMDEDIT AR<choice><unclear reason="fading">C</unclear><unclear reason="fading">D</unclear></choice>ES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_14" n="536">ANTE ETIAM SCEPTRUM DICT<unclear reason="fading">AEI</unclear> REGIS ET ANTE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_13" n="535"><choice><abbr>SEPTEMQ</abbr><expan>SEPTEMQUE</expan></choice><unclear reason="fading"> </unclear>UNA SIBI MURO <supplied reason="illegible" source="#geymonat_2008">CIRC</supplied>UMDEDIT AR<choice><unclear reason="fading">C</unclear><unclear reason="fading">D</unclear></choice>ES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_14" n="536">ANTE ETIAM SCEPTRUM DICT<unclear reason="fading">AEI</unclear> <supplied reason="illegible" source="#geymonat_2008">REG</supplied>IS ET ANTE</l>
       <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_15" n="537">IMPIA QUAM CAES<unclear reason="fading">IS</unclear> GENS E<choice><unclear reason="fading">S</unclear><unclear reason="fading">N</unclear></choice>T EP<unclear reason="fading">U</unclear>LATA I<choice><unclear reason="overwriting">UV</unclear><unclear reason="overwriting">C</unclear></choice>ENCIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_16" n="538">AUREUS <choice><unclear reason="overwriting">HA</unclear><unclear reason="overwriting">CA</unclear></choice>NC VITAM IN TERRIS SATURNUS AGEBAT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_17" n="539">NECDUM ETIAM AU<choice><unclear reason="fading">D</unclear><unclear reason="fading">V</unclear></choice>I<choice><unclear reason="fading">ERANT</unclear><unclear reason="fading">EVAT</unclear></choice> INFLARI CLASSICA NECDUM </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_18" n="540">IMPOSI<choice><unclear reason="fading">T</unclear><unclear reason="fading">I</unclear></choice>OS DURIS CREPITARE  INCUDIBUS ENSES  </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_19" n="541">SED NOS INM<unclear reason="fading">E</unclear>NSUM SP<unclear reason="fading">ATI</unclear>IS CONFICEMUS AEQUOR</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_20" n="542">ET IAM <unclear reason="fading">TEMPU</unclear>S EQUOM FUMANTIA SOLVERE COLLA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_16" n="538">AUREUS <choice><unclear reason="overwriting">HA</unclear><unclear reason="overwriting">CA</unclear></choice>NC VITAM <supplied reason="illegible" source="#geymonat_2008">IN TERRIS SATURNUS AGEBAT</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_17" n="539">NECDUM ETIAM AU<choice><unclear reason="fading">D</unclear><unclear reason="fading">V</unclear></choice>I<choice><unclear reason="fading">ERANT</unclear><unclear reason="fading">EVAT</unclear></choice> IN<supplied reason="illegible" source="#geymonat_2008">FLARI CLASSIC</supplied>A <supplied reason="illegible" source="#geymonat_2008">NECDUM </supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_18" n="540">IMPOSI<choice><unclear reason="fading">T</unclear><unclear reason="fading">I</unclear></choice>OS DURIS CREPITARE  <supplied reason="illegible" source="#geymonat_2008">INC</supplied>U<supplied reason="illegible" source="#geymonat_2008">DIBUS ENSES</supplied>  </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_19" n="541">SED NOS INM<unclear reason="fading">E</unclear>NSUM SP<unclear reason="fading">ATI</unclear>IS <supplied reason="illegible" source="#geymonat_2008">CONFICEM</supplied>US <supplied reason="illegible" source="#geymonat_2008">AEQUOR</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0221v0222r__aVISPKV00_5000x3145_l_20" n="542">ET IAM <unclear reason="fading">TEMPU</unclear>S <supplied reason="illegible" source="#geymonat_2008">EQUOM FUMANTIA</supplied> SOLV<supplied reason="illegible" source="#geymonat_2008">ERE</supplied> CO<supplied reason="illegible" source="#geymonat_2008">LLA</supplied></l>
     </div>
     </div>
   </div>
@@ -845,18 +841,18 @@
   <div xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_r" type="region" n="0">
     <div type="textpart" subtype="work" n="Eclogae">
     <div type="textpart" subtype="book" n="3">
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l" n="40">IN <unclear reason="overwriting">M</unclear>EDIO DUO SIGNA CONON ET QUIS FUIT ALTER </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_1" n="41">DESCRIBSIT RADIO TOT<subst><add>O</add><del>UM·</del></subst> QUI GENTIBUS ORBEM·</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_2" n="42">T<unclear reason="reagent">E</unclear>MPORA QUAE MESSOR QUAE CURVUS ARATOR HABERET </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l" n="40">IN <unclear reason="overwriting">M</unclear>EDIO DUO SIGNA CONON ET QUI<supplied reason="lost" source="#geymonat_2008">S F</supplied>UIT ALTER </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_1" n="41">DESCRIBSIT RADIO TOT<subst><add>O</add><del>UM·</del></subst> Q<supplied reason="lost" source="#geymonat_2008">U</supplied>I GENTIBUS ORBEM·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_2" n="42">T<unclear reason="reagent">E</unclear>MPORA QUAE MESSOR QUAE CURVU<supplied reason="lost" source="#geymonat_2008">S</supplied> ARATOR HABERET </l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_3" n="43">N<unclear reason="reagent">E</unclear>CDUM ILLI<unclear reason="overwriting">S</unclear> LABRA ADM<unclear reason="overwriting">O</unclear>VI SED COND<unclear reason="overwriting">I</unclear>TA SERVO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_4" n="44">ET NO<subst><add>S</add><del></del></subst> BIS IDEM A<unclear reason="fading">L</unclear>CIMEDON DUO P<subst><add>U</add><del>O</del></subst>C<unclear reason="fading">U</unclear>LA FECIT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_5" n="45">ET MOLLI C<unclear reason="fading">IR</unclear>CUM EST ANSAS <unclear reason="fading">AMP</unclear>LEXUS ACANTHO </l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_6" n="46"><choice><abbr>ORPHEAQ·</abbr><expan>ORPHEAQUE</expan></choice><unclear reason="reagent"> I</unclear>N MEDIO POSUIT <choice><abbr>SILVASQ</abbr><expan>SILVASQUE</expan></choice> SEQ<unclear reason="fading">U</unclear>ENTES </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_7" n="47">NECDUM ILLIS LABRA ADMOVI SED CONDITA SERVO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_7" n="47">N<supplied reason="lost" source="#geymonat_2008">E</supplied>CDUM ILLIS LABRA ADMOVI SED CONDITA SERVO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_8" n="48">SI AD <unclear reason="illegible">VIT</unclear>ULAM <unclear reason="overwriting">S</unclear>P<unclear reason="reagent">E</unclear>CTAS NI<unclear reason="fading">HIL</unclear> EST QUOD POCULA LAUDES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_9" n="49">NUMQUAM HODIE EFFUGIES VENIAM <choice><abbr>QUOCUMQ·</abbr><expan>QUOCUMQUE</expan></choice> VOCARIS </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_10" n="50">AUDIAT HAEC TANTUM VEL QUI VENIT ECCE PALAEMON </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_11" n="51">EFF<unclear reason="overwriting">I</unclear>CIAM POSTHAC NE QUEMQUAM VOCE LACESSAS </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_9" n="49">NUMQUAM HODIE EFFUGIES VENIAM <choice><abbr>QUOCUMQ·</abbr><expan>QUOCUMQUE</expan></choice> VOC<supplied reason="lost" source="#geymonat_2008">A</supplied>RIS </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_10" n="50">AUDIAT HAEC TANTUM VEL QUI VENI<supplied reason="lost" source="#geymonat_2008">T</supplied> ECCE PALAEMO<supplied reason="lost" source="#geymonat_2008">N</supplied> </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_11" n="51">EFF<unclear reason="overwriting">I</unclear>CIAM <supplied reason="lost" source="#geymonat_2008">PO</supplied>STHAC NE QUEMQU<supplied reason="lost" source="#geymonat_2008">AM</supplied> VOCE LACESSAS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_12" n="52">QUI<unclear reason="overwriting">N AGE SI QUID HABES</unclear> <unclear reason="reagent">I</unclear>N ME MORA NON ERIT ULLA</l>
     </div>
     </div>
@@ -869,42 +865,42 @@
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_17">FORMOSUM PARIBUS NODIS <choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> AERE MENALCA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_18"><unclear reason="fading">FAUNORUM</unclear> SATYRORUM SIL<unclear reason="fading">EN</unclear>ORUM DILECTATIO olo supplied ?</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_19">PRIMA S<unclear reason="fading">Y</unclear>RACOSIO DIG<unclear reason="overwriting">N</unclear>A EST LUDERE <unclear reason="fading">V</unclear>ERSU </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_20">NOSTRA NE<unclear reason="reagent">C E</unclear>RUBUIT SILVAS HABITAR<unclear reason="fading">E THALEA</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_22">CUM CANEREM REGES ET PROELIA CYN<subst><add>TI</add><del>THI</del></subst>US AUREM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_20">NOSTRA NE<unclear reason="reagent">C E</unclear>RU<supplied reason="lost" source="#geymonat_2008">B</supplied>UIT SILVAS HABITAR<unclear reason="fading">E THALEA</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_22">CUM CA<supplied reason="lost" source="#geymonat_2008">NE</supplied>REM REGES ET PROELIA CYN<subst><add>TI</add><del>THI</del></subst>US AUREM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_23">VELLIT ET ADMO<unclear>N</unclear>UIT PASTOREM TITYRE PI<unclear reason="reagent">NG</unclear>UIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_24">PASCERE OPORTET OVIS DED<unclear reason="reagent">UC</unclear>TUM DIC<unclear reason="reagent">ER</unclear>E CARMEN</l>
       <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_25">NUNC EGO <choice><abbr>NAMQ</abbr><expan>NAMQUE</expan></choice> SUPER TIBI <unclear reason="overwriting">ERU</unclear>NT Q<unclear reason="overwriting">UI</unclear> DICERE LAUDE<unclear reason="reagent">S</unclear> </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_26">VARE TUAS CUPIANT ET TRISTIA CONDE<unclear reason="overwriting">R</unclear>E <unclear reason="reagent">B</unclear>ELL<unclear reason="reagent">A</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0219v0224r__aVISPKV00_5000x3145_l_26">VARE TU<supplied reason="lost" source="#geymonat_2008">AS</supplied> CUPIANT ET TRISTIA CONDE<unclear reason="overwriting">R</unclear>E <unclear reason="reagent">B</unclear>ELL<unclear reason="reagent">A</unclear></l>
   </div>
 </div>
 <div type="page" xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145" facs="#img_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145">
   <div xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_r" type="region" n="0">
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l">APPARET DOMUS INTUS ET VETERUM <unclear reason="overwriting">PENETRALIA</unclear> REGUM·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_1"><choice><abbr>ARMATOSQ·</abbr><expan>ARMATOSQUE</expan></choice><unclear reason="fading"> VI</unclear>DET STANTIS IN LIMINE <unclear reason="fading">P</unclear>RIMO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_2">AT DOMUS INTERIOR GEMITU MISEROQ TUMULTU</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_3">MISCETUR PENITUSQUE CAVAE PLANGORI<unclear reason="fading">BU</unclear>S <unclear reason="fading">A</unclear>EDES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_4">FEMINEIS ULULANT F<unclear reason="overwriting">E</unclear>RIT AUREA SIDERA CLAMOR</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_2">AT DOMUS INTERIOR GEMITU MISEROQ <supplied reason="illegible" source="#geymonat_2008">TUM</supplied>ULTU</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_3">M<supplied reason="illegible" source="#geymonat_2008">ISCETU</supplied>R PENITUSQUE <supplied reason="illegible" source="#geymonat_2008">CAVAE</supplied> PLANGORI<unclear reason="fading">BU</unclear>S <unclear reason="fading">A</unclear>EDES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_4">FE<supplied reason="illegible" source="#geymonat_2008">MIN</supplied>EIS <supplied reason="lost" source="#geymonat_2008">ULULAN</supplied>T F<unclear reason="overwriting">E</unclear>RIT AUREA SIDERA CLAMOR</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_5">T<unclear reason="overwriting">UM PAVID</unclear>AE TECTIS MAT<unclear reason="fading">RE</unclear>S <unclear reason="fading">I</unclear>NGENTIBUS ERRANT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_6">AMPLEXAEQUE TENENT POSTES ATQUE OSCULA <choice><abbr>FIGUN</abbr><expan>FIGUNT</expan></choice>T</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_7">IN<unclear reason="fading">ST</unclear>AT VI PATRIA PHYRRUS NEC CLAUSTRA <choice><abbr>NECQ·</abbr><expan>NECQUE</expan></choice> IPI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_7">IN<unclear reason="fading">ST</unclear>AT VI PATRIA P<supplied reason="illegible" source="#geymonat_2008">HY</supplied>R<supplied reason="ilegible" source="#geymonat_2008">RU</supplied>S NEC CLAUSTRA <choice><abbr>NECQ·</abbr><expan>NECQUE</expan></choice> IPI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_8">CUS<unclear reason="fading">T</unclear>ODES SUFFERRE VALENT· LABAT AR<unclear reason="overwriting">IE</unclear>TE CREBRO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_9">IANUA ET EMOTI PROCU<unclear reason="fading">M</unclear>BUNT CA<unclear reason="overwriting">R</unclear>DIN<unclear reason="overwriting">E P</unclear>OSTES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_10">FIT VIA VI RUMPUNT AD<unclear reason="overwriting">I</unclear>TUS <choice><abbr>PRIMOSQ</abbr><expan>PRIMOSQUE</expan></choice> TRUCIDANT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_11">IMMISSI DANAI ET LATE LOCA <unclear reason="overwriting">M</unclear>ILITE <unclear reason="fading">COM</unclear>PLENT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_12"> NON SIC AGGERIBUS RUPTIS <unclear reason="fading">C</unclear>UM S<unclear reason="fading">PUMEUS</unclear> AMNIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_10">FIT VIA VI RUMPUNT AD<unclear reason="overwriting">I</unclear>TUS <choice><abbr>PRIMOSQ</abbr><expan>PRIMOSQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> TRUCI</supplied>DANT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_11"><supplied reason="illegible" source="#geymonat_2008">IMMISSI DANAI</supplied> ET LATE LOCA <unclear reason="overwriting">M</unclear>ILITE <unclear reason="fading">COM</unclear>PLENT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_12"> NON <supplied reason="illegible" source="#geymonat_2008">SIC</supplied> AGGERI<supplied reason="lost" source="#geymonat_2008">BU</supplied>S <supplied reason="lost" source="#geymonat_2008">RU</supplied>PTIS <unclear reason="fading">C</unclear>UM <supplied reason="lost" source="#geymonat_2008">S</supplied><unclear reason="fading">PUMEUS</unclear> AMNIS</l>
   </div>
   <div xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="2">
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_13" n="288">SED GRA<unclear reason="fading">VIT</unclear>ER GEMITUS IMO DE PECTORE <unclear reason="fading">DUCE</unclear>NS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_25" n="289">HEU FUGE NATE DEA <choice><abbr>TEQ</abbr><expan>TEQUE</expan></choice> HIS AIT ERIPE FL<unclear reason="fading">AM</unclear>MIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_25" n="289"><supplied reason="illegible" source="#geymonat_2008">HEU</supplied> FUGE NATE DEA <choice><abbr>TEQ</abbr><expan>TEQUE</expan></choice> HIS AIT ERIPE FL<unclear reason="fading">AM</unclear>MIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_14" n="290">HOST<unclear reason="fading">IS H</unclear>ABE<unclear reason="overwriting">T</unclear> MUROS RUIT ALTO <unclear reason="overwriting">A</unclear> <unclear reason="fading">CULMINE TR</unclear>OIA·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_15" n="291">SAT PATRIAE <choice><abbr>PRIAMOQ</abbr><expan>PRIAMOQUE</expan></choice> DATUM <unclear reason="fading">SI</unclear> PERGAMA D<unclear reason="fading">EXT</unclear>RA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_16" n="292">DEFENDI POSSENT ETIAM <unclear reason="overwriting">H</unclear>AC <unclear reason="fading">DE</unclear>FENSA FUI<unclear reason="fading">SSENT</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_16" n="292">DEFENDI POSSENT ETIAM <unclear reason="overwriting">H</unclear>AC <unclear reason="fading">DE</unclear>FENSA <supplied reason="illegible" source="#geymonat_2008">FUI</supplied><unclear reason="fading">SSENT</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_17" n="293">SACRA <choice><abbr>SUOSQ</abbr><expan>SUOSQUE</expan></choice> <unclear reason="fading">TIBI</unclear> COMMEN<unclear reason="overwriting">DAT</unclear> TROIA <unclear reason="overwriting">PENAT</unclear>ES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_18" n="294">HOS CAPE FATORUM COMITES HIS <unclear reason="fading">MOENIA QU</unclear>AERE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_19" n="295">MAGNA PERERRATO ST<unclear reason="overwriting">A</unclear>TUES QUAE DENIQUE PONTO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_20" n="296">SIC A<unclear reason="fading">IT ET</unclear> MANIBUS VITTAS <choice><abbr>VESTAMQ</abbr><expan>VESTAMQUE</expan></choice><unclear reason="fading"> PO</unclear><unclear reason="fading">TENTEM</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_19" n="295">MAGNA PERERRATO ST<unclear reason="overwriting">A</unclear>TUES <supplied reason="illegible" source="#geymonat_2008">QUAE DENIQUE PON</supplied>TO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_20" n="296">SIC A<unclear reason="fading">IT ET</unclear> <supplied reason="illegible" source="#geymonat_2008">MANIBUS</supplied> <supplied reason="illegible" source="#geymonat_2008">VITTAS</supplied> <choice><abbr>VESTAMQ</abbr><expan>VESTAMQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> PO</supplied><unclear reason="fading">TEN</unclear><unclear reason="fading">TEM</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_21" n="297"><unclear>AETERNUMQ</unclear><choice><abbr> ADYTIS E</abbr><expan>AETERNUMQUE</expan></choice><unclear reason="fading">FFE</unclear>RT <unclear reason="overwriting">P</unclear>ENETRALIBUS IGNEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_22" n="298">DI<unclear reason="fading">VERSO</unclear> I<unclear reason="fading">NTE</unclear>REA MISCENTUR MOENIA LUCTU</l>
       <l xml:id="p_0001_CPVRm0040_1_f0228v0231r__aVISPKV00_5000x3145_l_23" n="299">ET MAGIS <unclear reason="fading">AT</unclear><choice><abbr>Q M</abbr><expan>ATQUE</expan></choice>AGIS QUAM<unclear reason="fading">QUA</unclear>M SECRETA <unclear reason="fading">P</unclear>ARENTIS</l>
@@ -926,9 +922,9 @@
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_6" n="399">QUID FACIAT QUA VI IUVENEM QUIBUS AUDEAT AR<unclear reason="fading">M</unclear>IS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_7" n="400">ERIPERE AN SESE MEDIOS MORITURUS IN <unclear reason="fading">HOSTES</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_8" n="401">IN<unclear reason="overwriting">FERAT </unclear>ET PULCRAM PROPE<unclear reason="overwriting, fading">RET</unclear> PER VULNERA <choice><abbr>MORTE</abbr><expan>MORTEM</expan></choice></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_9" n="402"><unclear reason="overwriting">OCIUS A</unclear>DDUCTO TORQUEN<unclear reason="overwriting">S HASTILE LACERTO</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_10" n="403">SUSPICI<unclear reason="fading">E</unclear>NS ALTAM LUNAM ET SIC VOCE PRECATUR</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_11" n="404">TU DEA TU PRAESENS NOSTRO <unclear reason="overwriting">SUCCURRE</unclear> LABORI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_9" n="402"><unclear reason="overwriting">OCIUS A</unclear>DDU<supplied reason="lost" source="#geymonat_2008">C</supplied>TO TORQUEN<unclear reason="overwriting">S HASTILE LACERTO</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_10" n="403">SUSPICI<unclear reason="fading">E</unclear>NS ALTAM LUNAM ET SIC <supplied reason="illegible" source="#geymonat_2008">VOCE PRECATUR</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_11" n="404">TU DEA TU PRAESENS NOSTRO <unclear reason="overwriting">SUCCURRE</unclear> <supplied reason="illegible" source="#geymonat_2008">LABORI</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_12" n="405">ASTRORUM DECUS ET NEMORU<unclear reason="overwriting">M</unclear> LATO CU<unclear reason="fading">STO</unclear>S </l>
     </div>
     </div>
@@ -938,7 +934,7 @@
     <div type="textpart" subtype="book" n="9">
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_13" n="354">SENSIT <unclear reason="fading">ENIM</unclear> NIMIA CAEDE <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice> <unclear reason="fading">CUPIDINE</unclear> FERRI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_14" n="355">ABSISTAMUS AIT NAM LUX INIMICA PROPINQUAT </l>
-      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_15" n="356">POENARUM EXHAUSTUM SATIS EST VIA FACTA PER HOSTES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_15" n="356">POENARUM EX<supplied reason="lost" source="#geymonat_2008">HAU</supplied>STUM SATIS EST VIA FACTA PER HOSTES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_17" n="357">MULTA VIRUM SOLIDO ARGENTO PERFECTA RELINQUUNT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_18" n="358"><choice><abbr>ARMAQ</abbr><expan>ARMAQUE</expan></choice> <choice><abbr>CRATERASQ</abbr><expan>CRATERASQUE</expan></choice> SIMUL <choice><abbr>PULCHROSQ·</abbr><expan>PULCHROSQUE</expan></choice> TAPETAS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0240v0235r__aVISPKV00_5000x3145_l_20" n="359">EURYALUS PHALERAS <unclear reason="fading">RHAM</unclear>NETIS ET AUREA BULLIS</l>
@@ -963,12 +959,12 @@
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_3" n="490">CONVENERE VIRI <choice><abbr>DEIECTAMQ</abbr><expan>DEIECTAMQUE</expan></choice><unclear reason="fading"> AERE S</unclear>OR<unclear reason="fading">TEM</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_4" n="491">ACCEPI<unclear reason="overwriting">T</unclear> GALEA ET <unclear reason="fading">PRIMUS CLAMORE SECUNDO</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_5" n="492">HYRTACIDAE ANTE <unclear reason="fading">OMNIS EXIT</unclear> LOCUS HIPPOCOCONTIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_6" n="493"><unclear reason="reagent">QUEM MODO</unclear> <unclear reason="fading">NAVALI MNESTHEUS CERTAMINE</unclear> VICTOR</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_6" n="493"><unclear reason="reagent">QUEM MODO</unclear> <unclear reason="fading">NAVALI MNESTHEUS CERTAMINE</unclear> VICTO<supplied reason="lost" source="#geymonat_2008">R</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_7" n="494">CONSEQUITUR VIRIDI MNESTHEUS EVINCTUS OLIVA.</l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_8" n="495">TERTIUS <unclear reason="fading">E</unclear>U<unclear reason="fading">RY</unclear>TION TUUS O C<unclear reason="fading">LA</unclear>RISSIME FR<unclear reason="fading">ATE</unclear>R</l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_9" n="496">PANDARE QUI QUOND<unclear reason="fading">AM</unclear> IUSSUS CONFUNDERE FOEDU<unclear reason="reagent">S</unclear> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_10" n="497">IN MEDIOS <unclear reason="fading">TE</unclear>LUM TORSISTI PRIMUS ACHI<unclear reason="fading">VO</unclear>S</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_11" n="498">EXTREMUS GALEAQ IMA SUBSED<unclear reason="fading">IT</unclear> ACESTES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_11" n="498">EXTREMUS GALEAQ IMA SUBSED<unclear reason="fading">IT</unclear> A<supplied reason="illegible" source="#geymonat_2008">CESTES</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_12" n="499">AUSUS ET IPSE MANUM IUVENUM TEMPTARE LABOR<unclear reason="fading">E</unclear></l>
     </div>
     </div>
@@ -985,7 +981,7 @@
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_19" n="247"><choice><abbr>MUNERAQ</abbr><expan>MUNERAQUE</expan></choice> IN NAVIS TERNOS OPTARE IUVENCO<unclear reason="reagent">S</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_20" n="248"><unclear reason="reagent">V</unclear><choice><abbr>INAQ </abbr><expan>VINAQUE</expan></choice>ET ARGENTI MAGNUM DAT FERRE TALENTUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_21" n="249">IPSIS PRAECIPUOS DUCTORIBUS ADDIT HONOR<unclear reason="reagent">ES</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_22" n="250">VICTORI CHL<unclear reason="fading">AM</unclear>YDEM AURATAM QUAM PLURIMA CIRCUM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_22" n="250">VICTORI CHL<unclear reason="fading">AM</unclear>YDEM AURATAM QUAM PLURIMA CIRCU<supplied reason="lost" source="#geymonat_2008">M</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_23" n="251">PURPURA MAEANDRO DUPLICI MELIBOE<unclear reason="fading">A CUCU</unclear>RRIT</l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_24" n="252"><choice><abbr>INTEXTUSQ</abbr><expan>INTEXTUSQUE</expan></choice><unclear reason="overwriting"> </unclear><unclear reason="overwriting">P</unclear>UER FRONDOSA RE<unclear reason="fading">GIUM</unclear> IDA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0250v0243r__aVISPKV00_5000x3145_l_25" n="253">VELOCIS IACUL<unclear reason="fading">O</unclear> CERVOS <choice><abbr>CURSSUQ</abbr><expan>CURSUSQUE</expan></choice><unclear reason="overwriting"> </unclear><add place="above">F</add>ATIGAT</l>
@@ -998,16 +994,16 @@
     <div type="textpart" subtype="work" n="Georgica">
     <div type="textpart" subtype="book" n="3">
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_13" n="1">TE <choice><abbr>QUOQ</abbr><expan>QUOQUE</expan></choice><unclear reason="fading"> </unclear>MAGNA <unclear reason="fading">P</unclear>ALES ET TE ME<unclear reason="fading">M</unclear>ORANDE CAN<unclear reason="fading">E</unclear>MUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_14" n="2">PASTOR AB APHR<unclear reason="overwriting">Y</unclear>SO VO<unclear reason="overwriting">S</unclear> SILV<unclear reason="overwriting">A</unclear>E <choice><abbr>AMNESQ</abbr><expan>AMNESQUE</expan></choice><unclear reason="fading"> LY</unclear>CAEI·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_14" n="2">PASTOR AB <supplied reason="illegible" source="#geymonat_2008">A</supplied>PHR<unclear reason="overwriting">Y</unclear>SO VO<unclear reason="overwriting">S</unclear> SILV<unclear reason="overwriting">A</unclear>E <choice><abbr>AMNESQ</abbr><expan>AMNESQUE</expan></choice><unclear reason="fading"> LY</unclear>CAEI·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_15" n="3">CET<unclear reason="fading">E</unclear>RA Q<unclear reason="fading">U</unclear>AE VACUA<unclear reason="fading, overwriting">S</unclear> TE<unclear reason="fading">NU</unclear>ISSENT CARM<unclear reason="fading">I</unclear>NA MENTE<unclear reason="fading">S</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_16" n="4">OMNIA IAM <unclear reason="fading">V</unclear>ULGATA QUIS AUT E<add place="above">U</add>RYSTHEA DURUM·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_17" n="5">AU<unclear reason="fading">T IN</unclear>LAUDATI NE<unclear reason="reagent">SCI</unclear>T BUSIRIDI<unclear reason="reagent">S</unclear> ARA<unclear reason="reagent">S</unclear> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_18" n="6">CUI NON DICTUS H<unclear reason="fading">YL</unclear>AS PU<unclear reason="reagent">ER</unclear> ET LATONIA DELOS·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_19" n="7"><choice><abbr>HIPPODAMEQ·</abbr><expan>HIPPODAMEQUE</expan></choice><choice><unclear reason="fading"> </unclear><unclear reason="fading">E</unclear></choice><choice><abbr>UMEROQ·</abbr><expan>UMEROQUE</expan></choice> PE<unclear reason="fading">L</unclear>OPS INSIGNIS EBURNO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_20" n="8">ACER E<unclear reason="fading">QU</unclear>IS <unclear reason="fading">TE</unclear>MPTANDA VI<unclear reason="fading">A EST</unclear> QUA ME <choice><abbr>QUOQ·</abbr><expan>QUOQUE</expan></choice> POSSIM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_21" n="9">TOLLERE <unclear reason="fading">H</unclear>U<unclear reason="fading">M</unclear>O <unclear reason="fading">VI</unclear><choice><abbr>CTORQ V</abbr><expan>VICTORQUE</expan></choice>I<unclear reason="fading">RUM VOLI</unclear>TARE PER OR<unclear reason="fading">A</unclear></l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_22" n="10">PRIMUS EG<unclear reason="fading">O</unclear> <unclear reason="fading">IN</unclear> PATRIA<unclear reason="fading, overwriting">M</unclear> <unclear reason="fading, overwriting">ME</unclear>CUM MODO VITE SUPERSIT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_23" n="11">AON<unclear reason="overwriting">IO</unclear> REDIENS DEDUCAM VERTICE MUSAS </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_20" n="8">ACER E<unclear reason="fading">QU</unclear>IS <unclear reason="fading">TE</unclear>MPTANDA VI<unclear reason="fading">A EST</unclear> QUA ME <choice><abbr>QUOQ·</abbr><expan>QUOQUE</expan></choice> POSS<supplied reason="lost" source="#geymonat_2008">IM</supplied></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_21" n="9">TOLLER<supplied reason="illegible" source="#geymonat_2008">E</supplied> <unclear reason="fading">H</unclear>U<unclear reason="fading">M</unclear>O <unclear reason="fading">VI</unclear><choice><abbr>CTORQ V</abbr><expan>VICTORQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008">IR</supplied><unclear reason="fading">UM VOLIT</unclear>ARE PER OR<unclear reason="fading">A</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_22" n="10">PRIMUS EG<unclear reason="fading">O</unclear> <unclear reason="fading">IN</unclear> PATRIA<unclear reason="fading, overwriting">M</unclear> <unclear reason="fading, overwriting">ME</unclear>CUM <supplied reason="illegible" source="#geymonat_2008">MODO</supplied> VITE SUPERSIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_23" n="11">AON<unclear reason="overwriting">IO</unclear> REDIENS <supplied reason="illegible" source="#geymonat_2008">DEDUCAM VERTICE MUSAS</supplied> </l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_24" n="12">PRI<unclear reason="fading">M</unclear>US <unclear reason="fading">IDΥ</unclear>MAEAS REFE<unclear reason="fading">RAM</unclear> TIBI MANTUA PALMAS</l>
     </div>
     </div>
@@ -1015,9 +1011,9 @@
   <div xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_r_1" type="region" n="1">
     <div type="textpart" subtype="work" n="Georgica">
     <div type="textpart" subtype="book" n="2">
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l" n="352"><unclear reason="fading">URGUE</unclear>RENT HO<unclear reason="fading, reagent">C</unclear> <unclear reason="overwriting">E</unclear>FUFUSOS MUN<unclear reason="overwriting">IMEN</unclear> AD IMBRES</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_1" n="353">HOC UBI HIU<unclear reason="reagent">LEA</unclear> SITI FINDIT CANIS AESTIFER ARVA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_2" n="354">S<unclear reason="reagent">EM</unclear>INIBUS POSITIS SU<unclear reason="reagent">PERE</unclear>ST <unclear reason="reagent">DID</unclear>UCER<unclear reason="fading">E</unclear> TERRAM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l" n="352"><unclear reason="fading">URGUE</unclear>RENT HO<unclear reason="fading, reagent">C</unclear> <unclear reason="overwriting">E</unclear><supplied reason="illegible" source="#geymonat_2008">FU</supplied>FUSOS MUN<unclear reason="overwriting">IMEN</unclear> AD <supplied reason="illegible" source="#geymonat_2008">IM</supplied>BRES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_1" n="353">HOC UBI HIU<unclear reason="reagent">LEA</unclear> <supplied reason="illegible" source="#geymonat_2008">SITI FINDIT CANIS AESTIFER</supplied> ARVA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_2" n="354">S<unclear reason="reagent">EM</unclear>INIBUS <supplied reason="illegible" source="#geymonat_2008">POSITIS SU</supplied><unclear reason="reagent">PERE</unclear>ST <unclear reason="reagent">DID</unclear>UCER<unclear reason="fading">E</unclear> TERRAM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_3" n="355">SAEPIUS AD CAPITA ET DUROS IAC<unclear reason="fading">T</unclear>ARE BIDENTES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_4" n="356"><unclear reason="fading">A</unclear>UT <choice><unclear reason="overwriting">P</unclear><unclear reason="overwriting">P</unclear></choice>RESSO EXERCERE SOLUM SUBMOVERE· <add place="above">E</add>T IPSA</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_5" n="357"><unclear reason="fading">F</unclear>LECTERE LUCTANTIS INTER VIN<unclear reason="overwriting">E</unclear>TA IUVENCOS</l>
@@ -1027,7 +1023,7 @@
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_9" n="361">ADSUESCANT <choice><abbr>SUMMASQ·</abbr><expan>SUMMASQUE</expan></choice><unclear reason="reagent"> S</unclear>EQU<unclear reason="fading">IS</unclear> TA<unclear reason="fading">B</unclear>ULA<unclear reason="overwriting">T</unclear>A <unclear reason="overwriting">PE</unclear>R ULM<unclear reason="fading">O</unclear>S</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_10" n="362">AC <unclear reason="fading">DU</unclear>M PRIMA NO<unclear reason="fading">VIS</unclear> ADO<unclear reason="overwriting">LESCIT</unclear> FRON<unclear reason="overwriting">DI</unclear>BUS AETAS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_11" n="363">PARCENDUM TENERIS <unclear reason="overwriting">E</unclear>T DUM <unclear reason="fading">SE L</unclear>AETUS <unclear reason="overwriting">AD AU</unclear>RAS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_12" n="364"><unclear reason="fading">PAL</unclear>MES AGIT <unclear reason="fading, overwriting">LA</unclear>XIS <unclear reason="overwriting">P</unclear>ER PURU<unclear reason="overwriting">M</unclear> IMM<unclear reason="overwriting, fading">IS</unclear>SUS HABENIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0222v0221r__aVISPKV00_5000x3145_l_12" n="364"><unclear reason="fading">PAL</unclear>MES AGIT <unclear reason="fading, overwriting">LA</unclear>XIS <unclear reason="overwriting">P</unclear>ER PURU<unclear reason="overwriting">M</unclear> <supplied reason="illegible" source="#geymonat_2008">I</supplied>MM<unclear reason="overwriting, fading">IS</unclear>SUS HABENIS</l>
     </div>
     </div>
   </div>
@@ -1038,7 +1034,7 @@
     <div type="textpart" subtype="book" n="7">
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l" n="495">DEFLUERET <choice><abbr>RIPAQ</abbr><expan>RIPAQUE</expan></choice> A<unclear reason="fading">ES</unclear>TUS URIDANTE L<unclear reason="fading">EV</unclear>ARET</l>
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_1" n="496">IPSE ET<unclear reason="unclear">IA</unclear>M <unclear reason="fading">EXI</unclear>MI<unclear reason="fading">AE</unclear> LAUDIS SUCCENSUS AMORE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_2" n="497">ASCANIUS CURVO DEREXIT SPICULA CORNU</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_2" n="497">ASCANIUS CURVO DEREXIT SPICULA COR<supplied reason="illegible" source="#geymonat_2008">NU</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_3" n="498"><unclear reason="reagent">NEC</unclear> DEXTRAE ERRANTI DEUS AFUIT <choice><abbr>ACTAQ·</abbr><expan>ACTAQUE</expan></choice> MULTO</l>
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_4" n="499"><unclear reason="fading">PERQ·</unclear><choice><abbr> UTER</abbr><expan>PERQUE</expan></choice>UM SO<unclear reason="fading">NI</unclear>TU <choice><abbr>PERQ·</abbr><expan>PERQUE</expan></choice> ILIA VENIT HARU<unclear reason="fading">ND</unclear>O</l>
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_5" n="500"><unclear reason="fading">SAUCIUS AT QUADRI</unclear>PES NOTA INTRA TECTA REFUGIT</l>
@@ -1047,8 +1043,8 @@
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_8" n="503">SILVIA PRIMA SOROR PALMIS PERCUSSA<unclear reason="fading"> </unclear>LACERTOS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_9" n="504">AUXILIUM <unclear reason="fading">VO</unclear>CAT· ET DUROS CONCLAMAT AGRESTIS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_10" n="505"><unclear reason="overwriting">ILLI</unclear> PESTIS ENIM TACITIS LATET ASPERA SI<unclear reason="overwriting">LV</unclear>IS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_19" n="506">INPROVI ADSUNT HIC TORRE ARMAT<unclear reason="overwriting">US</unclear> OBUSTO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_20" n="507">STIPITIS HIC GRAVIDI NODIS QUOD <choice><abbr>CUIQ·</abbr><expan>CUIQUE</expan></choice> <unclear reason="fading">REPER</unclear>TUM</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_19" n="506"><supplied reason="illegible" source="#geymonat_2008">INPROVI ADSUNT HIC TORRE ARMA</supplied>T<unclear reason="overwriting">US</unclear> OBUSTO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0252v0257r__sUVLPDB00_5000x3145_l_20" n="507"><supplied reason="illegible" source="#geymonat_2008">STIPITIS HIC GRAVIDI NODIS</supplied> QUOD <choice><abbr>CUIQ·</abbr><expan>CUIQUE</expan></choice> <unclear reason="fading">REPER</unclear>TUM</l>
     </div>
     </div>
   </div>
@@ -1077,17 +1073,17 @@
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="7">
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l" n="599">FUNERE <unclear reason="fading">FECILIS</unclear> SPO<unclear reason="fading">LIO</unclear>R NEC PLUR<unclear reason="fading">A L</unclear>OCUTUS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_1" n="600">SAEPSI<unclear reason="reagent">T</unclear> SE TE<unclear reason="reagent">C</unclear>TIS <choice><abbr>RERUMQ·</abbr><expan>RERUMQUE</expan></choice> RE<unclear reason="overwriting">L</unclear>IQUIT HABENAS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_1" n="600">SAEPSI<unclear reason="reagent">T</unclear> SE TE<unclear reason="reagent">C</unclear>TIS <choice><abbr>RERUMQ·</abbr><expan>RERUMQUE</expan></choice> RE<unclear reason="overwriting">L</unclear>IQUIT <supplied reason="lost" source="#geymonat_2008">HA</supplied>BENAS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_2" n="601">MOS ERAT HESPER<unclear reason="overwriting">I</unclear>O IN LATIO <unclear reason="fading">QUEM</unclear> PR<unclear reason="fading">O</unclear>TINUS URBES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_3" n="602">ALB<unclear reason="reagent">ANA</unclear>E COLUERE SACRUM· NUNC MASIMA RERUM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_4" n="603">ROMA <unclear reason="fading">C</unclear>OLIT CUM PRIMA MOVENT IN PROELIA MA<add place="above">R</add>TEM</l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_5" n="604">SIV<unclear reason="reagent">E G</unclear>ETIS IN<unclear reason="overwriting">F</unclear>ERRE MANU LACRIMABILE BELLUM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_6" n="605">HYR<unclear reason="fading">C</unclear>ANISVE ARABISVE PARANT SEU TE<unclear reason="fading">N</unclear>DERE AD INDOS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_6" n="605">HYR<unclear reason="fading">C</unclear>AN<supplied reason="illegible" source="#geymonat_2008">I</supplied>SVE ARABISVE PARANT SEU TE<unclear reason="fading">N</unclear>DERE AD INDO<supplied reason="lost" source="#geymonat_2008">S</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_7" n="606"><choice><abbr>AURORAMQ·</abbr><expan>AURORAMQUE</expan></choice><unclear reason="fading"> SEQ</unclear>UI <choice><abbr>PARTHOSQ</abbr><expan>PARTHOSQUE</expan></choice><unclear reason="fading"> </unclear>REPOSC<unclear reason="illegible">E</unclear>RE SIGNA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_8" n="607"><unclear reason="fading">SUN</unclear>T G<unclear reason="fading">E</unclear>MINAE BELLI PORTAE· S<unclear reason="overwriting">I</unclear>C NOMINE DICUNT·</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_9" n="608">RELLIGIONE SACRAE ET SAEVI FORMIDINE MARTIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_10" n="609"><unclear reason="reagent">CENT</unclear>UM AEREI CLAUDUNT <unclear reason="overwriting">V</unclear>ECTES<unclear reason="fading"> AETERNAQ</unclear> F<unclear reason="overwriting">E</unclear>RRI</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_11" n="610">ROBO<unclear reason="fading">RA</unclear> NEC CUSTOS ABSISTIT <unclear reason="fading">LIMINE</unclear> <unclear reason="fading">IANUS</unclear></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_8" n="607"><unclear reason="fading">SUN</unclear><supplied reason="illegible" source="#geymonat_2008">T</supplied> G<unclear reason="fading">E</unclear>MINAE BELLI PORTAE· S<unclear reason="overwriting">I</unclear>C NOMINE DICUNT·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_9" n="608"><supplied reason="illegible" source="#geymonat_2008">RELLI</supplied>GIONE SACRAE ET SAEVI FORMIDINE MARTIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_10" n="609"><unclear reason="reagent">CENT</unclear><supplied reason="lost" source="#geymonat_2008">UM AE</supplied>REI CLAUDUNT <unclear reason="overwriting">V</unclear>ECTES<unclear reason="fading"> AETERNAQ</unclear><supplied reason="illegible" source="#geymonat_2008"> FE</supplied><unclear reason="overwriting">R</unclear>RI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_11" n="610">ROBO<unclear reason="fading">RA</unclear> NEC CUSTOS <supplied reason="illegible" source="#geymonat_2008">A</supplied>BSISTIT <unclear reason="fading">LIMINE</unclear><supplied reason="illegible" source="#geymonat_2008"> I</supplied><unclear reason="fading">ANUS</unclear></l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_12" n="611">HAS UBI CERTA SE<unclear reason="overwriting">D</unclear>ET PATRIBUS SENTENTIA PUGNAE</l>
     </div>
     </div>
@@ -1105,8 +1101,8 @@
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_20" n="671">FRATRIS TRIBURTI. DICTAM COGNOMINE GENTEM·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_21" n="672">CATTHILLUS <choice><abbr>ACERQ</abbr><expan>ACERQUE</expan></choice> CORAS ARGIVA IUVE<unclear reason="overwriting">NTU</unclear>S</l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_22" n="673">ET PRIMAM ANTE A<unclear reason="fading">CIEM DE</unclear>N<unclear reason="fading">SA</unclear> INTER TELA FERUNTUR</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_23" n="674">CEU DUO NUBIG<unclear reason="fading">EN</unclear>AE CUM VERTIC<unclear reason="overwriting">E</unclear> MONTIS AB ALTO</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_24" n="675">DESCEND<unclear reason="overwriting">U</unclear>NT C<unclear reason="fading">ENTAU</unclear>RI <unclear reason="overwriting">H</unclear>OMOLEN <choice><abbr>OTHRYMQ·</abbr><expan>OTHRYMQUE</expan></choice><unclear reason="fading"> </unclear><choice><abbr>NIVALE </abbr><expan>NIVALEM</expan></choice></l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_23" n="674">CEU DUO NUBIG<unclear reason="fading">EN</unclear>A<supplied reason="lost" source="#geymonat_2008">E</supplied> CUM VERTIC<unclear reason="overwriting">E</unclear> MONTIS AB ALTO</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_24" n="675">DESCEND<unclear reason="overwriting">U</unclear>NT C<unclear reason="fading">ENTAU</unclear><supplied reason="illegible" source="#geymonat_2008">R</supplied>I <unclear reason="overwriting">H</unclear>OMOLEN <choice><abbr>OTHRYMQ·</abbr><expan>OTHRYMQUE</expan></choice><unclear reason="fading"> </unclear><choice><abbr>NIVALE </abbr><expan>NIVALEM</expan></choice></l>
       <l xml:id="p_0001_CPVRm0040_1_f0244v0249r__aVISPKV00_5000x3145_l_25" n="676">LINQUENTES CURSU <unclear reason="fading">RA</unclear>PIDO DAT EUNTIBUS INGENS</l>
     </div>
     </div>
@@ -1117,18 +1113,18 @@
     <div type="textpart" subtype="work" n="Aeneis">
     <div type="textpart" subtype="book" n="10">
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_24" n="249">INDE ALIAE  CELERANT CURSUS STUPET INSCIUS IPSE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l" n="250">TROS ANCHISIADES ANIMOS TAMEN OMINE TOLIT·</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_1" n="251">TUM BREVITER S<unclear reason="fading">UP</unclear>ER ASPECTANS CONVEXA PRECATUR·</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_2" n="252">ALMA PARENS IDAEA· DEUM· CUI DINDYMA CORDI</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l" n="250">TROS ANCHIS<supplied reason="illegible" source="#geymonat_2008">IADES ANI</supplied>M<supplied reason="illegible" source="#geymonat_2008">OS T</supplied>AMEN OMINE TOLIT·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_1" n="251">TUM BREVITER S<unclear reason="fading">UP</unclear>ER ASPE<supplied reason="illegible" source="#geymonat_2008">CTANS</supplied> CONVEXA PRECATUR·</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_2" n="252">ALMA PARENS IDAEA· DEUM· CUI DINDYMA <supplied reason="illegible" source="#geymonat_2008">COR</supplied>DI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_3" n="253"><choice><abbr>TURRIGERAEQ·</abbr><expan>TURRIGERAEQUE</expan></choice> URBES <choice><abbr>BIIUGIQ·</abbr><expan>BIIUGIQUE</expan></choice> AD FRENA LEONES·</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_4" n="254">TU MIHI NUNC PUGNAE PRINCEPS TU RITE PRO<unclear reason="overwriting">P</unclear>INQUES</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_4" n="254">TU MIHI NUNC PUG<supplied reason="illegible" source="#geymonat_2008">N</supplied>AE PRINCEPS TU RITE PRO<unclear reason="overwriting">P</unclear>INQUES</l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_5" n="255">AUGURIUM <choice><abbr>PHRYGIBUSQ·</abbr><expan>PHRYGISBUSQUE</expan></choice> ADSIS PEDE DIVA SECUNDO·</l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_19" n="256">TANTUM EFFATUS ET INTEREA REVOLUTA RUEBAT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_20" n="257">MATURA IAM LUCE DIES <choice><abbr>NOCTEMQ·</abbr><expan>NOCTEMQUE</expan></choice> FUGARAT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_21" n="258">PRINCIPIO <unclear reason="overwriting">SOCIIS EDICIT</unclear> SIGNA SEQUANTUR</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_20" n="257">MA<supplied reason="illegible" source="#geymonat_2008">T</supplied>URA IAM L<supplied reason="illegible" source="#geymonat_2008">UC</supplied>E DIES <choice><abbr>NOCTEMQ·</abbr><expan>NOCTEMQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> F</supplied>UGARAT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_21" n="258">PRINCIPIO <unclear reason="overwriting">SOCIIS EDICIT</unclear> <supplied reason="illegible" source="#geymonat_2008">SIGNA SEQUANTUR</supplied></l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_22" n="259"><choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> ANIMOS <unclear reason="reagent">APTENT</unclear> ARMIS <choice><abbr>PUGNAEQ</abbr><expan>PUGNAEQUE</expan></choice> PARENT SE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_23" n="260"><choice><abbr>IAMQ·</abbr><expan>IAMQUE</expan></choice> IN CONSPECTU TEUCROS HABET ET SUA CASTRA</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_25" n="261">STANS CELSA IN PUPPI CLUPEUM CUM DEINDE SINISTRA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_23" n="260"><choice><abbr>IAMQ·</abbr><expan>IAMQUE</expan></choice> IN <supplied reason="illegible" source="#geymonat_2008">CONSPECTU TEUCROS HABET ET SUA</supplied> CASTRA</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_25" n="261">STANS CELSA <supplied reason="illegible" source="#geymonat_2008">IN PUPPI CLUPEUM CUM DEINDE</supplied> SINISTRA</l>
     </div>
     </div>
   </div>
@@ -1137,17 +1133,17 @@
     <div type="textpart" subtype="book" n="10">
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_6" n="1">PANDITUR INTEREA DOMUS OMNIPOTENTIS OLYMPI</l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_7" n="2"><choice><abbr>CONCILIUMQ</abbr><expan>CONCILIUMQUE</expan></choice> <unclear reason="fading">VOCAT  DIVUM PATER</unclear> <choice><abbr>ATQ·</abbr><expan>ATQUE</expan></choice> HOMINUM REX</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_8" n="3">SIDEREAM IN SEDEM TERRAS UNDE ARDUUS OMNIS </l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_8" n="3">SIDEREAM <supplied reason="illegible" source="#geymonat_2008">IN SE</supplied>DEM TERRAS UNDE ARDUUS OMNIS </l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_9" n="4"><choice><abbr>CASTRAQ·</abbr><expan>CASTRAQUE</expan></choice> DARDANIDUM ASPECTAT <choice><abbr>POPULOSQ·</abbr><expan>POPULOSQUE</expan></choice> LATINOS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_10" n="5">CONSID<unclear reason="fading">U</unclear>NT TECTIS BIPATENTIBUS INCIPIT IPSE</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_11" n="6">CAELICOLA<unclear reason="fading">E</unclear> MAGNI QUIANAM SENTENTIA VOBIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_12" n="7">VERSA RETRO <choice><abbr>TANTUMQ·</abbr><expan>TANTUMQUE</expan></choice> ANIMIS CERTATIS INIQUIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_13" n="8">ABNUERAM BELLO ITALIAM CONCUERRE TEUCRIS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_14" n="9">QUAE CONTRA VETITUM DISCORDIA QUIS METUS AUT HOS</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_15" n="10">AUT HOS ARMA SEQUI FERRUMQUE LACESSERE SUASIT</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_16" n="11"><unclear reason="overwriting">ADVENIET</unclear> IUSTUM PUGNAE <unclear reason="fading">NE ARCE</unclear>SSITE TEMPUS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_10" n="5">CONSID<unclear reason="fading">U</unclear>NT TECTIS <supplied reason="illegible" source="#geymonat_2008">BI</supplied>PATENTIBUS INCIPIT IPSE</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_11" n="6">CAELICOLA<unclear reason="fading">E</unclear> MAGNI QUIA<supplied reason="illegible" source="#geymonat_2008">NA</supplied>M SENTEN<supplied reason="illegible" source="#geymonat_2008">TI</supplied>A VOBIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_12" n="7">VERSA RETRO <choice><abbr>TANTUMQ·</abbr><expan>TANTUMQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> ANIMIS CERTATI</supplied>S INIQUIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_13" n="8">ABNUERAM <supplied reason="illegible" source="#geymonat_2008">BELLO</supplied> ITALIA<supplied reason="illegible" source="#geymonat_2008">M CONCUERRE T</supplied>EUCRIS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_14" n="9"><supplied reason="illegible" source="#geymonat_2008">QUAE CONTRA VETITUM DISCORDIA QUIS METUS AUT</supplied> HOS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_15" n="10"><supplied reason="illegible" source="#geymonat_2008">AUT HOS ARMA SEQUI FERRUMQUE LACESSERE</supplied> SUASIT</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_16" n="11"><unclear reason="overwriting">ADVENIET</unclear> <supplied reason="illegible" source="#geymonat_2008">IUSTUM PUGNAE</supplied> <unclear reason="fading">NE ARCE</unclear>SS<supplied reason="illegible" source="#geymonat_2008">I</supplied>TE TEMPUS</l>
       <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_17" n="12"> CUM FERA C<unclear reason="conservation">ART</unclear>HAGO RO<unclear reason="fading">MANI</unclear>S ARCIBUS OLIM</l>
-      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_18" n="13">EXITIUM MAGNUM <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice> ALPES INMITTET ARERTAS</l>
+      <l xml:id="p_0001_CPVRm0040_1_f0260v0265r__aVISPKV00_5000x3145_l_18" n="13">EXITIUM MAGNUM <choice><abbr>ATQ</abbr><expan>ATQUE</expan></choice><supplied reason="illegible" source="#geymonat_2008"> </supplied>AL<supplied reason="illegible" source="#geymonat_2008">P</supplied>ES IN<supplied reason="illegible" source="#geymonat_2008">MI</supplied>TTET ARERTAS</l>
     </div>
     </div>
   </div>
