@@ -1,0 +1,214 @@
+{
+    "creators": [
+        {
+            "name": "Scattolin, Paolo",
+            "orcid": "0000-0002-1825-0097",
+            "affiliation": "University of Verona",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Leontaridis, Panagiotis",
+            "orcid": "0009-0009-1820-8567",
+            "affiliation": "University of Verona",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Marchioro, Giacomo",
+            "orcid": "0000-0002-3379-5239",
+            "affiliation": "University of Verona",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Tsakona, Konstantina",
+            "orcid": "0009-0002-9406-1981",
+            "affiliation": "University of Verona",
+            "type": "ProjectMember"
+        },
+        {
+            "name": "Adami, Alessandro"
+        },
+        {
+            "name": "Adami, Costanza"
+        },
+        {
+            "name": "Baku, Etien"
+        },
+        {
+            "name": "Baldo, Giosuè"
+        },
+        {
+            "name": "Bellamoli, Isacco"
+        },
+        {
+            "name": "Bertoli, Sofia"
+        },
+        {
+            "name": "Bottiglieri, Anna Maria"
+        },
+        {
+            "name": "Bottura, Federico"
+        },
+        {
+            "name": "Brigo, Tobia"
+        },
+        {
+            "name": "Campello, Maristella"
+        },
+        {
+            "name": "Carrara, Giacomo"
+        },
+        {
+            "name": "Castagna, Chiara"
+        },
+        {
+            "name": "Castagnetti, Sofia"
+        },
+        {
+            "name": "Ceolini, Ginevra"
+        },
+        {
+            "name": "Ciman, Azzurra"
+        },
+        {
+            "name": "Climaco, Carlotta"
+        },
+        {
+            "name": "Cortese, Giovanni"
+        },
+        {
+            "name": "D'Agata, Viola"
+        },
+        {
+            "name": "Danese, Chiara"
+        },
+        {
+            "name": "Faccioli, Chiara"
+        },
+        {
+            "name": "Faettini, Alessandro"
+        },
+        {
+            "name": "Falezza, Noemi"
+        },
+        {
+            "name": "Fasoli, Gregorio"
+        },
+        {
+            "name": "Favalli, Edoardo"
+        },
+        {
+            "name": "Ferraro, Beatrice Gabriella"
+        },
+        {
+            "name": "Franceschetti, Pietro"
+        },
+        {
+            "name": "Genovese, Giulio"
+        },
+        {
+            "name": "Gningue, Mama Dior Salla"
+        },
+        {
+            "name": "Lleshi, Aurelio"
+        },
+        {
+            "name": "Maghini, Alberto"
+        },
+        {
+            "name": "Mancassola, Sebastiano"
+        },
+        {
+            "name": "Mandolfi, Melissa Anna"
+        },
+        {
+            "name": "Marai, Matilde"
+        },
+        {
+            "name": "Muratori, Gianluca"
+        },
+        {
+            "name": "Nale, Simona"
+        },
+        {
+            "name": "Noè, Martina"
+        },
+        {
+            "name": "Oliboni, Niccolò"
+        },
+        {
+            "name": "Paolangelo, Luca"
+        },
+        {
+            "name": "Pecora, Lavinia"
+        },
+        {
+            "name": "Poggiani, Michaela"
+        },
+        {
+            "name": "Rebonato, Eva Alma"
+        },
+        {
+            "name": "Rebonato, Veronica"
+        },
+        {
+            "name": "Recchia, Silvia"
+        },
+        {
+            "name": "Rinaldi, Alessandro"
+        },
+        {
+            "name": "Ronchi, Margherita"
+        },
+        {
+            "name": "Salamon, Irene"
+        },
+        {
+            "name": "Sartori, Giovanni"
+        },
+        {
+            "name": "Spido, Sofia"
+        },
+        {
+            "name": "Terracciano, Alessia"
+        },
+        {
+            "name": "Todorov, Miriam"
+        },
+        {
+            "name": "Trezzolani, Matilde"
+        },
+        {
+            "name": "Urbano Piccoli, Claudia"
+        },
+        {
+            "name": "Verona, Leonardo"
+        },
+        {
+            "name": "Vescovi, Francesca"
+        },
+        {
+            "name": "Vescovi, Linda"
+        },
+        {
+            "name": "Wu, Xia"
+        }
+    ],
+    "title": "Transcriptions of the Virgilian undertext of Verona, Biblioteca Capitolare, MS XL (38)",
+    "description": "The present transcriptions were produced as a Citizen Humanities activity organized by the Verona unit of the AntCom project from March through May 2026, within the Italian “School-Work Training” program (Formazione Scuola Lavoro). The transcribers were 56 students in the 3rd to 5th years from nine high schools:\n\n- Educandato Statale «Agli Angeli»\n- Liceo Statale «Galileo Galilei»\n- Liceo Statale «Guarino Veronese»\n- Liceo Statale «G. Fracastoro»\n- Liceo Statale «S. Maffei»\n- Liceo Statale «E. Medi»\n- Liceo Scientifico Statale «A. Messedaglia»\n- Ist. Sorelle della Misericordia «L. Mondin»\n- Liceo Classico «Virgilio»\n\nThe palimpsest\n\nThe manuscript transcribed is the Verona, Biblioteca Capitolare, MS XL (38), a partial palimpsest. Its overtext is a 7th- to 8th-century copy of Gregory the Great’s Moralia in Iob. The palimpsest parchment was reused from four codices antiquiores, including the so-called Veronese Virgil, a 5th-century fragment of Virgil’s Bucolics, Georgics, and Aeneid, written in capitalis rustica. This fragment is a highly valued witness to Virgil’s text because of its age and its unique marginal commentary, the Scholia Veronensia. In the 19th century, attempts to recover the undertext using chemical reagents damaged the parchment, particularly the surrounding scholia.\n\nThe manuscript comprises more than one undertext, but this dataset transcribes only the Virgilian undertext (Bucolics, Georgics, Aeneid), and not the surrounding scholia.\n\nData collection\n\nParticipants followed a 22-hour curriculum. It began with 12 hours of training, covering the theoretical background and a palaeographic laboratory on original folios. This was followed by 10 hours of transcription. Working in 24 groups, each assigned one image (bifolio), students received processed MSI images, the reference edition (Geymonat 2008), a capitalis rustica reference, and transcription guidelines. Each group drew the undertext regions and lines, transcribed verse by verse, and encoded abbreviations, additions, deletions, and doubtful readings using a TEI-inspired tagging system on Transkribus. Some groups exchanged folios for peer review, and experts then checked all transcriptions. Given the challenging state of the source material, some inaccuracies may remain.\n\nDataset description\n\nThe dataset provides the transcription in various formats: (a) a TEI XML file and (b) the standard Transkribus export formats (https://help.transkribus.org/downloading). The conversion from Transkribus PAGE XML to TEI was done with a dedicated Python script available in the repository.\n\nTEI XML file\n\nThe file contains:\n\n- basic metadata on the transcribed palimpsest;\n- a facsimile section listing the source images;\n- the transcription itself, organized image by image.\n\nStructure of the transcription\n\nThe following nested division elements structure the transcription:\n\n- Image (<div type=\"page\">): each image is linked to its entry in the facsimile section through the facs attribute.\n- Region (<div type=\"region\">): a block of text within an image. The two regions of an image are usually non-consecutive in the text.\n- Work (<div type=\"textpart\" subtype=\"work\">): the Aeneid, the Georgics, or the Bucolics.\n- Book (<div type=\"textpart\" subtype=\"book\">): the book within the respective work.\n- Verse (<l>): the n attribute gives the verse number in the reference edition.\n\nEditorial conventions\n\nStandard TEI elements are used to expand abbreviations (<abbr>, <expan>) and to mark additions (<add>), deletions (<del>), and doubtful readings (<unclear>). Text supplied in lacunae, caused mainly by reagent damage, is enclosed in the <supplied> element. The supplied text is taken from the reference edition: Publio Virgilio Marone. (2008). Opera (M. Geymonat, Ed.). Edizioni di Storia e Letteratura.",
+    "upload_type": "dataset",
+    "keywords": [
+        "Citizen Humanities",
+        "Citizen Science",
+        "Digital Humanities",
+        "Latin literature",
+        "palimpsest",
+        "TEI",
+        "transcription",
+        "Transkribus",
+        "Verona, Biblioteca Capitolare, MS XL (38)",
+        "Virgil"
+    ],
+    "grants": [
+        {"id": "https://doi.org/10.3030/101073543"}
+    ]
+}
